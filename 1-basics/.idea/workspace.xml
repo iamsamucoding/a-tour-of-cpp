@@ -4,7 +4,6 @@
     <generated>
       <config projectName="tour_cpp" targetName="3_references" />
       <config projectName="tour_cpp" targetName="1_hello_world" />
-      <config projectName="tour_cpp" targetName="4_class.h" />
       <config projectName="tour_cpp" targetName="2_for" />
     </generated>
   </component>
@@ -27,35 +26,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1_hello_world.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3_references.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -105,6 +76,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -165,23 +137,22 @@
       <workItem from="1551143907460" duration="513000" />
       <workItem from="1551452217782" duration="1097000" />
       <workItem from="1554244959774" duration="211000" />
-      <workItem from="1555948294230" duration="313000" />
+      <workItem from="1555948294230" duration="449000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5394000" />
+    <option name="totallyTimeSpent" value="5530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1439" height="857" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26771653" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26771653" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -212,20 +183,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1_hello_world.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3_references.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/4_class.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -247,6 +204,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_hello_world.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_references.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/complex-numbers/complex.h
+iostream
+-
+
+/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/complex-numbers/main.cpp
+iostream
+-
+complex.h
+/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/complex-numbers/complex.h
+
