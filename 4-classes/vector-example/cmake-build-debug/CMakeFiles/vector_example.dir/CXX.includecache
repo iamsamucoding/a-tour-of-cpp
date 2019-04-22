@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/test1.cpp
+iostream
+-
+iostream
+-
+stdexcept
+-
+vector.h
+/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/vector.h
+
+/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/test2.cpp
+iostream
+-
+iostream
+-
+stdexcept
+-
+vector.h
+/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/vector.h
+
+/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/vector.cpp
+vector.h
+/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/vector.h
+iostream
+-
+stdexcept
+-
+
+/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/vector.h
+iostream
+-
+
