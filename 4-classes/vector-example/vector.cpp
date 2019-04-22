@@ -4,8 +4,9 @@
 
 #include "vector.h"
 
-#include <iostream>       // std::cerr
-#include <stdexcept>      // std::length_error
+#include <iostream>     // std::cerr
+#include <stdexcept>    // std::length_error
+#include <algorithm>    // std::copy
 
 
 // the codes that uses this function should use try-catch
@@ -18,6 +19,14 @@ Vector::Vector(long size) {
     elem_ = new double[size];
     for (long i = 0; i < size_; i++)
         elem_[i] = 0;
+}
+
+
+// Unfortunately, the standard-library uses unsigned integers for sizes and subscripts,
+// so I need to use the ugly static_cast to explicitly convert the size of the initializer list to an int .
+Vector::Vector(std::initializer_list<double> lst)
+    : elem_{new double[lst.size()]}, size_{static_cast<int>(lst.size())} {
+        std::copy(lst.begin(), lst.end(), elem_); // copy from lst into elem (§12.6)
 }
 
 

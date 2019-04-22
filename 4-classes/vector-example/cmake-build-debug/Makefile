@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named test3
+
+# Build rule for target.
+test3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test3
+.PHONY : test3
+
+# fast build rule for target.
+test3/fast:
+	$(MAKE) -f CMakeFiles/test3.dir/build.make CMakeFiles/test3.dir/build
+.PHONY : test3/fast
+
+#=============================================================================
 # Target rules for targets named test2
 
 # Build rule for target.
@@ -190,12 +203,40 @@ test2.cpp.s:
 	$(MAKE) -f CMakeFiles/test2.dir/build.make CMakeFiles/test2.dir/test2.cpp.s
 .PHONY : test2.cpp.s
 
+test3.o: test3.cpp.o
+
+.PHONY : test3.o
+
+# target to build an object file
+test3.cpp.o:
+	$(MAKE) -f CMakeFiles/test3.dir/build.make CMakeFiles/test3.dir/test3.cpp.o
+.PHONY : test3.cpp.o
+
+test3.i: test3.cpp.i
+
+.PHONY : test3.i
+
+# target to preprocess a source file
+test3.cpp.i:
+	$(MAKE) -f CMakeFiles/test3.dir/build.make CMakeFiles/test3.dir/test3.cpp.i
+.PHONY : test3.cpp.i
+
+test3.s: test3.cpp.s
+
+.PHONY : test3.s
+
+# target to generate assembly for a file
+test3.cpp.s:
+	$(MAKE) -f CMakeFiles/test3.dir/build.make CMakeFiles/test3.dir/test3.cpp.s
+.PHONY : test3.cpp.s
+
 vector.o: vector.cpp.o
 
 .PHONY : vector.o
 
 # target to build an object file
 vector.cpp.o:
+	$(MAKE) -f CMakeFiles/test3.dir/build.make CMakeFiles/test3.dir/vector.cpp.o
 	$(MAKE) -f CMakeFiles/test2.dir/build.make CMakeFiles/test2.dir/vector.cpp.o
 	$(MAKE) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/vector.cpp.o
 .PHONY : vector.cpp.o
@@ -206,6 +247,7 @@ vector.i: vector.cpp.i
 
 # target to preprocess a source file
 vector.cpp.i:
+	$(MAKE) -f CMakeFiles/test3.dir/build.make CMakeFiles/test3.dir/vector.cpp.i
 	$(MAKE) -f CMakeFiles/test2.dir/build.make CMakeFiles/test2.dir/vector.cpp.i
 	$(MAKE) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/vector.cpp.i
 .PHONY : vector.cpp.i
@@ -216,6 +258,7 @@ vector.s: vector.cpp.s
 
 # target to generate assembly for a file
 vector.cpp.s:
+	$(MAKE) -f CMakeFiles/test3.dir/build.make CMakeFiles/test3.dir/vector.cpp.s
 	$(MAKE) -f CMakeFiles/test2.dir/build.make CMakeFiles/test2.dir/vector.cpp.s
 	$(MAKE) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/vector.cpp.s
 .PHONY : vector.cpp.s
@@ -228,6 +271,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... test3"
 	@echo "... test2"
 	@echo "... test1"
 	@echo "... test1.o"
@@ -236,6 +280,9 @@ help:
 	@echo "... test2.o"
 	@echo "... test2.i"
 	@echo "... test2.s"
+	@echo "... test3.o"
+	@echo "... test3.i"
+	@echo "... test3.s"
 	@echo "... vector.o"
 	@echo "... vector.i"
 	@echo "... vector.s"

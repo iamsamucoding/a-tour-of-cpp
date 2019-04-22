@@ -6,7 +6,11 @@
 #define VECTOR_EXAMPLE_VECTOR_H
 
 #include <iostream>
+#include <initializer_list>
 
+
+
+// this user Vector is a container which is an object holding a collection of elements.
 class Vector {
 private:
     double *elem_;
@@ -23,6 +27,14 @@ public:
 //    }
 
     Vector(long size);
+    
+    
+    // initialize with a list of doubles
+    // initializer-list constructor
+    // when we use a {} -list, such as {1,2,3,4}, the compiler will create an object of type initializer_list
+    // to give to the program.
+    Vector(std::initializer_list<double> lst);
+    
     
     ~Vector() {
         std::cout << "calling destructor\n";
