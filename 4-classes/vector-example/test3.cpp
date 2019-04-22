@@ -1,6 +1,3 @@
-#include <iostream>
-#include <iostream>       // std::cerr
-#include <stdexcept>      // std::length_error
 
 #include "vector.h"
 

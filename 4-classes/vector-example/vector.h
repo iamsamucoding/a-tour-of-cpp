@@ -37,7 +37,7 @@ public:
     
     
     ~Vector() {
-        std::cout << "calling destructor\n";
+        std::cout << "calling Vector destructor\n";
         delete[] elem_;
     }
 

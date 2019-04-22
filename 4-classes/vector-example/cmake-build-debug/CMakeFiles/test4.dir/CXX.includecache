@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/container.h
+
+/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/list_container.h
+iostream
+-
+initializer_list
+-
+list
+-
+container.h
+/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/container.h
+
+/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/test4.cpp
+iostream
+-
+vector_container.h
+/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/vector_container.h
+list_container.h
+/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/list_container.h
+
+/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/vector.h
+iostream
+-
+initializer_list
+-
+
+/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/vector_container.h
+container.h
+/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/container.h
+vector.h
+/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/vector.h
+iostream
+-
+
