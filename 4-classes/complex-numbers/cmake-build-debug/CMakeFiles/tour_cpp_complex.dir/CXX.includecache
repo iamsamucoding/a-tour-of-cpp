@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/complex-numbers/complex.cpp
+complex.h
+/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/complex-numbers/complex.h
+
 /Users/hisamuka/workspace/a-tour-of-cpp/4-classes/complex-numbers/complex.h
 iostream
 -

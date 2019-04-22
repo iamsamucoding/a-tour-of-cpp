@@ -47,7 +47,7 @@ public:
     // it receives a copy (z) of a different complex object, changes the content of the current object,
     // and returns the reference of the current object
     // this avoids to copy the current (changed) object to itself when doing: z1 += z2;
-    complex& operator+=(complex& z) {
+    complex& operator+=(const complex& z) {
         // a private member from an object passed as an argument can be accessed directly inside the function
         // if the object is of the current class
         real_ += z.real_;
@@ -62,7 +62,7 @@ public:
     }
     
     
-    complex& operator-=(complex& z) {
+    complex& operator-=(const complex& z) {
         real_ -= z.real();
         image_ -= z.image();
         
@@ -72,7 +72,8 @@ public:
     
     // current_object + another_object
     // this function is called by the current_object
-    complex operator+(complex& z) {
+    // 'const' guarantees that the (this) members are not changed
+    complex operator+(const complex& z) const {
          return complex{real_ + z.real(), image_ + z.image()};
         
          // the code below cannot be used
@@ -85,17 +86,17 @@ public:
     }
     
     
-    complex operator-(complex& z) {
+    complex operator-(const complex& z) {
          return complex{real_ - z.real(), image_ - z.image()}; // another way
     }
     
     
-    bool operator==(complex& z) {
+    bool operator==(const complex& z) {
         return (real_ == z.real_) && (image_ == z.image_);
     }
     
     
-    bool operator!=(complex& z) {
+    bool operator!=(const complex& z) {
         return !(*this == z); // it calls the overloaded operator ==
     }
     
