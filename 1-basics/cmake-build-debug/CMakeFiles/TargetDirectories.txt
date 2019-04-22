@@ -1,0 +1,5 @@
+/Users/hisamuka/workspace/a-tour-of-cpp/1-basics/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/hisamuka/workspace/a-tour-of-cpp/1-basics/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/hisamuka/workspace/a-tour-of-cpp/1-basics/cmake-build-debug/CMakeFiles/3_references.dir
+/Users/hisamuka/workspace/a-tour-of-cpp/1-basics/cmake-build-debug/CMakeFiles/2_for.dir
+/Users/hisamuka/workspace/a-tour-of-cpp/1-basics/cmake-build-debug/CMakeFiles/1_hello_world.dir
