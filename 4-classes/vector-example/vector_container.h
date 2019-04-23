@@ -18,6 +18,8 @@ private:
     Vector v;
     
 public:
+    // Objects are constructed “bottom up” (base first) by constructors and destroyed “top down” (derived first)
+    // by destructors.
     VectorContainer(long s) : v(s) { } // Vector of s elements
     
     // it overrides the base class

@@ -13,7 +13,7 @@ int main() {
     
     try {
         for (long i = 0; i < v.size(); i++)
-            v[i * 10] = i;
+            v.at(i * 10) = i;
     }
     catch (std::out_of_range& err) { // oops: out_of_range error
         std::cout << "Error caught\n";

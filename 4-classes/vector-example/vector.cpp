@@ -34,7 +34,7 @@ Vector::Vector(std::initializer_list<double> lst)
 // In well-designed code try-blocks are rare. Avoid overuse by systematically using the RAII technique
 double& Vector::at(long i) {
     if (i < 0 || size() <= i) {
-        throw std::out_of_range{"Vector::operator[]"};
+        throw std::out_of_range{"Vector::at"};
     }
     return elem_[i];
 }

@@ -27,48 +27,6 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="test3">
-				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/test3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/Makefile&quot;  VERBOSE=1 test3"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="test3/fast">
-				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/test3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/Makefile&quot;  VERBOSE=1 test3/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="test4">
 				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/test4" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug"/>
@@ -111,11 +69,43 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
+			<Target title="test3">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/test3" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug"/>
-				<Option type="4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/Makefile&quot;  VERBOSE=1 test3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test3/fast">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/test3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/Makefile&quot;  VERBOSE=1 test3/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -158,6 +148,58 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/Makefile&quot;  VERBOSE=1 test2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test5">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/test5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/Makefile&quot;  VERBOSE=1 test5"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test5/fast">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/test5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/Makefile&quot;  VERBOSE=1 test5/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -227,16 +269,21 @@
 		<Unit filename="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/test4.cpp">
 			<Option target="test4"/>
 		</Unit>
+		<Unit filename="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/test5.cpp">
+			<Option target="test5"/>
+		</Unit>
 		<Unit filename="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/vector.cpp">
-			<Option target="test3"/>
 			<Option target="test4"/>
+			<Option target="test3"/>
 			<Option target="test2"/>
+			<Option target="test5"/>
 			<Option target="test1"/>
 		</Unit>
 		<Unit filename="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/vector.h">
-			<Option target="test3"/>
 			<Option target="test4"/>
+			<Option target="test3"/>
 			<Option target="test2"/>
+			<Option target="test5"/>
 			<Option target="test1"/>
 		</Unit>
 		<Unit filename="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/vector_container.cpp">

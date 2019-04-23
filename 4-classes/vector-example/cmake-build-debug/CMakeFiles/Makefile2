@@ -65,43 +65,6 @@ CMAKE_SOURCE_DIR = /Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-exam
 CMAKE_BINARY_DIR = /Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/test3.dir
-
-# All Build rule for target.
-CMakeFiles/test3.dir/all:
-	$(MAKE) -f CMakeFiles/test3.dir/build.make CMakeFiles/test3.dir/depend
-	$(MAKE) -f CMakeFiles/test3.dir/build.make CMakeFiles/test3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/CMakeFiles --progress-num=7,8,9 "Built target test3"
-.PHONY : CMakeFiles/test3.dir/all
-
-# Include target in all.
-all: CMakeFiles/test3.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/test3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/test3.dir/rule
-
-# Convenience name for target.
-test3: CMakeFiles/test3.dir/rule
-
-.PHONY : test3
-
-# clean rule for target.
-CMakeFiles/test3.dir/clean:
-	$(MAKE) -f CMakeFiles/test3.dir/build.make CMakeFiles/test3.dir/clean
-.PHONY : CMakeFiles/test3.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/test3.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/test4.dir
 
 # All Build rule for target.
@@ -139,6 +102,43 @@ clean: CMakeFiles/test4.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/test3.dir
+
+# All Build rule for target.
+CMakeFiles/test3.dir/all:
+	$(MAKE) -f CMakeFiles/test3.dir/build.make CMakeFiles/test3.dir/depend
+	$(MAKE) -f CMakeFiles/test3.dir/build.make CMakeFiles/test3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/CMakeFiles --progress-num=7,8,9 "Built target test3"
+.PHONY : CMakeFiles/test3.dir/all
+
+# Include target in all.
+all: CMakeFiles/test3.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/test3.dir/rule
+
+# Convenience name for target.
+test3: CMakeFiles/test3.dir/rule
+
+.PHONY : test3
+
+# clean rule for target.
+CMakeFiles/test3.dir/clean:
+	$(MAKE) -f CMakeFiles/test3.dir/build.make CMakeFiles/test3.dir/clean
+.PHONY : CMakeFiles/test3.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/test3.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/test2.dir
 
 # All Build rule for target.
@@ -172,6 +172,43 @@ CMakeFiles/test2.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/test2.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test5.dir
+
+# All Build rule for target.
+CMakeFiles/test5.dir/all:
+	$(MAKE) -f CMakeFiles/test5.dir/build.make CMakeFiles/test5.dir/depend
+	$(MAKE) -f CMakeFiles/test5.dir/build.make CMakeFiles/test5.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/CMakeFiles --progress-num=15,16,17 "Built target test5"
+.PHONY : CMakeFiles/test5.dir/all
+
+# Include target in all.
+all: CMakeFiles/test5.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test5.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test5.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/test5.dir/rule
+
+# Convenience name for target.
+test5: CMakeFiles/test5.dir/rule
+
+.PHONY : test5
+
+# clean rule for target.
+CMakeFiles/test5.dir/clean:
+	$(MAKE) -f CMakeFiles/test5.dir/build.make CMakeFiles/test5.dir/clean
+.PHONY : CMakeFiles/test5.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/test5.dir/clean
 
 .PHONY : clean
 
