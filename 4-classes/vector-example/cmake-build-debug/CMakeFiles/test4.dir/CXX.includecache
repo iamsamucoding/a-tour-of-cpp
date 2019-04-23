@@ -7,6 +7,14 @@
 #IncludeRegexTransform: 
 
 /Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/container.h
+iostream
+-
+
+/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/list_container.cpp
+list_container.h
+/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/list_container.h
+stdexcept
+-
 
 /Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/list_container.h
 iostream
@@ -31,6 +39,10 @@ iostream
 -
 initializer_list
 -
+
+/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/vector_container.cpp
+vector_container.h
+/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/vector_container.h
 
 /Users/hisamuka/workspace/a-tour-of-cpp/4-classes/vector-example/vector_container.h
 container.h

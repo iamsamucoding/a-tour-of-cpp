@@ -37,6 +37,13 @@ public:
     int size() const override {
         return v.size();
     }
+    
+    // an own implementation of 'xpto' that is only called if the type (not the instanciation) is Vector.
+    // if its type is Container, the corresponding function from Container is called because it is not 'virtual'
+    // only virtual member functions can be marked 'override'
+    void xpto() {
+        std::cout << "xpto of VectorContainer class\n";
+    }
 };
 
 

@@ -8,6 +8,8 @@ void use(Container& c) {
     std::cout << "using\n";
     for (long i = 0; i < c.size(); i++)
         std::cout << "[" << i << "] = " << c[i] << std::endl;
+    
+    c.xpto(); // it always calls the 'xpto' of Container because it is not virtual.
     std::cout << "\n";
 }
 
@@ -20,6 +22,7 @@ void useVectorContainer() {
         vc[i] = i;
     
     use(vc);
+    vc.xpto(); // it calls the 'xpto' of Vector
 }
 
 
