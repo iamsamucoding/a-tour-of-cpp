@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="5_essential_operations"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="5-move-constructor-move-assignment">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/5-move-constructor-move-assignment" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 5-move-constructor-move-assignment"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="5-move-constructor-move-assignment/fast">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/5-move-constructor-move-assignment" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 5-move-constructor-move-assignment/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="4-overcopying-containers">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/4-overcopying-containers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 4-overcopying-containers"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="4-overcopying-containers/fast">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/4-overcopying-containers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 4-overcopying-containers/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3-copy-constructor-copy-assignment">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/3-copy-constructor-copy-assignment" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 3-copy-constructor-copy-assignment"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3-copy-constructor-copy-assignment/fast">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/3-copy-constructor-copy-assignment" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 3-copy-constructor-copy-assignment/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2-explicit-conversions">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/2-explicit-conversions" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-explicit-conversions"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2-explicit-conversions/fast">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/2-explicit-conversions" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-explicit-conversions/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1-implicit-copy-assigment">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/1-implicit-copy-assigment" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 1-implicit-copy-assigment"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1-implicit-copy-assigment/fast">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/1-implicit-copy-assigment" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 1-implicit-copy-assigment/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/1-implicit-copy-assigment.cpp">
+			<Option target="1-implicit-copy-assigment"/>
+		</Unit>
+		<Unit filename="/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/2-explicit-conversions.cpp">
+			<Option target="2-explicit-conversions"/>
+		</Unit>
+		<Unit filename="/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/3-copy-constructor-copy-assignment.cpp">
+			<Option target="3-copy-constructor-copy-assignment"/>
+		</Unit>
+		<Unit filename="/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/4-overcopying-containers.cpp">
+			<Option target="4-overcopying-containers"/>
+		</Unit>
+		<Unit filename="/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/5-move-constructor-move-assignment.cpp">
+			<Option target="5-move-constructor-move-assignment"/>
+		</Unit>
+		<Unit filename="/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/4-move-constructor-move-assignment.cpp
+iostream
+-
+iostream
+-
+stdexcept
+-
+algorithm
+-
+

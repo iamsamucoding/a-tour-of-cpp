@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/Point.cpp
+Point.h
+/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/Point.h
+
+/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/Point.h
+iostream
+-
+

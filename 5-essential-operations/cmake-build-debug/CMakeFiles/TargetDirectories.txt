@@ -1,0 +1,7 @@
+/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/CMakeFiles/5-move-constructor-move-assignment.dir
+/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/CMakeFiles/4-overcopying-containers.dir
+/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/CMakeFiles/3-copy-constructor-copy-assignment.dir
+/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/CMakeFiles/2-explicit-conversions.dir
+/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/CMakeFiles/1-implicit-copy-assigment.dir
