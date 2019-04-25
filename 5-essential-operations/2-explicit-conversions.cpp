@@ -9,7 +9,7 @@ private:
     double *elem_ = nullptr;
 
 public:
-    Vector(long size) {
+    explicit Vector(long size) {
         std::cout << "ordinary Vector constructor for input long\n";
         
         size_ = size;

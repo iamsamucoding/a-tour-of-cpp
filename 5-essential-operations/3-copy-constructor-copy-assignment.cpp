@@ -17,7 +17,7 @@ public:
     }
     
     // constructor: establish invariant (pre-conditions), acquire resources (e.g., allocations on heap)
-    Vector(long size) {
+    explicit Vector(long size) {
         std::cout << "ordinary constructor for Vector\n";
         
         if (size < 0) {

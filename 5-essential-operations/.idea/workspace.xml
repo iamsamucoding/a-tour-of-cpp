@@ -15,9 +15,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b947a67-f144-4cf2-a999-d2723b93beb3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../4-classes/vector-example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4-classes/vector-example/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6b947a67-f144-4cf2-a999-d2723b93beb3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/5-move-constructor-move-assignment.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="187" column="47" lean-forward="true" selection-start-line="187" selection-start-column="47" selection-end-line="187" selection-end-column="47" />
+            <state relative-caret-position="142">
+              <caret line="89" column="4" lean-forward="true" selection-start-line="89" selection-start-column="4" selection-end-line="103" selection-end-column="5" />
               <folding>
                 <element signature="e#1#20#0" expanded="true" />
               </folding>
@@ -130,20 +128,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="5_essential_operations" type="b2602c69:ProjectViewProjectNode" />
-              <item name="5-essential-operations" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -211,19 +200,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556116411562</updated>
-      <workItem from="1556116413004" duration="9360000" />
+      <workItem from="1556116413004" duration="9940000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9360000" />
+    <option name="totallyTimeSpent" value="9940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="CMake" weight="0.3299363" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -233,7 +221,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3299363" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -318,8 +306,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/5-move-constructor-move-assignment.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="187" column="47" lean-forward="true" selection-start-line="187" selection-start-column="47" selection-end-line="187" selection-end-column="47" />
+        <state relative-caret-position="142">
+          <caret line="89" column="4" lean-forward="true" selection-start-line="89" selection-start-column="4" selection-end-line="103" selection-end-column="5" />
           <folding>
             <element signature="e#1#20#0" expanded="true" />
           </folding>

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/3-compiling-templates-sol3/main.cpp
+iostream
+-
+list
+-
+vector.h
+/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/3-compiling-templates-sol3/vector.h
+vector.cpp
+/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/3-compiling-templates-sol3/vector.cpp
+
+/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/3-compiling-templates-sol3/vector.cpp
+vector.h
+/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/3-compiling-templates-sol3/vector.h
+
+/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/3-compiling-templates-sol3/vector.h
+iostream
+-
+stdexcept
+-
+algorithm
+-
+
