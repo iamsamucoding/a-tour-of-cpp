@@ -28,12 +28,24 @@ int main() {
     // https://isocpp.org/wiki/faq/templates#templates-defn-vs-decl
     // https://www.codeproject.com/Articles/48575/How-to-define-a-template-class-in-a-h-file-and-imp
     
-    Vector<int> v(100);
-    Vector<char> vc(200); // vector of 200 characters
-    Vector<double> vd(200); // vector of 200 doubles
-    Vector<std::string> vs(17); // vector of 17 strings
-    Vector<std::list<int>> vli(45); // vector of 45 lists of
     
+    Vector<int> v(100);
+    v[0] = 10;
+    std::cout << "v[0] = " << v[0] << std::endl;
+    
+    Vector<char> vc(200);
+    vc[0] = 'A';
+    std::cout << "vc[0] = " << vc[0] << std::endl;
+    
+    Vector<double> vd(200);
+    vd[0] = 2.5;
+    std::cout << "vd[0] = " << vd[0] << std::endl;
+    
+    Vector<std::string> vs(17);
+    vs[0] = "A Tour of C++";
+    std::cout << "vs[0] = " << vs[0] << std::endl;
+    
+    Vector<std::list<int>> vli(45);
     
     return 0;
 }

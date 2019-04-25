@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 3_compiling_templates_sol3
+# Target rules for targets named 2_compiling_templates_sol2
 
 # Build rule for target.
-3_compiling_templates_sol3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 3_compiling_templates_sol3
-.PHONY : 3_compiling_templates_sol3
+2_compiling_templates_sol2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 2_compiling_templates_sol2
+.PHONY : 2_compiling_templates_sol2
 
 # fast build rule for target.
-3_compiling_templates_sol3/fast:
-	$(MAKE) -f CMakeFiles/3_compiling_templates_sol3.dir/build.make CMakeFiles/3_compiling_templates_sol3.dir/build
-.PHONY : 3_compiling_templates_sol3/fast
+2_compiling_templates_sol2/fast:
+	$(MAKE) -f CMakeFiles/2_compiling_templates_sol2.dir/build.make CMakeFiles/2_compiling_templates_sol2.dir/build
+.PHONY : 2_compiling_templates_sol2/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/3_compiling_templates_sol3.dir/build.make CMakeFiles/3_compiling_templates_sol3.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/2_compiling_templates_sol2.dir/build.make CMakeFiles/2_compiling_templates_sol2.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/3_compiling_templates_sol3.dir/build.make CMakeFiles/3_compiling_templates_sol3.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/2_compiling_templates_sol2.dir/build.make CMakeFiles/2_compiling_templates_sol2.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/3_compiling_templates_sol3.dir/build.make CMakeFiles/3_compiling_templates_sol3.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/2_compiling_templates_sol2.dir/build.make CMakeFiles/2_compiling_templates_sol2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -158,7 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... 3_compiling_templates_sol3"
+	@echo "... 2_compiling_templates_sol2"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

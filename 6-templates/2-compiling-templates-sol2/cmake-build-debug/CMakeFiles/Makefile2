@@ -65,39 +65,39 @@ CMAKE_SOURCE_DIR = /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/2-compili
 CMAKE_BINARY_DIR = /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/2-compiling-templates-sol2/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/3_compiling_templates_sol3.dir
+# Target rules for target CMakeFiles/2_compiling_templates_sol2.dir
 
 # All Build rule for target.
-CMakeFiles/3_compiling_templates_sol3.dir/all:
-	$(MAKE) -f CMakeFiles/3_compiling_templates_sol3.dir/build.make CMakeFiles/3_compiling_templates_sol3.dir/depend
-	$(MAKE) -f CMakeFiles/3_compiling_templates_sol3.dir/build.make CMakeFiles/3_compiling_templates_sol3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/2-compiling-templates-sol2/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 3_compiling_templates_sol3"
-.PHONY : CMakeFiles/3_compiling_templates_sol3.dir/all
+CMakeFiles/2_compiling_templates_sol2.dir/all:
+	$(MAKE) -f CMakeFiles/2_compiling_templates_sol2.dir/build.make CMakeFiles/2_compiling_templates_sol2.dir/depend
+	$(MAKE) -f CMakeFiles/2_compiling_templates_sol2.dir/build.make CMakeFiles/2_compiling_templates_sol2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/2-compiling-templates-sol2/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 2_compiling_templates_sol2"
+.PHONY : CMakeFiles/2_compiling_templates_sol2.dir/all
 
 # Include target in all.
-all: CMakeFiles/3_compiling_templates_sol3.dir/all
+all: CMakeFiles/2_compiling_templates_sol2.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/3_compiling_templates_sol3.dir/rule: cmake_check_build_system
+CMakeFiles/2_compiling_templates_sol2.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/2-compiling-templates-sol2/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/3_compiling_templates_sol3.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/2_compiling_templates_sol2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/2-compiling-templates-sol2/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/3_compiling_templates_sol3.dir/rule
+.PHONY : CMakeFiles/2_compiling_templates_sol2.dir/rule
 
 # Convenience name for target.
-3_compiling_templates_sol3: CMakeFiles/3_compiling_templates_sol3.dir/rule
+2_compiling_templates_sol2: CMakeFiles/2_compiling_templates_sol2.dir/rule
 
-.PHONY : 3_compiling_templates_sol3
-
-# clean rule for target.
-CMakeFiles/3_compiling_templates_sol3.dir/clean:
-	$(MAKE) -f CMakeFiles/3_compiling_templates_sol3.dir/build.make CMakeFiles/3_compiling_templates_sol3.dir/clean
-.PHONY : CMakeFiles/3_compiling_templates_sol3.dir/clean
+.PHONY : 2_compiling_templates_sol2
 
 # clean rule for target.
-clean: CMakeFiles/3_compiling_templates_sol3.dir/clean
+CMakeFiles/2_compiling_templates_sol2.dir/clean:
+	$(MAKE) -f CMakeFiles/2_compiling_templates_sol2.dir/build.make CMakeFiles/2_compiling_templates_sol2.dir/clean
+.PHONY : CMakeFiles/2_compiling_templates_sol2.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/2_compiling_templates_sol2.dir/clean
 
 .PHONY : clean
 

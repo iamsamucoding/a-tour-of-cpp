@@ -12,11 +12,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60147725-0cf0-49d7-a882-8edcd4c33c0c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../5-essential-operations/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../5-essential-operations/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../5-essential-operations/2-explicit-conversions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../5-essential-operations/2-explicit-conversions.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../5-essential-operations/3-copy-constructor-copy-assignment.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../5-essential-operations/3-copy-constructor-copy-assignment.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../5-essential-operations/4-overcopying-containers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../5-essential-operations/4-overcopying-containers.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../5-essential-operations/5-move-constructor-move-assignment.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../5-essential-operations/5-move-constructor-move-assignment.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../5-a-more-robust-vector/vector.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../5-a-more-robust-vector/vector.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-compiling-templates-sol1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1-compiling-templates-sol1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-compiling-templates-sol1/cmake-build-debug/6_templates" beforeDir="false" afterPath="$PROJECT_DIR$/../1-compiling-templates-sol1/cmake-build-debug/6_templates" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-compiling-templates-sol1/cmake-build-debug/CMakeFiles/6_templates.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-compiling-templates-sol1/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../1-compiling-templates-sol1/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-compiling-templates-sol2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2-compiling-templates-sol2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-compiling-templates-sol2/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2-compiling-templates-sol2/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-compiling-templates-sol2/cmake-build-debug/3_compiling_templates_sol3" beforeDir="false" afterPath="$PROJECT_DIR$/../2-compiling-templates-sol2/cmake-build-debug/3_compiling_templates_sol3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-compiling-templates-sol2/cmake-build-debug/3_compiling_templates_sol3.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../2-compiling-templates-sol2/cmake-build-debug/3_compiling_templates_sol3.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-compiling-templates-sol2/cmake-build-debug/CMakeFiles/3_compiling_templates_sol3.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../2-compiling-templates-sol2/cmake-build-debug/CMakeFiles/3_compiling_templates_sol3.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-compiling-templates-sol2/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../2-compiling-templates-sol2/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-compiling-templates-sol2/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../2-compiling-templates-sol2/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-compiling-templates-sol2/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2-compiling-templates-sol2/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-compiling-templates-sol2/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../2-compiling-templates-sol2/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-compiling-templates-sol2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../2-compiling-templates-sol2/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4-compiling-templates-sol4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4-compiling-templates-sol4/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,6 +94,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -118,16 +132,17 @@
       <workItem from="1556189311767" duration="1083000" />
       <workItem from="1556206417885" duration="81000" />
       <workItem from="1556207085116" duration="26000" />
+      <workItem from="1556209349557" duration="29000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1190000" />
+    <option name="totallyTimeSpent" value="1219000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -138,7 +153,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3299363" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -171,20 +186,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

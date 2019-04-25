@@ -14,10 +14,14 @@
 template <typename T>
 class Vector {
 private:
-    int size_;
-    T* elem_;
+    int size_ = 0;
+    T* elem_ = nullptr;
 
 public:
+    Vector() {
+        std::cout << "default constructor for Vector\n";
+    }
+    
     // constructor: establish invariant, acquire resources
     explicit Vector(int size);
     
@@ -33,5 +37,9 @@ public:
     T& operator[](int i) const;
 };
 
+
+// an useless function just to show how to compile template functions in a separate file
+template<typename T>
+void foo(T& val);
 
 #endif //INC_6_TEMPLATES_VECTOR_H

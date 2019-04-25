@@ -20,16 +20,17 @@ T& Vector<T>::operator[](int i) const {
     return elem_[i];
 }
 
+// adding some possible template classes for Vector
+template class Vector<int>;
+template class Vector<char>;
+template class Vector<double>;
+template class Vector<std::list<int>>;
 
-// Function to define some possible classes for the Template class of Vector
-// No need to call this function or have a declaration in the header file.
-// It's just to avoid link error.
-// So, there is no need to link the object creation code with its actual implementation in some other file.
-// This will cause the compiler to compile these particular types so the associated class member functions
-// will be available at link time.
-void AvailableTemplateClassesForVector() {
-    Vector<int> v(0);
-    Vector<char> vc(0);
-    Vector<double> vd(200);
-    Vector<std::list<int>> vli(45);
+
+template<typename T>
+void foo(T& val) {
+    std::cout << "val = " << val << "\n";
 }
+
+// adding template classes to the template function foo
+template void foo<int>(int& val);

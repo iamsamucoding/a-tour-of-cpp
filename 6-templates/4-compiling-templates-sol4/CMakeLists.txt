@@ -3,4 +3,4 @@ project(4_compiling_templates_sol4)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(4_compiling_templates_sol4 main.cpp vector.cpp vector.h)
+add_executable(4_compiling_templates_sol4 main.cpp vector.h vector.cpp)

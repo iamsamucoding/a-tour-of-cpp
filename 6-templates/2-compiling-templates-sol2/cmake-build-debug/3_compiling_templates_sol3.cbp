@@ -37,8 +37,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/2-compiling-templates-sol2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="3_compiling_templates_sol3">
-				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/2-compiling-templates-sol2/cmake-build-debug/3_compiling_templates_sol3" prefix_auto="0" extension_auto="0"/>
+			<Target title="2_compiling_templates_sol2">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/2-compiling-templates-sol2/cmake-build-debug/2_compiling_templates_sol2" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/2-compiling-templates-sol2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -52,14 +52,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/2-compiling-templates-sol2/cmake-build-debug/Makefile&quot;  VERBOSE=1 3_compiling_templates_sol3"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/2-compiling-templates-sol2/cmake-build-debug/Makefile&quot;  VERBOSE=1 2_compiling_templates_sol2"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/2-compiling-templates-sol2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/2-compiling-templates-sol2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/2-compiling-templates-sol2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="3_compiling_templates_sol3/fast">
-				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/2-compiling-templates-sol2/cmake-build-debug/3_compiling_templates_sol3" prefix_auto="0" extension_auto="0"/>
+			<Target title="2_compiling_templates_sol2/fast">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/2-compiling-templates-sol2/cmake-build-debug/2_compiling_templates_sol2" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/2-compiling-templates-sol2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -73,7 +73,7 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/2-compiling-templates-sol2/cmake-build-debug/Makefile&quot;  VERBOSE=1 3_compiling_templates_sol3/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/2-compiling-templates-sol2/cmake-build-debug/Makefile&quot;  VERBOSE=1 2_compiling_templates_sol2/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/2-compiling-templates-sol2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/2-compiling-templates-sol2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/2-compiling-templates-sol2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -81,10 +81,10 @@
 			</Target>
 		</Build>
 		<Unit filename="/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/2-compiling-templates-sol2/main.cpp">
-			<Option target="3_compiling_templates_sol3"/>
+			<Option target="2_compiling_templates_sol2"/>
 		</Unit>
 		<Unit filename="/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/2-compiling-templates-sol2/vector.h">
-			<Option target="3_compiling_templates_sol3"/>
+			<Option target="2_compiling_templates_sol2"/>
 		</Unit>
 		<Unit filename="/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/2-compiling-templates-sol2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
