@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/class_design_code_hints.dir/1-const-member-functions.cpp.o CMakeFiles/class_design_code_hints.dir/2-avoid-return-handles-to-object-internals.cpp.o  -o class_design_code_hints 

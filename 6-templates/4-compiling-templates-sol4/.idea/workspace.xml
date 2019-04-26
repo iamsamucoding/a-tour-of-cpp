@@ -12,35 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71b9d42c-f3f0-4053-b404-011e1f26d2cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../5-a-more-robust-vector/vector.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5-a-more-robust-vector/vector.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1-compiling-templates-sol1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1-compiling-templates-sol1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1-compiling-templates-sol1/cmake-build-debug/6_templates" beforeDir="false" afterPath="$PROJECT_DIR$/../1-compiling-templates-sol1/cmake-build-debug/6_templates" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1-compiling-templates-sol1/cmake-build-debug/CMakeFiles/6_templates.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1-compiling-templates-sol1/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../1-compiling-templates-sol1/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2-compiling-templates-sol2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2-compiling-templates-sol2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2-compiling-templates-sol2/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2-compiling-templates-sol2/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2-compiling-templates-sol2/cmake-build-debug/3_compiling_templates_sol3" beforeDir="false" afterPath="$PROJECT_DIR$/../2-compiling-templates-sol2/cmake-build-debug/3_compiling_templates_sol3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2-compiling-templates-sol2/cmake-build-debug/3_compiling_templates_sol3.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../2-compiling-templates-sol2/cmake-build-debug/3_compiling_templates_sol3.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2-compiling-templates-sol2/cmake-build-debug/CMakeFiles/3_compiling_templates_sol3.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../2-compiling-templates-sol2/cmake-build-debug/CMakeFiles/3_compiling_templates_sol3.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2-compiling-templates-sol2/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../2-compiling-templates-sol2/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2-compiling-templates-sol2/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../2-compiling-templates-sol2/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2-compiling-templates-sol2/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2-compiling-templates-sol2/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2-compiling-templates-sol2/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../2-compiling-templates-sol2/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2-compiling-templates-sol2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../2-compiling-templates-sol2/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3-compiling-templates-sol3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3-compiling-templates-sol3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3-compiling-templates-sol3/cmake-build-debug/3_compiling_templates_sol3" beforeDir="false" afterPath="$PROJECT_DIR$/../3-compiling-templates-sol3/cmake-build-debug/3_compiling_templates_sol3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3-compiling-templates-sol3/cmake-build-debug/CMakeFiles/3_compiling_templates_sol3.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../3-compiling-templates-sol3/cmake-build-debug/CMakeFiles/3_compiling_templates_sol3.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3-compiling-templates-sol3/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../3-compiling-templates-sol3/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/4_compiling_templates_sol4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_compiling_templates_sol4.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_compiling_templates_sol4.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_compiling_templates_sol4.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_compiling_templates_sol4.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_compiling_templates_sol4.dir/vector.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/vector.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/vector.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5-a-more-robust-vector/vector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../5-a-more-robust-vector/vector.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5-a-more-robust-vector/vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/../5-a-more-robust-vector/vector.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -192,16 +165,15 @@
       <option name="presentableId" value="Default" />
       <updated>1556206967016</updated>
       <workItem from="1556206968296" duration="1474000" />
-      <workItem from="1556209379038" duration="1969000" />
+      <workItem from="1556209379038" duration="2039000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3443000" />
+    <option name="totallyTimeSpent" value="3513000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

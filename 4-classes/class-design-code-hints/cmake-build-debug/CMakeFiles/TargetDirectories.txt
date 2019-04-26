@@ -1,0 +1,5 @@
+/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/CMakeFiles/3-solution-to-return-handles-to-object-internals.dir
+/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/CMakeFiles/2-problem-when-returning-handles-to-object-internals.dir
+/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/CMakeFiles/1-const-member-functions.dir
