@@ -19,7 +19,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="679e2042-9b8e-4fe8-9428-7150fdcb96d7" name="Default Changelist" comment="Q">
-      <change beforePath="$PROJECT_DIR$/8-const-overloading-operators-solution1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/8-const-overloading-operators-solution1.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../5-essential-operations/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../5-essential-operations/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../5-essential-operations/1-implicit-copy-assigment.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../5-essential-operations/1-implicit-copy-assigment.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../5-essential-operations/cmake-build-debug/CMakeFiles/1-implicit-copy-assigment.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../5-essential-operations/cmake-build-debug/CMakeFiles/1-implicit-copy-assigment.dir/depend.make" afterDir="false" />
@@ -38,47 +37,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/8-const-overloading-operators-solution1.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4-const-overloading-operators-problem1.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="34" column="4" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/7-const-overloading-operators-problem4.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -223,16 +182,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556281922398</updated>
-      <workItem from="1556281923655" duration="7965000" />
+      <workItem from="1556281923655" duration="8198000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7965000" />
+    <option name="totallyTimeSpent" value="8198000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
@@ -298,17 +256,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/7-const-overloading-operators-problem4.cpp">
+    <entry file="file://$PROJECT_DIR$/8-const-overloading-operators-solution1.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
+        <state relative-caret-position="360">
+          <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -322,10 +273,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/8-const-overloading-operators-solution1.cpp">
+    <entry file="file://$PROJECT_DIR$/7-const-overloading-operators-problem4.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="471">
+          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
         </state>
       </provider>
     </entry>
