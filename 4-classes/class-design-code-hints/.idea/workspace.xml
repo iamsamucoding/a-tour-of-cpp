@@ -3,8 +3,13 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="class_design_code_hints" targetName="3-solution-to-return-handles-to-object-internals" />
+      <config projectName="class_design_code_hints" targetName="4-const-overloading-operators-problem1" />
       <config projectName="class_design_code_hints" targetName="1-const-member-functions" />
+      <config projectName="class_design_code_hints" targetName="6-const-overloading-operators-problem3" />
+      <config projectName="class_design_code_hints" targetName="7-const-overloading-operators-problem4" />
+      <config projectName="class_design_code_hints" targetName="8-const-overloading-operators-solution1" />
       <config projectName="class_design_code_hints" targetName="2-problem-when-returning-handles-to-object-internals" />
+      <config projectName="class_design_code_hints" targetName="5-const-overloading-operators-problem2" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -13,14 +18,21 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="679e2042-9b8e-4fe8-9428-7150fdcb96d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/class-design-code-hints.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-solution-to-return-handles-to-object-internals.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../6-templates/a-more-robust-vector/vector.h" afterDir="false" />
+    <list default="true" id="679e2042-9b8e-4fe8-9428-7150fdcb96d7" name="Default Changelist" comment="Q">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-const-member-functions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/1-const-member-functions.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/3-solution-to-return-handles-to-object-internals" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/3-solution-to-return-handles-to-object-internals" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3-solution-to-return-handles-to-object-internals.dir/3-solution-to-return-handles-to-object-internals.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3-solution-to-return-handles-to-object-internals.dir/3-solution-to-return-handles-to-object-internals.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/class_design_code_hints.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/class_design_code_hints.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../5-essential-operations/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../5-essential-operations/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../5-essential-operations/1-implicit-copy-assigment.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../5-essential-operations/1-implicit-copy-assigment.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../5-essential-operations/cmake-build-debug/CMakeFiles/1-implicit-copy-assigment.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../5-essential-operations/cmake-build-debug/CMakeFiles/1-implicit-copy-assigment.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../6-templates/4-compiling-templates-sol4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../6-templates/4-compiling-templates-sol4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../6-templates/5-a-more-robust-vector/vector.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../6-templates/5-a-more-robust-vector/vector.h" beforeDir="false" />
     </list>
@@ -38,37 +50,40 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+        <entry file="file://$PROJECT_DIR$/8-const-overloading-operators-solution1.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="116" selection-start-line="7" selection-start-column="116" selection-end-line="7" selection-end-column="116" />
+            <state relative-caret-position="-21">
+              <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2-problem-when-returning-handles-to-object-internals.cpp">
+        <entry file="file://$PROJECT_DIR$/4-const-overloading-operators-problem1.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+            <state relative-caret-position="207">
+              <caret line="37" column="6" lean-forward="true" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3-solution-to-return-handles-to-object-internals.cpp">
+        <entry file="file://$PROJECT_DIR$/7-const-overloading-operators-problem4.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+            <state relative-caret-position="316">
+              <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1-const-member-functions.cpp">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="16" />
+            <state relative-caret-position="228">
+              <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -81,18 +96,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1-const-member-functions.cpp" />
         <option value="$PROJECT_DIR$/2-avoid-return-handles-to-object-internals.cpp" />
         <option value="$PROJECT_DIR$/2-problem-when-returning-handles-to-object-internals.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/3-solution-to-return-handles-to-object-internals.cpp" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/4-problems-with-const-overloading-operators.cpp" />
+        <option value="$PROJECT_DIR$/5-const-overloading-operators-problem2.cpp" />
+        <option value="$PROJECT_DIR$/6-const-overloading-operators-solution.cpp" />
+        <option value="$PROJECT_DIR$/8-const-overloading-operators-solution.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/7-const-overloading-operators-problem4.cpp" />
+        <option value="$PROJECT_DIR$/6-const-overloading-operators-problem3.cpp" />
+        <option value="$PROJECT_DIR$/1-const-member-functions.cpp" />
+        <option value="$PROJECT_DIR$/8-const-overloading-operators-solution1.cpp" />
+        <option value="$PROJECT_DIR$/4-const-overloading-operators-problem1.cpp" />
       </list>
     </option>
   </component>
@@ -103,11 +119,21 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="class_design_code_hints" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/workspace/a-tour-of-cpp/4-classes/class-design-code-hints" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,9 +148,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -138,7 +171,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.3-solution-to-return-handles-to-object-internals">
+  <component name="RunManager" selected="CMake Application.8-const-overloading-operators-solution1">
     <configuration name="1-const-member-functions" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="class_design_code_hints" TARGET_NAME="1-const-member-functions" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="class_design_code_hints" RUN_TARGET_NAME="1-const-member-functions">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -154,10 +187,40 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="4-const-overloading-operators-problem1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="class_design_code_hints" TARGET_NAME="4-const-overloading-operators-problem1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="class_design_code_hints" RUN_TARGET_NAME="4-const-overloading-operators-problem1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="5-const-overloading-operators-problem2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="class_design_code_hints" TARGET_NAME="5-const-overloading-operators-problem2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="class_design_code_hints" RUN_TARGET_NAME="5-const-overloading-operators-problem2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="6-const-overloading-operators-problem3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="class_design_code_hints" TARGET_NAME="6-const-overloading-operators-problem3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="class_design_code_hints" RUN_TARGET_NAME="6-const-overloading-operators-problem3">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="7-const-overloading-operators-problem4" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="class_design_code_hints" TARGET_NAME="7-const-overloading-operators-problem4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="class_design_code_hints" RUN_TARGET_NAME="7-const-overloading-operators-problem4">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="8-const-overloading-operators-solution1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="class_design_code_hints" TARGET_NAME="8-const-overloading-operators-solution1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="class_design_code_hints" RUN_TARGET_NAME="8-const-overloading-operators-solution1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.1-const-member-functions" />
       <item itemvalue="CMake Application.2-problem-when-returning-handles-to-object-internals" />
       <item itemvalue="CMake Application.3-solution-to-return-handles-to-object-internals" />
+      <item itemvalue="CMake Application.4-const-overloading-operators-problem1" />
+      <item itemvalue="CMake Application.5-const-overloading-operators-problem2" />
+      <item itemvalue="CMake Application.6-const-overloading-operators-problem3" />
+      <item itemvalue="CMake Application.7-const-overloading-operators-problem4" />
+      <item itemvalue="CMake Application.8-const-overloading-operators-solution1" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -170,19 +233,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556281922398</updated>
-      <workItem from="1556281923655" duration="3147000" />
+      <workItem from="1556281923655" duration="7583000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3147000" />
+    <option name="totallyTimeSpent" value="7583000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
@@ -192,7 +255,7 @@
       <window_info anchor="bottom" id="CMake" weight="0.3299363" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3299363" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -210,31 +273,69 @@
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-const-member-functions.cpp">
+    <entry file="file://$PROJECT_DIR$/2-problem-when-returning-handles-to-object-internals.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="116" selection-start-line="7" selection-start-column="116" selection-end-line="7" selection-end-column="116" />
+        <state relative-caret-position="231">
+          <caret line="46" column="32" lean-forward="true" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3-solution-to-return-handles-to-object-internals.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+        <state relative-caret-position="300">
+          <caret line="52" column="58" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="87" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2-problem-when-returning-handles-to-object-internals.cpp">
+    <entry file="file://$PROJECT_DIR$/6-const-overloading-operators-problem3.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+        <state relative-caret-position="473">
+          <caret line="66" column="14" lean-forward="true" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-const-overloading-operators-problem2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="62" column="17" lean-forward="true" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-const-member-functions.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7-const-overloading-operators-problem4.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8-const-overloading-operators-solution1.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21">
+          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4-const-overloading-operators-problem1.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="37" column="6" lean-forward="true" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

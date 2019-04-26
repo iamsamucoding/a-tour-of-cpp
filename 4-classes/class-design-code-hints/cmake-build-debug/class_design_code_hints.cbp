@@ -17,48 +17,6 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="3-solution-to-return-handles-to-object-internals">
-				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/3-solution-to-return-handles-to-object-internals" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 3-solution-to-return-handles-to-object-internals"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="3-solution-to-return-handles-to-object-internals/fast">
-				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/3-solution-to-return-handles-to-object-internals" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 3-solution-to-return-handles-to-object-internals/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug"/>
 				<Option type="4"/>
@@ -69,18 +27,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="2-problem-when-returning-handles-to-object-internals">
-				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/2-problem-when-returning-handles-to-object-internals" prefix_auto="0" extension_auto="0"/>
+			<Target title="8-const-overloading-operators-solution1">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/8-const-overloading-operators-solution1" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -94,14 +42,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-problem-when-returning-handles-to-object-internals"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 8-const-overloading-operators-solution1"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="2-problem-when-returning-handles-to-object-internals/fast">
-				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/2-problem-when-returning-handles-to-object-internals" prefix_auto="0" extension_auto="0"/>
+			<Target title="8-const-overloading-operators-solution1/fast">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/8-const-overloading-operators-solution1" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -115,7 +63,49 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-problem-when-returning-handles-to-object-internals/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 8-const-overloading-operators-solution1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="6-const-overloading-operators-problem3">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/6-const-overloading-operators-problem3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 6-const-overloading-operators-problem3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="6-const-overloading-operators-problem3/fast">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/6-const-overloading-operators-problem3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 6-const-overloading-operators-problem3/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -163,6 +153,226 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="4-const-overloading-operators-problem1">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/4-const-overloading-operators-problem1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 4-const-overloading-operators-problem1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="4-const-overloading-operators-problem1/fast">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/4-const-overloading-operators-problem1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 4-const-overloading-operators-problem1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="7-const-overloading-operators-problem4">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/7-const-overloading-operators-problem4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 7-const-overloading-operators-problem4"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="7-const-overloading-operators-problem4/fast">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/7-const-overloading-operators-problem4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 7-const-overloading-operators-problem4/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="5-const-overloading-operators-problem2">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/5-const-overloading-operators-problem2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 5-const-overloading-operators-problem2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="5-const-overloading-operators-problem2/fast">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/5-const-overloading-operators-problem2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 5-const-overloading-operators-problem2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3-solution-to-return-handles-to-object-internals">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/3-solution-to-return-handles-to-object-internals" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 3-solution-to-return-handles-to-object-internals"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3-solution-to-return-handles-to-object-internals/fast">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/3-solution-to-return-handles-to-object-internals" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 3-solution-to-return-handles-to-object-internals/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2-problem-when-returning-handles-to-object-internals">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/2-problem-when-returning-handles-to-object-internals" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-problem-when-returning-handles-to-object-internals"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2-problem-when-returning-handles-to-object-internals/fast">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/2-problem-when-returning-handles-to-object-internals" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-problem-when-returning-handles-to-object-internals/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/1-const-member-functions.cpp">
 			<Option target="1-const-member-functions"/>
@@ -172,6 +382,21 @@
 		</Unit>
 		<Unit filename="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/3-solution-to-return-handles-to-object-internals.cpp">
 			<Option target="3-solution-to-return-handles-to-object-internals"/>
+		</Unit>
+		<Unit filename="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/4-const-overloading-operators-problem1.cpp">
+			<Option target="4-const-overloading-operators-problem1"/>
+		</Unit>
+		<Unit filename="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/5-const-overloading-operators-problem2.cpp">
+			<Option target="5-const-overloading-operators-problem2"/>
+		</Unit>
+		<Unit filename="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/6-const-overloading-operators-problem3.cpp">
+			<Option target="6-const-overloading-operators-problem3"/>
+		</Unit>
+		<Unit filename="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/7-const-overloading-operators-problem4.cpp">
+			<Option target="7-const-overloading-operators-problem4"/>
+		</Unit>
+		<Unit filename="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/8-const-overloading-operators-solution1.cpp">
+			<Option target="8-const-overloading-operators-solution1"/>
 		</Unit>
 		<Unit filename="/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

@@ -52,7 +52,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/8-const-overloading-operators-solution1.dir/DependInfo.cmake"
+  "CMakeFiles/6-const-overloading-operators-problem3.dir/DependInfo.cmake"
+  "CMakeFiles/1-const-member-functions.dir/DependInfo.cmake"
+  "CMakeFiles/4-const-overloading-operators-problem1.dir/DependInfo.cmake"
+  "CMakeFiles/7-const-overloading-operators-problem4.dir/DependInfo.cmake"
+  "CMakeFiles/5-const-overloading-operators-problem2.dir/DependInfo.cmake"
   "CMakeFiles/3-solution-to-return-handles-to-object-internals.dir/DependInfo.cmake"
   "CMakeFiles/2-problem-when-returning-handles-to-object-internals.dir/DependInfo.cmake"
-  "CMakeFiles/1-const-member-functions.dir/DependInfo.cmake"
   )

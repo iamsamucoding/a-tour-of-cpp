@@ -111,6 +111,84 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 8-const-overloading-operators-solution1
+
+# Build rule for target.
+8-const-overloading-operators-solution1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 8-const-overloading-operators-solution1
+.PHONY : 8-const-overloading-operators-solution1
+
+# fast build rule for target.
+8-const-overloading-operators-solution1/fast:
+	$(MAKE) -f CMakeFiles/8-const-overloading-operators-solution1.dir/build.make CMakeFiles/8-const-overloading-operators-solution1.dir/build
+.PHONY : 8-const-overloading-operators-solution1/fast
+
+#=============================================================================
+# Target rules for targets named 6-const-overloading-operators-problem3
+
+# Build rule for target.
+6-const-overloading-operators-problem3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 6-const-overloading-operators-problem3
+.PHONY : 6-const-overloading-operators-problem3
+
+# fast build rule for target.
+6-const-overloading-operators-problem3/fast:
+	$(MAKE) -f CMakeFiles/6-const-overloading-operators-problem3.dir/build.make CMakeFiles/6-const-overloading-operators-problem3.dir/build
+.PHONY : 6-const-overloading-operators-problem3/fast
+
+#=============================================================================
+# Target rules for targets named 1-const-member-functions
+
+# Build rule for target.
+1-const-member-functions: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1-const-member-functions
+.PHONY : 1-const-member-functions
+
+# fast build rule for target.
+1-const-member-functions/fast:
+	$(MAKE) -f CMakeFiles/1-const-member-functions.dir/build.make CMakeFiles/1-const-member-functions.dir/build
+.PHONY : 1-const-member-functions/fast
+
+#=============================================================================
+# Target rules for targets named 4-const-overloading-operators-problem1
+
+# Build rule for target.
+4-const-overloading-operators-problem1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 4-const-overloading-operators-problem1
+.PHONY : 4-const-overloading-operators-problem1
+
+# fast build rule for target.
+4-const-overloading-operators-problem1/fast:
+	$(MAKE) -f CMakeFiles/4-const-overloading-operators-problem1.dir/build.make CMakeFiles/4-const-overloading-operators-problem1.dir/build
+.PHONY : 4-const-overloading-operators-problem1/fast
+
+#=============================================================================
+# Target rules for targets named 7-const-overloading-operators-problem4
+
+# Build rule for target.
+7-const-overloading-operators-problem4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 7-const-overloading-operators-problem4
+.PHONY : 7-const-overloading-operators-problem4
+
+# fast build rule for target.
+7-const-overloading-operators-problem4/fast:
+	$(MAKE) -f CMakeFiles/7-const-overloading-operators-problem4.dir/build.make CMakeFiles/7-const-overloading-operators-problem4.dir/build
+.PHONY : 7-const-overloading-operators-problem4/fast
+
+#=============================================================================
+# Target rules for targets named 5-const-overloading-operators-problem2
+
+# Build rule for target.
+5-const-overloading-operators-problem2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 5-const-overloading-operators-problem2
+.PHONY : 5-const-overloading-operators-problem2
+
+# fast build rule for target.
+5-const-overloading-operators-problem2/fast:
+	$(MAKE) -f CMakeFiles/5-const-overloading-operators-problem2.dir/build.make CMakeFiles/5-const-overloading-operators-problem2.dir/build
+.PHONY : 5-const-overloading-operators-problem2/fast
+
+#=============================================================================
 # Target rules for targets named 3-solution-to-return-handles-to-object-internals
 
 # Build rule for target.
@@ -135,19 +213,6 @@ depend:
 2-problem-when-returning-handles-to-object-internals/fast:
 	$(MAKE) -f CMakeFiles/2-problem-when-returning-handles-to-object-internals.dir/build.make CMakeFiles/2-problem-when-returning-handles-to-object-internals.dir/build
 .PHONY : 2-problem-when-returning-handles-to-object-internals/fast
-
-#=============================================================================
-# Target rules for targets named 1-const-member-functions
-
-# Build rule for target.
-1-const-member-functions: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 1-const-member-functions
-.PHONY : 1-const-member-functions
-
-# fast build rule for target.
-1-const-member-functions/fast:
-	$(MAKE) -f CMakeFiles/1-const-member-functions.dir/build.make CMakeFiles/1-const-member-functions.dir/build
-.PHONY : 1-const-member-functions/fast
 
 1-const-member-functions.o: 1-const-member-functions.cpp.o
 
@@ -230,17 +295,157 @@ depend:
 	$(MAKE) -f CMakeFiles/3-solution-to-return-handles-to-object-internals.dir/build.make CMakeFiles/3-solution-to-return-handles-to-object-internals.dir/3-solution-to-return-handles-to-object-internals.cpp.s
 .PHONY : 3-solution-to-return-handles-to-object-internals.cpp.s
 
+4-const-overloading-operators-problem1.o: 4-const-overloading-operators-problem1.cpp.o
+
+.PHONY : 4-const-overloading-operators-problem1.o
+
+# target to build an object file
+4-const-overloading-operators-problem1.cpp.o:
+	$(MAKE) -f CMakeFiles/4-const-overloading-operators-problem1.dir/build.make CMakeFiles/4-const-overloading-operators-problem1.dir/4-const-overloading-operators-problem1.cpp.o
+.PHONY : 4-const-overloading-operators-problem1.cpp.o
+
+4-const-overloading-operators-problem1.i: 4-const-overloading-operators-problem1.cpp.i
+
+.PHONY : 4-const-overloading-operators-problem1.i
+
+# target to preprocess a source file
+4-const-overloading-operators-problem1.cpp.i:
+	$(MAKE) -f CMakeFiles/4-const-overloading-operators-problem1.dir/build.make CMakeFiles/4-const-overloading-operators-problem1.dir/4-const-overloading-operators-problem1.cpp.i
+.PHONY : 4-const-overloading-operators-problem1.cpp.i
+
+4-const-overloading-operators-problem1.s: 4-const-overloading-operators-problem1.cpp.s
+
+.PHONY : 4-const-overloading-operators-problem1.s
+
+# target to generate assembly for a file
+4-const-overloading-operators-problem1.cpp.s:
+	$(MAKE) -f CMakeFiles/4-const-overloading-operators-problem1.dir/build.make CMakeFiles/4-const-overloading-operators-problem1.dir/4-const-overloading-operators-problem1.cpp.s
+.PHONY : 4-const-overloading-operators-problem1.cpp.s
+
+5-const-overloading-operators-problem2.o: 5-const-overloading-operators-problem2.cpp.o
+
+.PHONY : 5-const-overloading-operators-problem2.o
+
+# target to build an object file
+5-const-overloading-operators-problem2.cpp.o:
+	$(MAKE) -f CMakeFiles/5-const-overloading-operators-problem2.dir/build.make CMakeFiles/5-const-overloading-operators-problem2.dir/5-const-overloading-operators-problem2.cpp.o
+.PHONY : 5-const-overloading-operators-problem2.cpp.o
+
+5-const-overloading-operators-problem2.i: 5-const-overloading-operators-problem2.cpp.i
+
+.PHONY : 5-const-overloading-operators-problem2.i
+
+# target to preprocess a source file
+5-const-overloading-operators-problem2.cpp.i:
+	$(MAKE) -f CMakeFiles/5-const-overloading-operators-problem2.dir/build.make CMakeFiles/5-const-overloading-operators-problem2.dir/5-const-overloading-operators-problem2.cpp.i
+.PHONY : 5-const-overloading-operators-problem2.cpp.i
+
+5-const-overloading-operators-problem2.s: 5-const-overloading-operators-problem2.cpp.s
+
+.PHONY : 5-const-overloading-operators-problem2.s
+
+# target to generate assembly for a file
+5-const-overloading-operators-problem2.cpp.s:
+	$(MAKE) -f CMakeFiles/5-const-overloading-operators-problem2.dir/build.make CMakeFiles/5-const-overloading-operators-problem2.dir/5-const-overloading-operators-problem2.cpp.s
+.PHONY : 5-const-overloading-operators-problem2.cpp.s
+
+6-const-overloading-operators-problem3.o: 6-const-overloading-operators-problem3.cpp.o
+
+.PHONY : 6-const-overloading-operators-problem3.o
+
+# target to build an object file
+6-const-overloading-operators-problem3.cpp.o:
+	$(MAKE) -f CMakeFiles/6-const-overloading-operators-problem3.dir/build.make CMakeFiles/6-const-overloading-operators-problem3.dir/6-const-overloading-operators-problem3.cpp.o
+.PHONY : 6-const-overloading-operators-problem3.cpp.o
+
+6-const-overloading-operators-problem3.i: 6-const-overloading-operators-problem3.cpp.i
+
+.PHONY : 6-const-overloading-operators-problem3.i
+
+# target to preprocess a source file
+6-const-overloading-operators-problem3.cpp.i:
+	$(MAKE) -f CMakeFiles/6-const-overloading-operators-problem3.dir/build.make CMakeFiles/6-const-overloading-operators-problem3.dir/6-const-overloading-operators-problem3.cpp.i
+.PHONY : 6-const-overloading-operators-problem3.cpp.i
+
+6-const-overloading-operators-problem3.s: 6-const-overloading-operators-problem3.cpp.s
+
+.PHONY : 6-const-overloading-operators-problem3.s
+
+# target to generate assembly for a file
+6-const-overloading-operators-problem3.cpp.s:
+	$(MAKE) -f CMakeFiles/6-const-overloading-operators-problem3.dir/build.make CMakeFiles/6-const-overloading-operators-problem3.dir/6-const-overloading-operators-problem3.cpp.s
+.PHONY : 6-const-overloading-operators-problem3.cpp.s
+
+7-const-overloading-operators-problem4.o: 7-const-overloading-operators-problem4.cpp.o
+
+.PHONY : 7-const-overloading-operators-problem4.o
+
+# target to build an object file
+7-const-overloading-operators-problem4.cpp.o:
+	$(MAKE) -f CMakeFiles/7-const-overloading-operators-problem4.dir/build.make CMakeFiles/7-const-overloading-operators-problem4.dir/7-const-overloading-operators-problem4.cpp.o
+.PHONY : 7-const-overloading-operators-problem4.cpp.o
+
+7-const-overloading-operators-problem4.i: 7-const-overloading-operators-problem4.cpp.i
+
+.PHONY : 7-const-overloading-operators-problem4.i
+
+# target to preprocess a source file
+7-const-overloading-operators-problem4.cpp.i:
+	$(MAKE) -f CMakeFiles/7-const-overloading-operators-problem4.dir/build.make CMakeFiles/7-const-overloading-operators-problem4.dir/7-const-overloading-operators-problem4.cpp.i
+.PHONY : 7-const-overloading-operators-problem4.cpp.i
+
+7-const-overloading-operators-problem4.s: 7-const-overloading-operators-problem4.cpp.s
+
+.PHONY : 7-const-overloading-operators-problem4.s
+
+# target to generate assembly for a file
+7-const-overloading-operators-problem4.cpp.s:
+	$(MAKE) -f CMakeFiles/7-const-overloading-operators-problem4.dir/build.make CMakeFiles/7-const-overloading-operators-problem4.dir/7-const-overloading-operators-problem4.cpp.s
+.PHONY : 7-const-overloading-operators-problem4.cpp.s
+
+8-const-overloading-operators-solution1.o: 8-const-overloading-operators-solution1.cpp.o
+
+.PHONY : 8-const-overloading-operators-solution1.o
+
+# target to build an object file
+8-const-overloading-operators-solution1.cpp.o:
+	$(MAKE) -f CMakeFiles/8-const-overloading-operators-solution1.dir/build.make CMakeFiles/8-const-overloading-operators-solution1.dir/8-const-overloading-operators-solution1.cpp.o
+.PHONY : 8-const-overloading-operators-solution1.cpp.o
+
+8-const-overloading-operators-solution1.i: 8-const-overloading-operators-solution1.cpp.i
+
+.PHONY : 8-const-overloading-operators-solution1.i
+
+# target to preprocess a source file
+8-const-overloading-operators-solution1.cpp.i:
+	$(MAKE) -f CMakeFiles/8-const-overloading-operators-solution1.dir/build.make CMakeFiles/8-const-overloading-operators-solution1.dir/8-const-overloading-operators-solution1.cpp.i
+.PHONY : 8-const-overloading-operators-solution1.cpp.i
+
+8-const-overloading-operators-solution1.s: 8-const-overloading-operators-solution1.cpp.s
+
+.PHONY : 8-const-overloading-operators-solution1.s
+
+# target to generate assembly for a file
+8-const-overloading-operators-solution1.cpp.s:
+	$(MAKE) -f CMakeFiles/8-const-overloading-operators-solution1.dir/build.make CMakeFiles/8-const-overloading-operators-solution1.dir/8-const-overloading-operators-solution1.cpp.s
+.PHONY : 8-const-overloading-operators-solution1.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... 3-solution-to-return-handles-to-object-internals"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
-	@echo "... 2-problem-when-returning-handles-to-object-internals"
+	@echo "... 8-const-overloading-operators-solution1"
+	@echo "... 6-const-overloading-operators-problem3"
 	@echo "... 1-const-member-functions"
+	@echo "... 4-const-overloading-operators-problem1"
+	@echo "... 7-const-overloading-operators-problem4"
+	@echo "... 5-const-overloading-operators-problem2"
+	@echo "... edit_cache"
+	@echo "... 3-solution-to-return-handles-to-object-internals"
+	@echo "... 2-problem-when-returning-handles-to-object-internals"
 	@echo "... 1-const-member-functions.o"
 	@echo "... 1-const-member-functions.i"
 	@echo "... 1-const-member-functions.s"
@@ -250,6 +455,21 @@ help:
 	@echo "... 3-solution-to-return-handles-to-object-internals.o"
 	@echo "... 3-solution-to-return-handles-to-object-internals.i"
 	@echo "... 3-solution-to-return-handles-to-object-internals.s"
+	@echo "... 4-const-overloading-operators-problem1.o"
+	@echo "... 4-const-overloading-operators-problem1.i"
+	@echo "... 4-const-overloading-operators-problem1.s"
+	@echo "... 5-const-overloading-operators-problem2.o"
+	@echo "... 5-const-overloading-operators-problem2.i"
+	@echo "... 5-const-overloading-operators-problem2.s"
+	@echo "... 6-const-overloading-operators-problem3.o"
+	@echo "... 6-const-overloading-operators-problem3.i"
+	@echo "... 6-const-overloading-operators-problem3.s"
+	@echo "... 7-const-overloading-operators-problem4.o"
+	@echo "... 7-const-overloading-operators-problem4.i"
+	@echo "... 7-const-overloading-operators-problem4.s"
+	@echo "... 8-const-overloading-operators-solution1.o"
+	@echo "... 8-const-overloading-operators-solution1.i"
+	@echo "... 8-const-overloading-operators-solution1.s"
 .PHONY : help
 
 

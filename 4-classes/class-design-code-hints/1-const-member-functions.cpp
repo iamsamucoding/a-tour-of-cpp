@@ -19,7 +19,7 @@ public:
     void y(int yin) { y_ = yin; }
     
     // 'elegant' getters
-    // ### const Member Functions (text excerpted from: Scott Meyers, "Effective C++ (2005)", Itens 3, )
+    // ### const Member Functions (text excerpted from: Scott Meyers, "Effective C++ (2005)", Itens 3)
     // The purpose of 'const' on member functions is to identify which member functions may be invoked on `const objects`
     // These functions cannot modify an object (its member data).
     // They are important for two reasons:
@@ -32,7 +32,7 @@ public:
     int x() const { return x_; }
     int y() const { return y_; }
     
-    void print() {
+    void print() const {
         cout << "x, y = " << x_ << ", " << y_ << endl;
     }
 };

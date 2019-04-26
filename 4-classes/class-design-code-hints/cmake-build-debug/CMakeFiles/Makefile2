@@ -65,6 +65,228 @@ CMAKE_SOURCE_DIR = /Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-desig
 CMAKE_BINARY_DIR = /Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/8-const-overloading-operators-solution1.dir
+
+# All Build rule for target.
+CMakeFiles/8-const-overloading-operators-solution1.dir/all:
+	$(MAKE) -f CMakeFiles/8-const-overloading-operators-solution1.dir/build.make CMakeFiles/8-const-overloading-operators-solution1.dir/depend
+	$(MAKE) -f CMakeFiles/8-const-overloading-operators-solution1.dir/build.make CMakeFiles/8-const-overloading-operators-solution1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target 8-const-overloading-operators-solution1"
+.PHONY : CMakeFiles/8-const-overloading-operators-solution1.dir/all
+
+# Include target in all.
+all: CMakeFiles/8-const-overloading-operators-solution1.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/8-const-overloading-operators-solution1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/8-const-overloading-operators-solution1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/8-const-overloading-operators-solution1.dir/rule
+
+# Convenience name for target.
+8-const-overloading-operators-solution1: CMakeFiles/8-const-overloading-operators-solution1.dir/rule
+
+.PHONY : 8-const-overloading-operators-solution1
+
+# clean rule for target.
+CMakeFiles/8-const-overloading-operators-solution1.dir/clean:
+	$(MAKE) -f CMakeFiles/8-const-overloading-operators-solution1.dir/build.make CMakeFiles/8-const-overloading-operators-solution1.dir/clean
+.PHONY : CMakeFiles/8-const-overloading-operators-solution1.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/8-const-overloading-operators-solution1.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/6-const-overloading-operators-problem3.dir
+
+# All Build rule for target.
+CMakeFiles/6-const-overloading-operators-problem3.dir/all:
+	$(MAKE) -f CMakeFiles/6-const-overloading-operators-problem3.dir/build.make CMakeFiles/6-const-overloading-operators-problem3.dir/depend
+	$(MAKE) -f CMakeFiles/6-const-overloading-operators-problem3.dir/build.make CMakeFiles/6-const-overloading-operators-problem3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target 6-const-overloading-operators-problem3"
+.PHONY : CMakeFiles/6-const-overloading-operators-problem3.dir/all
+
+# Include target in all.
+all: CMakeFiles/6-const-overloading-operators-problem3.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/6-const-overloading-operators-problem3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/6-const-overloading-operators-problem3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/6-const-overloading-operators-problem3.dir/rule
+
+# Convenience name for target.
+6-const-overloading-operators-problem3: CMakeFiles/6-const-overloading-operators-problem3.dir/rule
+
+.PHONY : 6-const-overloading-operators-problem3
+
+# clean rule for target.
+CMakeFiles/6-const-overloading-operators-problem3.dir/clean:
+	$(MAKE) -f CMakeFiles/6-const-overloading-operators-problem3.dir/build.make CMakeFiles/6-const-overloading-operators-problem3.dir/clean
+.PHONY : CMakeFiles/6-const-overloading-operators-problem3.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/6-const-overloading-operators-problem3.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/1-const-member-functions.dir
+
+# All Build rule for target.
+CMakeFiles/1-const-member-functions.dir/all:
+	$(MAKE) -f CMakeFiles/1-const-member-functions.dir/build.make CMakeFiles/1-const-member-functions.dir/depend
+	$(MAKE) -f CMakeFiles/1-const-member-functions.dir/build.make CMakeFiles/1-const-member-functions.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 1-const-member-functions"
+.PHONY : CMakeFiles/1-const-member-functions.dir/all
+
+# Include target in all.
+all: CMakeFiles/1-const-member-functions.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/1-const-member-functions.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1-const-member-functions.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/1-const-member-functions.dir/rule
+
+# Convenience name for target.
+1-const-member-functions: CMakeFiles/1-const-member-functions.dir/rule
+
+.PHONY : 1-const-member-functions
+
+# clean rule for target.
+CMakeFiles/1-const-member-functions.dir/clean:
+	$(MAKE) -f CMakeFiles/1-const-member-functions.dir/build.make CMakeFiles/1-const-member-functions.dir/clean
+.PHONY : CMakeFiles/1-const-member-functions.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/1-const-member-functions.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/4-const-overloading-operators-problem1.dir
+
+# All Build rule for target.
+CMakeFiles/4-const-overloading-operators-problem1.dir/all:
+	$(MAKE) -f CMakeFiles/4-const-overloading-operators-problem1.dir/build.make CMakeFiles/4-const-overloading-operators-problem1.dir/depend
+	$(MAKE) -f CMakeFiles/4-const-overloading-operators-problem1.dir/build.make CMakeFiles/4-const-overloading-operators-problem1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target 4-const-overloading-operators-problem1"
+.PHONY : CMakeFiles/4-const-overloading-operators-problem1.dir/all
+
+# Include target in all.
+all: CMakeFiles/4-const-overloading-operators-problem1.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/4-const-overloading-operators-problem1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/4-const-overloading-operators-problem1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/4-const-overloading-operators-problem1.dir/rule
+
+# Convenience name for target.
+4-const-overloading-operators-problem1: CMakeFiles/4-const-overloading-operators-problem1.dir/rule
+
+.PHONY : 4-const-overloading-operators-problem1
+
+# clean rule for target.
+CMakeFiles/4-const-overloading-operators-problem1.dir/clean:
+	$(MAKE) -f CMakeFiles/4-const-overloading-operators-problem1.dir/build.make CMakeFiles/4-const-overloading-operators-problem1.dir/clean
+.PHONY : CMakeFiles/4-const-overloading-operators-problem1.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/4-const-overloading-operators-problem1.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/7-const-overloading-operators-problem4.dir
+
+# All Build rule for target.
+CMakeFiles/7-const-overloading-operators-problem4.dir/all:
+	$(MAKE) -f CMakeFiles/7-const-overloading-operators-problem4.dir/build.make CMakeFiles/7-const-overloading-operators-problem4.dir/depend
+	$(MAKE) -f CMakeFiles/7-const-overloading-operators-problem4.dir/build.make CMakeFiles/7-const-overloading-operators-problem4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target 7-const-overloading-operators-problem4"
+.PHONY : CMakeFiles/7-const-overloading-operators-problem4.dir/all
+
+# Include target in all.
+all: CMakeFiles/7-const-overloading-operators-problem4.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/7-const-overloading-operators-problem4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/7-const-overloading-operators-problem4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/7-const-overloading-operators-problem4.dir/rule
+
+# Convenience name for target.
+7-const-overloading-operators-problem4: CMakeFiles/7-const-overloading-operators-problem4.dir/rule
+
+.PHONY : 7-const-overloading-operators-problem4
+
+# clean rule for target.
+CMakeFiles/7-const-overloading-operators-problem4.dir/clean:
+	$(MAKE) -f CMakeFiles/7-const-overloading-operators-problem4.dir/build.make CMakeFiles/7-const-overloading-operators-problem4.dir/clean
+.PHONY : CMakeFiles/7-const-overloading-operators-problem4.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/7-const-overloading-operators-problem4.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/5-const-overloading-operators-problem2.dir
+
+# All Build rule for target.
+CMakeFiles/5-const-overloading-operators-problem2.dir/all:
+	$(MAKE) -f CMakeFiles/5-const-overloading-operators-problem2.dir/build.make CMakeFiles/5-const-overloading-operators-problem2.dir/depend
+	$(MAKE) -f CMakeFiles/5-const-overloading-operators-problem2.dir/build.make CMakeFiles/5-const-overloading-operators-problem2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target 5-const-overloading-operators-problem2"
+.PHONY : CMakeFiles/5-const-overloading-operators-problem2.dir/all
+
+# Include target in all.
+all: CMakeFiles/5-const-overloading-operators-problem2.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/5-const-overloading-operators-problem2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/5-const-overloading-operators-problem2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/5-const-overloading-operators-problem2.dir/rule
+
+# Convenience name for target.
+5-const-overloading-operators-problem2: CMakeFiles/5-const-overloading-operators-problem2.dir/rule
+
+.PHONY : 5-const-overloading-operators-problem2
+
+# clean rule for target.
+CMakeFiles/5-const-overloading-operators-problem2.dir/clean:
+	$(MAKE) -f CMakeFiles/5-const-overloading-operators-problem2.dir/build.make CMakeFiles/5-const-overloading-operators-problem2.dir/clean
+.PHONY : CMakeFiles/5-const-overloading-operators-problem2.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/5-const-overloading-operators-problem2.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/3-solution-to-return-handles-to-object-internals.dir
 
 # All Build rule for target.
@@ -135,43 +357,6 @@ CMakeFiles/2-problem-when-returning-handles-to-object-internals.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/2-problem-when-returning-handles-to-object-internals.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/1-const-member-functions.dir
-
-# All Build rule for target.
-CMakeFiles/1-const-member-functions.dir/all:
-	$(MAKE) -f CMakeFiles/1-const-member-functions.dir/build.make CMakeFiles/1-const-member-functions.dir/depend
-	$(MAKE) -f CMakeFiles/1-const-member-functions.dir/build.make CMakeFiles/1-const-member-functions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 1-const-member-functions"
-.PHONY : CMakeFiles/1-const-member-functions.dir/all
-
-# Include target in all.
-all: CMakeFiles/1-const-member-functions.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/1-const-member-functions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1-const-member-functions.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/4-classes/class-design-code-hints/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/1-const-member-functions.dir/rule
-
-# Convenience name for target.
-1-const-member-functions: CMakeFiles/1-const-member-functions.dir/rule
-
-.PHONY : 1-const-member-functions
-
-# clean rule for target.
-CMakeFiles/1-const-member-functions.dir/clean:
-	$(MAKE) -f CMakeFiles/1-const-member-functions.dir/build.make CMakeFiles/1-const-member-functions.dir/clean
-.PHONY : CMakeFiles/1-const-member-functions.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/1-const-member-functions.dir/clean
 
 .PHONY : clean
 
