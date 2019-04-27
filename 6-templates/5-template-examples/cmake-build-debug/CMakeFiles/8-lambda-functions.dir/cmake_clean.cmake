@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/8-lambda-functions.dir/8-lambda-functions.cpp.o"
+  "CMakeFiles/8-lambda-functions.dir/08-lambda-functions.cpp.o"
   "8-lambda-functions.pdb"
   "8-lambda-functions"
 )

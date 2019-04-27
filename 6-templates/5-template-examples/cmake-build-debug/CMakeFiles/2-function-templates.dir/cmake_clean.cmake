@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/2-function-templates.dir/2-function-templates.cpp.o"
+  "CMakeFiles/2-function-templates.dir/02-function-templates.cpp.o"
   "2-function-templates.pdb"
   "2-function-templates"
 )

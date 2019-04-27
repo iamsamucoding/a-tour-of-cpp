@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/1-value-template-arguments.dir/1-value-template-arguments.cpp.o"
+  "CMakeFiles/1-value-template-arguments.dir/01-value-template-arguments.cpp.o"
   "1-value-template-arguments.pdb"
   "1-value-template-arguments"
 )

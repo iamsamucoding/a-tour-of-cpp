@@ -2,18 +2,18 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="5_template_examples" targetName="1-value-template-arguments" />
+      <config projectName="5_template_examples" targetName="06-lambda-functions" />
       <config projectName="5_template_examples" targetName="12-lambda-functions" />
-      <config projectName="5_template_examples" targetName="11-lambda-functions" />
       <config projectName="5_template_examples" targetName="10-lambda-functions" />
-      <config projectName="5_template_examples" targetName="3-generic-accumulate-example" />
-      <config projectName="5_template_examples" targetName="4-functors" />
-      <config projectName="5_template_examples" targetName="2-function-templates" />
-      <config projectName="5_template_examples" targetName="6-lambda-functions" />
-      <config projectName="5_template_examples" targetName="9-lambda-functions" />
-      <config projectName="5_template_examples" targetName="5-functors-with-STL" />
-      <config projectName="5_template_examples" targetName="8-lambda-functions" />
-      <config projectName="5_template_examples" targetName="7-lambda-functions" />
+      <config projectName="5_template_examples" targetName="02-function-templates" />
+      <config projectName="5_template_examples" targetName="04-functors" />
+      <config projectName="5_template_examples" targetName="08-lambda-functions" />
+      <config projectName="5_template_examples" targetName="01-value-template-arguments" />
+      <config projectName="5_template_examples" targetName="03-generic-accumulate-example" />
+      <config projectName="5_template_examples" targetName="11-lambda-functions" />
+      <config projectName="5_template_examples" targetName="05-functors-with-STL" />
+      <config projectName="5_template_examples" targetName="09-lambda-functions" />
+      <config projectName="5_template_examples" targetName="07-lambda-functions" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -23,18 +23,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49c62efe-a4a3-45a4-861e-c91a34106808" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/9-lambda-functions.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-value-template-arguments.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/01-value-template-arguments.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-function-templates.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/02-function-templates.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-generic-accumulate-example.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/03-generic-accumulate-example.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4-functors.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/04-functors.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5-functors-with-STL.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/05-functors-with-STL.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-lambda-functions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/06-lambda-functions.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7-lambda-functions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/07-lambda-functions.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-lambda-functions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/08-lambda-functions.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-lambda-functions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/09-lambda-functions.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/5_template_examples.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/5_template_examples.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-function-templates.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-function-templates.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3-generic-accumulate-example.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3-generic-accumulate-example.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/1-value-template-arguments.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/1-value-template-arguments.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/1-value-template-arguments.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/1-value-template-arguments.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/1-value-template-arguments.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/1-value-template-arguments.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/1-value-template-arguments.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/1-value-template-arguments.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-function-templates.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-function-templates.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-function-templates.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-function-templates.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-function-templates.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-function-templates.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-function-templates.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-function-templates.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3-generic-accumulate-example.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3-generic-accumulate-example.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3-generic-accumulate-example.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3-generic-accumulate-example.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3-generic-accumulate-example.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3-generic-accumulate-example.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3-generic-accumulate-example.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3-generic-accumulate-example.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4-functors.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4-functors.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4-functors.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4-functors.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4-functors.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4-functors.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4-functors.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4-functors.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5-functors-with-STL.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5-functors-with-STL.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5-functors-with-STL.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5-functors-with-STL.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5-functors-with-STL.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5-functors-with-STL.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5-functors-with-STL.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5-functors-with-STL.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/6-lambda-functions.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/6-lambda-functions.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/6-lambda-functions.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/6-lambda-functions.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/6-lambda-functions.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/6-lambda-functions.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/6-lambda-functions.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/6-lambda-functions.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/7-lambda-functions.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/7-lambda-functions.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/7-lambda-functions.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/7-lambda-functions.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/7-lambda-functions.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/7-lambda-functions.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/7-lambda-functions.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/7-lambda-functions.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/8-lambda-functions.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/8-lambda-functions.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/8-lambda-functions.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/8-lambda-functions.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/8-lambda-functions.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/8-lambda-functions.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/8-lambda-functions.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/8-lambda-functions.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../a-more-robust-vector/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../a-more-robust-vector/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,16 +82,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/12-lambda-functions.cpp">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+            <state relative-caret-position="95">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/6-lambda-functions.cpp">
+        <entry file="file://$PROJECT_DIR$/12-lambda-functions.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06-lambda-functions.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="214">
               <caret line="32" selection-start-line="32" selection-end-line="33" />
@@ -91,8 +132,8 @@
         <option value="$PROJECT_DIR$/9-lambda-functions4.cpp" />
         <option value="$PROJECT_DIR$/10-lambda-functions5.cpp" />
         <option value="$PROJECT_DIR$/11-lambda-functions.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/12-lambda-functions.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -156,7 +197,47 @@
     </option>
   </component>
   <component name="RunManager" selected="CMake Application.12-lambda-functions">
-    <configuration name="1-value-template-arguments" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="5_template_examples" TARGET_NAME="1-value-template-arguments" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="5_template_examples" RUN_TARGET_NAME="1-value-template-arguments">
+    <configuration name="01-value-template-arguments" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="5_template_examples" TARGET_NAME="01-value-template-arguments" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="5_template_examples" RUN_TARGET_NAME="01-value-template-arguments">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="02-function-templates" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="5_template_examples" TARGET_NAME="02-function-templates" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="5_template_examples" RUN_TARGET_NAME="02-function-templates">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="03-generic-accumulate-example" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="5_template_examples" TARGET_NAME="03-generic-accumulate-example" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="5_template_examples" RUN_TARGET_NAME="03-generic-accumulate-example">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="04-functors" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="5_template_examples" TARGET_NAME="04-functors" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="5_template_examples" RUN_TARGET_NAME="04-functors">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="05-functors-with-STL" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="5_template_examples" TARGET_NAME="05-functors-with-STL" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="5_template_examples" RUN_TARGET_NAME="05-functors-with-STL">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="06-lambda-functions" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="5_template_examples" TARGET_NAME="06-lambda-functions" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="5_template_examples" RUN_TARGET_NAME="06-lambda-functions">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="07-lambda-functions" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="5_template_examples" TARGET_NAME="07-lambda-functions" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="5_template_examples" RUN_TARGET_NAME="07-lambda-functions">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="08-lambda-functions" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="5_template_examples" TARGET_NAME="08-lambda-functions" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="5_template_examples" RUN_TARGET_NAME="08-lambda-functions">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="09-lambda-functions" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="5_template_examples" TARGET_NAME="09-lambda-functions" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="5_template_examples" RUN_TARGET_NAME="09-lambda-functions">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -176,59 +257,19 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="2-function-templates" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="5_template_examples" TARGET_NAME="2-function-templates" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="5_template_examples" RUN_TARGET_NAME="2-function-templates">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="3-generic-accumulate-example" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="5_template_examples" TARGET_NAME="3-generic-accumulate-example" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="5_template_examples" RUN_TARGET_NAME="3-generic-accumulate-example">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="4-functors" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="5_template_examples" TARGET_NAME="4-functors" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="5_template_examples" RUN_TARGET_NAME="4-functors">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="5-functors-with-STL" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="5_template_examples" TARGET_NAME="5-functors-with-STL" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="5_template_examples" RUN_TARGET_NAME="5-functors-with-STL">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="6-lambda-functions" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="5_template_examples" TARGET_NAME="6-lambda-functions" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="5_template_examples" RUN_TARGET_NAME="6-lambda-functions">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="7-lambda-functions" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="5_template_examples" TARGET_NAME="7-lambda-functions" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="5_template_examples" RUN_TARGET_NAME="7-lambda-functions">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="8-lambda-functions" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="5_template_examples" TARGET_NAME="8-lambda-functions" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="5_template_examples" RUN_TARGET_NAME="8-lambda-functions">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="9-lambda-functions" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="5_template_examples" TARGET_NAME="9-lambda-functions" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="5_template_examples" RUN_TARGET_NAME="9-lambda-functions">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="CMake Application.1-value-template-arguments" />
+      <item itemvalue="CMake Application.01-value-template-arguments" />
+      <item itemvalue="CMake Application.02-function-templates" />
+      <item itemvalue="CMake Application.03-generic-accumulate-example" />
+      <item itemvalue="CMake Application.04-functors" />
+      <item itemvalue="CMake Application.05-functors-with-STL" />
+      <item itemvalue="CMake Application.06-lambda-functions" />
+      <item itemvalue="CMake Application.07-lambda-functions" />
+      <item itemvalue="CMake Application.08-lambda-functions" />
+      <item itemvalue="CMake Application.09-lambda-functions" />
       <item itemvalue="CMake Application.10-lambda-functions" />
       <item itemvalue="CMake Application.11-lambda-functions" />
       <item itemvalue="CMake Application.12-lambda-functions" />
-      <item itemvalue="CMake Application.2-function-templates" />
-      <item itemvalue="CMake Application.3-generic-accumulate-example" />
-      <item itemvalue="CMake Application.4-functors" />
-      <item itemvalue="CMake Application.5-functors-with-STL" />
-      <item itemvalue="CMake Application.6-lambda-functions" />
-      <item itemvalue="CMake Application.7-lambda-functions" />
-      <item itemvalue="CMake Application.8-lambda-functions" />
-      <item itemvalue="CMake Application.9-lambda-functions" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -245,18 +286,18 @@
       <workItem from="1556264349847" duration="716000" />
       <workItem from="1556355733022" duration="1010000" />
       <workItem from="1556357261889" duration="268000" />
-      <workItem from="1556358311418" duration="9909000" />
+      <workItem from="1556358311418" duration="10042000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14153000" />
+    <option name="totallyTimeSpent" value="14286000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -267,7 +308,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Messages" order="8" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -282,7 +323,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1-value-template-arguments.cpp">
+    <entry file="file://$PROJECT_DIR$/01-value-template-arguments.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
@@ -293,14 +334,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vector.h" />
-    <entry file="file://$PROJECT_DIR$/3-generic-accumulate-example.cpp">
+    <entry file="file://$PROJECT_DIR$/03-generic-accumulate-example.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2-function-templates.cpp">
+    <entry file="file://$PROJECT_DIR$/02-function-templates.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
           <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
@@ -310,14 +351,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4-functors.cpp">
+    <entry file="file://$PROJECT_DIR$/04-functors.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="91" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/5-functors-with-STL.cpp">
+    <entry file="file://$PROJECT_DIR$/05-functors-with-STL.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="461">
           <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="46" selection-end-column="50" />
@@ -327,21 +368,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/9-lambda-functions.cpp">
+    <entry file="file://$PROJECT_DIR$/09-lambda-functions.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/7-lambda-functions.cpp">
+    <entry file="file://$PROJECT_DIR$/07-lambda-functions.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/8-lambda-functions.cpp">
+    <entry file="file://$PROJECT_DIR$/08-lambda-functions.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
@@ -355,13 +396,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/11-lambda-functions.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
@@ -369,7 +403,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6-lambda-functions.cpp">
+    <entry file="file://$PROJECT_DIR$/06-lambda-functions.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
           <caret line="32" selection-start-line="32" selection-end-line="33" />
@@ -381,8 +415,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/12-lambda-functions.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        <state relative-caret-position="297">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
         </state>
       </provider>
     </entry>

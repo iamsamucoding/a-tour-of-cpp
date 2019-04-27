@@ -57,27 +57,27 @@ include CMakeFiles/4-functors.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/4-functors.dir/flags.make
 
-CMakeFiles/4-functors.dir/4-functors.cpp.o: CMakeFiles/4-functors.dir/flags.make
-CMakeFiles/4-functors.dir/4-functors.cpp.o: ../4-functors.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/4-functors.dir/4-functors.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/4-functors.dir/4-functors.cpp.o -c /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/4-functors.cpp
+CMakeFiles/4-functors.dir/04-functors.cpp.o: CMakeFiles/4-functors.dir/flags.make
+CMakeFiles/4-functors.dir/04-functors.cpp.o: ../04-functors.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/4-functors.dir/04-functors.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/4-functors.dir/04-functors.cpp.o -c /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/04-functors.cpp
 
-CMakeFiles/4-functors.dir/4-functors.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4-functors.dir/4-functors.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/4-functors.cpp > CMakeFiles/4-functors.dir/4-functors.cpp.i
+CMakeFiles/4-functors.dir/04-functors.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4-functors.dir/04-functors.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/04-functors.cpp > CMakeFiles/4-functors.dir/04-functors.cpp.i
 
-CMakeFiles/4-functors.dir/4-functors.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4-functors.dir/4-functors.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/4-functors.cpp -o CMakeFiles/4-functors.dir/4-functors.cpp.s
+CMakeFiles/4-functors.dir/04-functors.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4-functors.dir/04-functors.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/04-functors.cpp -o CMakeFiles/4-functors.dir/04-functors.cpp.s
 
 # Object files for target 4-functors
 4__functors_OBJECTS = \
-"CMakeFiles/4-functors.dir/4-functors.cpp.o"
+"CMakeFiles/4-functors.dir/04-functors.cpp.o"
 
 # External object files for target 4-functors
 4__functors_EXTERNAL_OBJECTS =
 
-4-functors: CMakeFiles/4-functors.dir/4-functors.cpp.o
+4-functors: CMakeFiles/4-functors.dir/04-functors.cpp.o
 4-functors: CMakeFiles/4-functors.dir/build.make
 4-functors: CMakeFiles/4-functors.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 4-functors"

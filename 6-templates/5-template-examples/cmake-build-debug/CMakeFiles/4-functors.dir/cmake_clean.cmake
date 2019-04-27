@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/4-functors.dir/4-functors.cpp.o"
+  "CMakeFiles/4-functors.dir/04-functors.cpp.o"
   "4-functors.pdb"
   "4-functors"
 )

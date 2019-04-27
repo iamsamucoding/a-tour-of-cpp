@@ -57,27 +57,27 @@ include CMakeFiles/3-generic-accumulate-example.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/3-generic-accumulate-example.dir/flags.make
 
-CMakeFiles/3-generic-accumulate-example.dir/3-generic-accumulate-example.cpp.o: CMakeFiles/3-generic-accumulate-example.dir/flags.make
-CMakeFiles/3-generic-accumulate-example.dir/3-generic-accumulate-example.cpp.o: ../3-generic-accumulate-example.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/3-generic-accumulate-example.dir/3-generic-accumulate-example.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3-generic-accumulate-example.dir/3-generic-accumulate-example.cpp.o -c /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/3-generic-accumulate-example.cpp
+CMakeFiles/3-generic-accumulate-example.dir/03-generic-accumulate-example.cpp.o: CMakeFiles/3-generic-accumulate-example.dir/flags.make
+CMakeFiles/3-generic-accumulate-example.dir/03-generic-accumulate-example.cpp.o: ../03-generic-accumulate-example.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/3-generic-accumulate-example.dir/03-generic-accumulate-example.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3-generic-accumulate-example.dir/03-generic-accumulate-example.cpp.o -c /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/03-generic-accumulate-example.cpp
 
-CMakeFiles/3-generic-accumulate-example.dir/3-generic-accumulate-example.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3-generic-accumulate-example.dir/3-generic-accumulate-example.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/3-generic-accumulate-example.cpp > CMakeFiles/3-generic-accumulate-example.dir/3-generic-accumulate-example.cpp.i
+CMakeFiles/3-generic-accumulate-example.dir/03-generic-accumulate-example.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3-generic-accumulate-example.dir/03-generic-accumulate-example.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/03-generic-accumulate-example.cpp > CMakeFiles/3-generic-accumulate-example.dir/03-generic-accumulate-example.cpp.i
 
-CMakeFiles/3-generic-accumulate-example.dir/3-generic-accumulate-example.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3-generic-accumulate-example.dir/3-generic-accumulate-example.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/3-generic-accumulate-example.cpp -o CMakeFiles/3-generic-accumulate-example.dir/3-generic-accumulate-example.cpp.s
+CMakeFiles/3-generic-accumulate-example.dir/03-generic-accumulate-example.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3-generic-accumulate-example.dir/03-generic-accumulate-example.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/03-generic-accumulate-example.cpp -o CMakeFiles/3-generic-accumulate-example.dir/03-generic-accumulate-example.cpp.s
 
 # Object files for target 3-generic-accumulate-example
 3__generic__accumulate__example_OBJECTS = \
-"CMakeFiles/3-generic-accumulate-example.dir/3-generic-accumulate-example.cpp.o"
+"CMakeFiles/3-generic-accumulate-example.dir/03-generic-accumulate-example.cpp.o"
 
 # External object files for target 3-generic-accumulate-example
 3__generic__accumulate__example_EXTERNAL_OBJECTS =
 
-3-generic-accumulate-example: CMakeFiles/3-generic-accumulate-example.dir/3-generic-accumulate-example.cpp.o
+3-generic-accumulate-example: CMakeFiles/3-generic-accumulate-example.dir/03-generic-accumulate-example.cpp.o
 3-generic-accumulate-example: CMakeFiles/3-generic-accumulate-example.dir/build.make
 3-generic-accumulate-example: CMakeFiles/3-generic-accumulate-example.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 3-generic-accumulate-example"

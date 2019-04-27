@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/3-generic-accumulate-example.cpp" "/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles/3-generic-accumulate-example.dir/3-generic-accumulate-example.cpp.o"
+  "/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/03-generic-accumulate-example.cpp" "/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles/3-generic-accumulate-example.dir/03-generic-accumulate-example.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

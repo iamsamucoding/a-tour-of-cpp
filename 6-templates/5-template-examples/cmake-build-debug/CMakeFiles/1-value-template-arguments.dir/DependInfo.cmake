@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/1-value-template-arguments.cpp" "/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles/1-value-template-arguments.dir/1-value-template-arguments.cpp.o"
+  "/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/01-value-template-arguments.cpp" "/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles/1-value-template-arguments.dir/01-value-template-arguments.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

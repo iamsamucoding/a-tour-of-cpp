@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/3-generic-accumulate-example.dir/3-generic-accumulate-example.cpp.o"
+  "CMakeFiles/3-generic-accumulate-example.dir/03-generic-accumulate-example.cpp.o"
   "3-generic-accumulate-example.pdb"
   "3-generic-accumulate-example"
 )

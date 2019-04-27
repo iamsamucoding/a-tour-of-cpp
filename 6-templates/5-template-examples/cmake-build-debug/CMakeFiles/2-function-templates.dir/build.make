@@ -57,27 +57,27 @@ include CMakeFiles/2-function-templates.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/2-function-templates.dir/flags.make
 
-CMakeFiles/2-function-templates.dir/2-function-templates.cpp.o: CMakeFiles/2-function-templates.dir/flags.make
-CMakeFiles/2-function-templates.dir/2-function-templates.cpp.o: ../2-function-templates.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/2-function-templates.dir/2-function-templates.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2-function-templates.dir/2-function-templates.cpp.o -c /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/2-function-templates.cpp
+CMakeFiles/2-function-templates.dir/02-function-templates.cpp.o: CMakeFiles/2-function-templates.dir/flags.make
+CMakeFiles/2-function-templates.dir/02-function-templates.cpp.o: ../02-function-templates.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/2-function-templates.dir/02-function-templates.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2-function-templates.dir/02-function-templates.cpp.o -c /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/02-function-templates.cpp
 
-CMakeFiles/2-function-templates.dir/2-function-templates.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2-function-templates.dir/2-function-templates.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/2-function-templates.cpp > CMakeFiles/2-function-templates.dir/2-function-templates.cpp.i
+CMakeFiles/2-function-templates.dir/02-function-templates.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2-function-templates.dir/02-function-templates.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/02-function-templates.cpp > CMakeFiles/2-function-templates.dir/02-function-templates.cpp.i
 
-CMakeFiles/2-function-templates.dir/2-function-templates.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2-function-templates.dir/2-function-templates.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/2-function-templates.cpp -o CMakeFiles/2-function-templates.dir/2-function-templates.cpp.s
+CMakeFiles/2-function-templates.dir/02-function-templates.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2-function-templates.dir/02-function-templates.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/02-function-templates.cpp -o CMakeFiles/2-function-templates.dir/02-function-templates.cpp.s
 
 # Object files for target 2-function-templates
 2__function__templates_OBJECTS = \
-"CMakeFiles/2-function-templates.dir/2-function-templates.cpp.o"
+"CMakeFiles/2-function-templates.dir/02-function-templates.cpp.o"
 
 # External object files for target 2-function-templates
 2__function__templates_EXTERNAL_OBJECTS =
 
-2-function-templates: CMakeFiles/2-function-templates.dir/2-function-templates.cpp.o
+2-function-templates: CMakeFiles/2-function-templates.dir/02-function-templates.cpp.o
 2-function-templates: CMakeFiles/2-function-templates.dir/build.make
 2-function-templates: CMakeFiles/2-function-templates.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 2-function-templates"

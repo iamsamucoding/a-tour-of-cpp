@@ -57,27 +57,27 @@ include CMakeFiles/5-functors-with-STL.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/5-functors-with-STL.dir/flags.make
 
-CMakeFiles/5-functors-with-STL.dir/5-functors-with-STL.cpp.o: CMakeFiles/5-functors-with-STL.dir/flags.make
-CMakeFiles/5-functors-with-STL.dir/5-functors-with-STL.cpp.o: ../5-functors-with-STL.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/5-functors-with-STL.dir/5-functors-with-STL.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/5-functors-with-STL.dir/5-functors-with-STL.cpp.o -c /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/5-functors-with-STL.cpp
+CMakeFiles/5-functors-with-STL.dir/05-functors-with-STL.cpp.o: CMakeFiles/5-functors-with-STL.dir/flags.make
+CMakeFiles/5-functors-with-STL.dir/05-functors-with-STL.cpp.o: ../05-functors-with-STL.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/5-functors-with-STL.dir/05-functors-with-STL.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/5-functors-with-STL.dir/05-functors-with-STL.cpp.o -c /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/05-functors-with-STL.cpp
 
-CMakeFiles/5-functors-with-STL.dir/5-functors-with-STL.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/5-functors-with-STL.dir/5-functors-with-STL.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/5-functors-with-STL.cpp > CMakeFiles/5-functors-with-STL.dir/5-functors-with-STL.cpp.i
+CMakeFiles/5-functors-with-STL.dir/05-functors-with-STL.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/5-functors-with-STL.dir/05-functors-with-STL.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/05-functors-with-STL.cpp > CMakeFiles/5-functors-with-STL.dir/05-functors-with-STL.cpp.i
 
-CMakeFiles/5-functors-with-STL.dir/5-functors-with-STL.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/5-functors-with-STL.dir/5-functors-with-STL.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/5-functors-with-STL.cpp -o CMakeFiles/5-functors-with-STL.dir/5-functors-with-STL.cpp.s
+CMakeFiles/5-functors-with-STL.dir/05-functors-with-STL.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/5-functors-with-STL.dir/05-functors-with-STL.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/05-functors-with-STL.cpp -o CMakeFiles/5-functors-with-STL.dir/05-functors-with-STL.cpp.s
 
 # Object files for target 5-functors-with-STL
 5__functors__with__STL_OBJECTS = \
-"CMakeFiles/5-functors-with-STL.dir/5-functors-with-STL.cpp.o"
+"CMakeFiles/5-functors-with-STL.dir/05-functors-with-STL.cpp.o"
 
 # External object files for target 5-functors-with-STL
 5__functors__with__STL_EXTERNAL_OBJECTS =
 
-5-functors-with-STL: CMakeFiles/5-functors-with-STL.dir/5-functors-with-STL.cpp.o
+5-functors-with-STL: CMakeFiles/5-functors-with-STL.dir/05-functors-with-STL.cpp.o
 5-functors-with-STL: CMakeFiles/5-functors-with-STL.dir/build.make
 5-functors-with-STL: CMakeFiles/5-functors-with-STL.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 5-functors-with-STL"

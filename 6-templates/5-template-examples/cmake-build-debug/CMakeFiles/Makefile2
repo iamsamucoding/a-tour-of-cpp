@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-templat
 CMakeFiles/12-lambda-functions.dir/all:
 	$(MAKE) -f CMakeFiles/12-lambda-functions.dir/build.make CMakeFiles/12-lambda-functions.dir/depend
 	$(MAKE) -f CMakeFiles/12-lambda-functions.dir/build.make CMakeFiles/12-lambda-functions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target 12-lambda-functions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target 12-lambda-functions"
 .PHONY : CMakeFiles/12-lambda-functions.dir/all
 
 # Include target in all.
@@ -102,50 +102,13 @@ clean: CMakeFiles/12-lambda-functions.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/2-function-templates.dir
-
-# All Build rule for target.
-CMakeFiles/2-function-templates.dir/all:
-	$(MAKE) -f CMakeFiles/2-function-templates.dir/build.make CMakeFiles/2-function-templates.dir/depend
-	$(MAKE) -f CMakeFiles/2-function-templates.dir/build.make CMakeFiles/2-function-templates.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target 2-function-templates"
-.PHONY : CMakeFiles/2-function-templates.dir/all
-
-# Include target in all.
-all: CMakeFiles/2-function-templates.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/2-function-templates.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/2-function-templates.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/2-function-templates.dir/rule
-
-# Convenience name for target.
-2-function-templates: CMakeFiles/2-function-templates.dir/rule
-
-.PHONY : 2-function-templates
-
-# clean rule for target.
-CMakeFiles/2-function-templates.dir/clean:
-	$(MAKE) -f CMakeFiles/2-function-templates.dir/build.make CMakeFiles/2-function-templates.dir/clean
-.PHONY : CMakeFiles/2-function-templates.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/2-function-templates.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/10-lambda-functions.dir
 
 # All Build rule for target.
 CMakeFiles/10-lambda-functions.dir/all:
 	$(MAKE) -f CMakeFiles/10-lambda-functions.dir/build.make CMakeFiles/10-lambda-functions.dir/depend
 	$(MAKE) -f CMakeFiles/10-lambda-functions.dir/build.make CMakeFiles/10-lambda-functions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target 10-lambda-functions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target 10-lambda-functions"
 .PHONY : CMakeFiles/10-lambda-functions.dir/all
 
 # Include target in all.
@@ -176,113 +139,76 @@ clean: CMakeFiles/10-lambda-functions.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/9-lambda-functions.dir
+# Target rules for target CMakeFiles/09-lambda-functions.dir
 
 # All Build rule for target.
-CMakeFiles/9-lambda-functions.dir/all:
-	$(MAKE) -f CMakeFiles/9-lambda-functions.dir/build.make CMakeFiles/9-lambda-functions.dir/depend
-	$(MAKE) -f CMakeFiles/9-lambda-functions.dir/build.make CMakeFiles/9-lambda-functions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target 9-lambda-functions"
-.PHONY : CMakeFiles/9-lambda-functions.dir/all
+CMakeFiles/09-lambda-functions.dir/all:
+	$(MAKE) -f CMakeFiles/09-lambda-functions.dir/build.make CMakeFiles/09-lambda-functions.dir/depend
+	$(MAKE) -f CMakeFiles/09-lambda-functions.dir/build.make CMakeFiles/09-lambda-functions.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target 09-lambda-functions"
+.PHONY : CMakeFiles/09-lambda-functions.dir/all
 
 # Include target in all.
-all: CMakeFiles/9-lambda-functions.dir/all
+all: CMakeFiles/09-lambda-functions.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/9-lambda-functions.dir/rule: cmake_check_build_system
+CMakeFiles/09-lambda-functions.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/9-lambda-functions.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/09-lambda-functions.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/9-lambda-functions.dir/rule
+.PHONY : CMakeFiles/09-lambda-functions.dir/rule
 
 # Convenience name for target.
-9-lambda-functions: CMakeFiles/9-lambda-functions.dir/rule
+09-lambda-functions: CMakeFiles/09-lambda-functions.dir/rule
 
-.PHONY : 9-lambda-functions
-
-# clean rule for target.
-CMakeFiles/9-lambda-functions.dir/clean:
-	$(MAKE) -f CMakeFiles/9-lambda-functions.dir/build.make CMakeFiles/9-lambda-functions.dir/clean
-.PHONY : CMakeFiles/9-lambda-functions.dir/clean
+.PHONY : 09-lambda-functions
 
 # clean rule for target.
-clean: CMakeFiles/9-lambda-functions.dir/clean
+CMakeFiles/09-lambda-functions.dir/clean:
+	$(MAKE) -f CMakeFiles/09-lambda-functions.dir/build.make CMakeFiles/09-lambda-functions.dir/clean
+.PHONY : CMakeFiles/09-lambda-functions.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/09-lambda-functions.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/7-lambda-functions.dir
+# Target rules for target CMakeFiles/07-lambda-functions.dir
 
 # All Build rule for target.
-CMakeFiles/7-lambda-functions.dir/all:
-	$(MAKE) -f CMakeFiles/7-lambda-functions.dir/build.make CMakeFiles/7-lambda-functions.dir/depend
-	$(MAKE) -f CMakeFiles/7-lambda-functions.dir/build.make CMakeFiles/7-lambda-functions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target 7-lambda-functions"
-.PHONY : CMakeFiles/7-lambda-functions.dir/all
+CMakeFiles/07-lambda-functions.dir/all:
+	$(MAKE) -f CMakeFiles/07-lambda-functions.dir/build.make CMakeFiles/07-lambda-functions.dir/depend
+	$(MAKE) -f CMakeFiles/07-lambda-functions.dir/build.make CMakeFiles/07-lambda-functions.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target 07-lambda-functions"
+.PHONY : CMakeFiles/07-lambda-functions.dir/all
 
 # Include target in all.
-all: CMakeFiles/7-lambda-functions.dir/all
+all: CMakeFiles/07-lambda-functions.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/7-lambda-functions.dir/rule: cmake_check_build_system
+CMakeFiles/07-lambda-functions.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/7-lambda-functions.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/07-lambda-functions.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/7-lambda-functions.dir/rule
+.PHONY : CMakeFiles/07-lambda-functions.dir/rule
 
 # Convenience name for target.
-7-lambda-functions: CMakeFiles/7-lambda-functions.dir/rule
+07-lambda-functions: CMakeFiles/07-lambda-functions.dir/rule
 
-.PHONY : 7-lambda-functions
-
-# clean rule for target.
-CMakeFiles/7-lambda-functions.dir/clean:
-	$(MAKE) -f CMakeFiles/7-lambda-functions.dir/build.make CMakeFiles/7-lambda-functions.dir/clean
-.PHONY : CMakeFiles/7-lambda-functions.dir/clean
+.PHONY : 07-lambda-functions
 
 # clean rule for target.
-clean: CMakeFiles/7-lambda-functions.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/6-lambda-functions.dir
-
-# All Build rule for target.
-CMakeFiles/6-lambda-functions.dir/all:
-	$(MAKE) -f CMakeFiles/6-lambda-functions.dir/build.make CMakeFiles/6-lambda-functions.dir/depend
-	$(MAKE) -f CMakeFiles/6-lambda-functions.dir/build.make CMakeFiles/6-lambda-functions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target 6-lambda-functions"
-.PHONY : CMakeFiles/6-lambda-functions.dir/all
-
-# Include target in all.
-all: CMakeFiles/6-lambda-functions.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/6-lambda-functions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/6-lambda-functions.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/6-lambda-functions.dir/rule
-
-# Convenience name for target.
-6-lambda-functions: CMakeFiles/6-lambda-functions.dir/rule
-
-.PHONY : 6-lambda-functions
+CMakeFiles/07-lambda-functions.dir/clean:
+	$(MAKE) -f CMakeFiles/07-lambda-functions.dir/build.make CMakeFiles/07-lambda-functions.dir/clean
+.PHONY : CMakeFiles/07-lambda-functions.dir/clean
 
 # clean rule for target.
-CMakeFiles/6-lambda-functions.dir/clean:
-	$(MAKE) -f CMakeFiles/6-lambda-functions.dir/build.make CMakeFiles/6-lambda-functions.dir/clean
-.PHONY : CMakeFiles/6-lambda-functions.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/6-lambda-functions.dir/clean
+clean: CMakeFiles/07-lambda-functions.dir/clean
 
 .PHONY : clean
 
@@ -293,7 +219,7 @@ clean: CMakeFiles/6-lambda-functions.dir/clean
 CMakeFiles/11-lambda-functions.dir/all:
 	$(MAKE) -f CMakeFiles/11-lambda-functions.dir/build.make CMakeFiles/11-lambda-functions.dir/depend
 	$(MAKE) -f CMakeFiles/11-lambda-functions.dir/build.make CMakeFiles/11-lambda-functions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target 11-lambda-functions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target 11-lambda-functions"
 .PHONY : CMakeFiles/11-lambda-functions.dir/all
 
 # Include target in all.
@@ -324,187 +250,261 @@ clean: CMakeFiles/11-lambda-functions.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/8-lambda-functions.dir
+# Target rules for target CMakeFiles/02-function-templates.dir
 
 # All Build rule for target.
-CMakeFiles/8-lambda-functions.dir/all:
-	$(MAKE) -f CMakeFiles/8-lambda-functions.dir/build.make CMakeFiles/8-lambda-functions.dir/depend
-	$(MAKE) -f CMakeFiles/8-lambda-functions.dir/build.make CMakeFiles/8-lambda-functions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target 8-lambda-functions"
-.PHONY : CMakeFiles/8-lambda-functions.dir/all
+CMakeFiles/02-function-templates.dir/all:
+	$(MAKE) -f CMakeFiles/02-function-templates.dir/build.make CMakeFiles/02-function-templates.dir/depend
+	$(MAKE) -f CMakeFiles/02-function-templates.dir/build.make CMakeFiles/02-function-templates.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target 02-function-templates"
+.PHONY : CMakeFiles/02-function-templates.dir/all
 
 # Include target in all.
-all: CMakeFiles/8-lambda-functions.dir/all
+all: CMakeFiles/02-function-templates.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/8-lambda-functions.dir/rule: cmake_check_build_system
+CMakeFiles/02-function-templates.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/8-lambda-functions.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/02-function-templates.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/8-lambda-functions.dir/rule
+.PHONY : CMakeFiles/02-function-templates.dir/rule
 
 # Convenience name for target.
-8-lambda-functions: CMakeFiles/8-lambda-functions.dir/rule
+02-function-templates: CMakeFiles/02-function-templates.dir/rule
 
-.PHONY : 8-lambda-functions
-
-# clean rule for target.
-CMakeFiles/8-lambda-functions.dir/clean:
-	$(MAKE) -f CMakeFiles/8-lambda-functions.dir/build.make CMakeFiles/8-lambda-functions.dir/clean
-.PHONY : CMakeFiles/8-lambda-functions.dir/clean
+.PHONY : 02-function-templates
 
 # clean rule for target.
-clean: CMakeFiles/8-lambda-functions.dir/clean
+CMakeFiles/02-function-templates.dir/clean:
+	$(MAKE) -f CMakeFiles/02-function-templates.dir/build.make CMakeFiles/02-function-templates.dir/clean
+.PHONY : CMakeFiles/02-function-templates.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/02-function-templates.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/4-functors.dir
+# Target rules for target CMakeFiles/05-functors-with-STL.dir
 
 # All Build rule for target.
-CMakeFiles/4-functors.dir/all:
-	$(MAKE) -f CMakeFiles/4-functors.dir/build.make CMakeFiles/4-functors.dir/depend
-	$(MAKE) -f CMakeFiles/4-functors.dir/build.make CMakeFiles/4-functors.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target 4-functors"
-.PHONY : CMakeFiles/4-functors.dir/all
+CMakeFiles/05-functors-with-STL.dir/all:
+	$(MAKE) -f CMakeFiles/05-functors-with-STL.dir/build.make CMakeFiles/05-functors-with-STL.dir/depend
+	$(MAKE) -f CMakeFiles/05-functors-with-STL.dir/build.make CMakeFiles/05-functors-with-STL.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target 05-functors-with-STL"
+.PHONY : CMakeFiles/05-functors-with-STL.dir/all
 
 # Include target in all.
-all: CMakeFiles/4-functors.dir/all
+all: CMakeFiles/05-functors-with-STL.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/4-functors.dir/rule: cmake_check_build_system
+CMakeFiles/05-functors-with-STL.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/4-functors.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/05-functors-with-STL.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/4-functors.dir/rule
+.PHONY : CMakeFiles/05-functors-with-STL.dir/rule
 
 # Convenience name for target.
-4-functors: CMakeFiles/4-functors.dir/rule
+05-functors-with-STL: CMakeFiles/05-functors-with-STL.dir/rule
 
-.PHONY : 4-functors
-
-# clean rule for target.
-CMakeFiles/4-functors.dir/clean:
-	$(MAKE) -f CMakeFiles/4-functors.dir/build.make CMakeFiles/4-functors.dir/clean
-.PHONY : CMakeFiles/4-functors.dir/clean
+.PHONY : 05-functors-with-STL
 
 # clean rule for target.
-clean: CMakeFiles/4-functors.dir/clean
+CMakeFiles/05-functors-with-STL.dir/clean:
+	$(MAKE) -f CMakeFiles/05-functors-with-STL.dir/build.make CMakeFiles/05-functors-with-STL.dir/clean
+.PHONY : CMakeFiles/05-functors-with-STL.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/05-functors-with-STL.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/5-functors-with-STL.dir
+# Target rules for target CMakeFiles/04-functors.dir
 
 # All Build rule for target.
-CMakeFiles/5-functors-with-STL.dir/all:
-	$(MAKE) -f CMakeFiles/5-functors-with-STL.dir/build.make CMakeFiles/5-functors-with-STL.dir/depend
-	$(MAKE) -f CMakeFiles/5-functors-with-STL.dir/build.make CMakeFiles/5-functors-with-STL.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target 5-functors-with-STL"
-.PHONY : CMakeFiles/5-functors-with-STL.dir/all
+CMakeFiles/04-functors.dir/all:
+	$(MAKE) -f CMakeFiles/04-functors.dir/build.make CMakeFiles/04-functors.dir/depend
+	$(MAKE) -f CMakeFiles/04-functors.dir/build.make CMakeFiles/04-functors.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target 04-functors"
+.PHONY : CMakeFiles/04-functors.dir/all
 
 # Include target in all.
-all: CMakeFiles/5-functors-with-STL.dir/all
+all: CMakeFiles/04-functors.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/5-functors-with-STL.dir/rule: cmake_check_build_system
+CMakeFiles/04-functors.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/5-functors-with-STL.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/04-functors.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/5-functors-with-STL.dir/rule
+.PHONY : CMakeFiles/04-functors.dir/rule
 
 # Convenience name for target.
-5-functors-with-STL: CMakeFiles/5-functors-with-STL.dir/rule
+04-functors: CMakeFiles/04-functors.dir/rule
 
-.PHONY : 5-functors-with-STL
-
-# clean rule for target.
-CMakeFiles/5-functors-with-STL.dir/clean:
-	$(MAKE) -f CMakeFiles/5-functors-with-STL.dir/build.make CMakeFiles/5-functors-with-STL.dir/clean
-.PHONY : CMakeFiles/5-functors-with-STL.dir/clean
+.PHONY : 04-functors
 
 # clean rule for target.
-clean: CMakeFiles/5-functors-with-STL.dir/clean
+CMakeFiles/04-functors.dir/clean:
+	$(MAKE) -f CMakeFiles/04-functors.dir/build.make CMakeFiles/04-functors.dir/clean
+.PHONY : CMakeFiles/04-functors.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/04-functors.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/3-generic-accumulate-example.dir
+# Target rules for target CMakeFiles/03-generic-accumulate-example.dir
 
 # All Build rule for target.
-CMakeFiles/3-generic-accumulate-example.dir/all:
-	$(MAKE) -f CMakeFiles/3-generic-accumulate-example.dir/build.make CMakeFiles/3-generic-accumulate-example.dir/depend
-	$(MAKE) -f CMakeFiles/3-generic-accumulate-example.dir/build.make CMakeFiles/3-generic-accumulate-example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target 3-generic-accumulate-example"
-.PHONY : CMakeFiles/3-generic-accumulate-example.dir/all
+CMakeFiles/03-generic-accumulate-example.dir/all:
+	$(MAKE) -f CMakeFiles/03-generic-accumulate-example.dir/build.make CMakeFiles/03-generic-accumulate-example.dir/depend
+	$(MAKE) -f CMakeFiles/03-generic-accumulate-example.dir/build.make CMakeFiles/03-generic-accumulate-example.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target 03-generic-accumulate-example"
+.PHONY : CMakeFiles/03-generic-accumulate-example.dir/all
 
 # Include target in all.
-all: CMakeFiles/3-generic-accumulate-example.dir/all
+all: CMakeFiles/03-generic-accumulate-example.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/3-generic-accumulate-example.dir/rule: cmake_check_build_system
+CMakeFiles/03-generic-accumulate-example.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/3-generic-accumulate-example.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/03-generic-accumulate-example.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/3-generic-accumulate-example.dir/rule
+.PHONY : CMakeFiles/03-generic-accumulate-example.dir/rule
 
 # Convenience name for target.
-3-generic-accumulate-example: CMakeFiles/3-generic-accumulate-example.dir/rule
+03-generic-accumulate-example: CMakeFiles/03-generic-accumulate-example.dir/rule
 
-.PHONY : 3-generic-accumulate-example
-
-# clean rule for target.
-CMakeFiles/3-generic-accumulate-example.dir/clean:
-	$(MAKE) -f CMakeFiles/3-generic-accumulate-example.dir/build.make CMakeFiles/3-generic-accumulate-example.dir/clean
-.PHONY : CMakeFiles/3-generic-accumulate-example.dir/clean
+.PHONY : 03-generic-accumulate-example
 
 # clean rule for target.
-clean: CMakeFiles/3-generic-accumulate-example.dir/clean
+CMakeFiles/03-generic-accumulate-example.dir/clean:
+	$(MAKE) -f CMakeFiles/03-generic-accumulate-example.dir/build.make CMakeFiles/03-generic-accumulate-example.dir/clean
+.PHONY : CMakeFiles/03-generic-accumulate-example.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/03-generic-accumulate-example.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/1-value-template-arguments.dir
+# Target rules for target CMakeFiles/06-lambda-functions.dir
 
 # All Build rule for target.
-CMakeFiles/1-value-template-arguments.dir/all:
-	$(MAKE) -f CMakeFiles/1-value-template-arguments.dir/build.make CMakeFiles/1-value-template-arguments.dir/depend
-	$(MAKE) -f CMakeFiles/1-value-template-arguments.dir/build.make CMakeFiles/1-value-template-arguments.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 1-value-template-arguments"
-.PHONY : CMakeFiles/1-value-template-arguments.dir/all
+CMakeFiles/06-lambda-functions.dir/all:
+	$(MAKE) -f CMakeFiles/06-lambda-functions.dir/build.make CMakeFiles/06-lambda-functions.dir/depend
+	$(MAKE) -f CMakeFiles/06-lambda-functions.dir/build.make CMakeFiles/06-lambda-functions.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target 06-lambda-functions"
+.PHONY : CMakeFiles/06-lambda-functions.dir/all
 
 # Include target in all.
-all: CMakeFiles/1-value-template-arguments.dir/all
+all: CMakeFiles/06-lambda-functions.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/1-value-template-arguments.dir/rule: cmake_check_build_system
+CMakeFiles/06-lambda-functions.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1-value-template-arguments.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/06-lambda-functions.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/1-value-template-arguments.dir/rule
+.PHONY : CMakeFiles/06-lambda-functions.dir/rule
 
 # Convenience name for target.
-1-value-template-arguments: CMakeFiles/1-value-template-arguments.dir/rule
+06-lambda-functions: CMakeFiles/06-lambda-functions.dir/rule
 
-.PHONY : 1-value-template-arguments
-
-# clean rule for target.
-CMakeFiles/1-value-template-arguments.dir/clean:
-	$(MAKE) -f CMakeFiles/1-value-template-arguments.dir/build.make CMakeFiles/1-value-template-arguments.dir/clean
-.PHONY : CMakeFiles/1-value-template-arguments.dir/clean
+.PHONY : 06-lambda-functions
 
 # clean rule for target.
-clean: CMakeFiles/1-value-template-arguments.dir/clean
+CMakeFiles/06-lambda-functions.dir/clean:
+	$(MAKE) -f CMakeFiles/06-lambda-functions.dir/build.make CMakeFiles/06-lambda-functions.dir/clean
+.PHONY : CMakeFiles/06-lambda-functions.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/06-lambda-functions.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/08-lambda-functions.dir
+
+# All Build rule for target.
+CMakeFiles/08-lambda-functions.dir/all:
+	$(MAKE) -f CMakeFiles/08-lambda-functions.dir/build.make CMakeFiles/08-lambda-functions.dir/depend
+	$(MAKE) -f CMakeFiles/08-lambda-functions.dir/build.make CMakeFiles/08-lambda-functions.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target 08-lambda-functions"
+.PHONY : CMakeFiles/08-lambda-functions.dir/all
+
+# Include target in all.
+all: CMakeFiles/08-lambda-functions.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/08-lambda-functions.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/08-lambda-functions.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/08-lambda-functions.dir/rule
+
+# Convenience name for target.
+08-lambda-functions: CMakeFiles/08-lambda-functions.dir/rule
+
+.PHONY : 08-lambda-functions
+
+# clean rule for target.
+CMakeFiles/08-lambda-functions.dir/clean:
+	$(MAKE) -f CMakeFiles/08-lambda-functions.dir/build.make CMakeFiles/08-lambda-functions.dir/clean
+.PHONY : CMakeFiles/08-lambda-functions.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/08-lambda-functions.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/01-value-template-arguments.dir
+
+# All Build rule for target.
+CMakeFiles/01-value-template-arguments.dir/all:
+	$(MAKE) -f CMakeFiles/01-value-template-arguments.dir/build.make CMakeFiles/01-value-template-arguments.dir/depend
+	$(MAKE) -f CMakeFiles/01-value-template-arguments.dir/build.make CMakeFiles/01-value-template-arguments.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 01-value-template-arguments"
+.PHONY : CMakeFiles/01-value-template-arguments.dir/all
+
+# Include target in all.
+all: CMakeFiles/01-value-template-arguments.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/01-value-template-arguments.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/01-value-template-arguments.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-template-examples/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/01-value-template-arguments.dir/rule
+
+# Convenience name for target.
+01-value-template-arguments: CMakeFiles/01-value-template-arguments.dir/rule
+
+.PHONY : 01-value-template-arguments
+
+# clean rule for target.
+CMakeFiles/01-value-template-arguments.dir/clean:
+	$(MAKE) -f CMakeFiles/01-value-template-arguments.dir/build.make CMakeFiles/01-value-template-arguments.dir/clean
+.PHONY : CMakeFiles/01-value-template-arguments.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/01-value-template-arguments.dir/clean
 
 .PHONY : clean
 

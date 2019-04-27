@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/hisamuka/workspace/a-tour-of-cpp/6-templates/5-templat
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -124,19 +124,6 @@ depend:
 .PHONY : 12-lambda-functions/fast
 
 #=============================================================================
-# Target rules for targets named 2-function-templates
-
-# Build rule for target.
-2-function-templates: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 2-function-templates
-.PHONY : 2-function-templates
-
-# fast build rule for target.
-2-function-templates/fast:
-	$(MAKE) -f CMakeFiles/2-function-templates.dir/build.make CMakeFiles/2-function-templates.dir/build
-.PHONY : 2-function-templates/fast
-
-#=============================================================================
 # Target rules for targets named 10-lambda-functions
 
 # Build rule for target.
@@ -150,43 +137,30 @@ depend:
 .PHONY : 10-lambda-functions/fast
 
 #=============================================================================
-# Target rules for targets named 9-lambda-functions
+# Target rules for targets named 09-lambda-functions
 
 # Build rule for target.
-9-lambda-functions: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 9-lambda-functions
-.PHONY : 9-lambda-functions
+09-lambda-functions: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 09-lambda-functions
+.PHONY : 09-lambda-functions
 
 # fast build rule for target.
-9-lambda-functions/fast:
-	$(MAKE) -f CMakeFiles/9-lambda-functions.dir/build.make CMakeFiles/9-lambda-functions.dir/build
-.PHONY : 9-lambda-functions/fast
+09-lambda-functions/fast:
+	$(MAKE) -f CMakeFiles/09-lambda-functions.dir/build.make CMakeFiles/09-lambda-functions.dir/build
+.PHONY : 09-lambda-functions/fast
 
 #=============================================================================
-# Target rules for targets named 7-lambda-functions
+# Target rules for targets named 07-lambda-functions
 
 # Build rule for target.
-7-lambda-functions: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 7-lambda-functions
-.PHONY : 7-lambda-functions
+07-lambda-functions: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 07-lambda-functions
+.PHONY : 07-lambda-functions
 
 # fast build rule for target.
-7-lambda-functions/fast:
-	$(MAKE) -f CMakeFiles/7-lambda-functions.dir/build.make CMakeFiles/7-lambda-functions.dir/build
-.PHONY : 7-lambda-functions/fast
-
-#=============================================================================
-# Target rules for targets named 6-lambda-functions
-
-# Build rule for target.
-6-lambda-functions: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 6-lambda-functions
-.PHONY : 6-lambda-functions
-
-# fast build rule for target.
-6-lambda-functions/fast:
-	$(MAKE) -f CMakeFiles/6-lambda-functions.dir/build.make CMakeFiles/6-lambda-functions.dir/build
-.PHONY : 6-lambda-functions/fast
+07-lambda-functions/fast:
+	$(MAKE) -f CMakeFiles/07-lambda-functions.dir/build.make CMakeFiles/07-lambda-functions.dir/build
+.PHONY : 07-lambda-functions/fast
 
 #=============================================================================
 # Target rules for targets named 11-lambda-functions
@@ -202,96 +176,338 @@ depend:
 .PHONY : 11-lambda-functions/fast
 
 #=============================================================================
-# Target rules for targets named 8-lambda-functions
+# Target rules for targets named 02-function-templates
 
 # Build rule for target.
-8-lambda-functions: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 8-lambda-functions
-.PHONY : 8-lambda-functions
+02-function-templates: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 02-function-templates
+.PHONY : 02-function-templates
 
 # fast build rule for target.
-8-lambda-functions/fast:
-	$(MAKE) -f CMakeFiles/8-lambda-functions.dir/build.make CMakeFiles/8-lambda-functions.dir/build
-.PHONY : 8-lambda-functions/fast
+02-function-templates/fast:
+	$(MAKE) -f CMakeFiles/02-function-templates.dir/build.make CMakeFiles/02-function-templates.dir/build
+.PHONY : 02-function-templates/fast
 
 #=============================================================================
-# Target rules for targets named 4-functors
+# Target rules for targets named 05-functors-with-STL
 
 # Build rule for target.
-4-functors: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 4-functors
-.PHONY : 4-functors
+05-functors-with-STL: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 05-functors-with-STL
+.PHONY : 05-functors-with-STL
 
 # fast build rule for target.
-4-functors/fast:
-	$(MAKE) -f CMakeFiles/4-functors.dir/build.make CMakeFiles/4-functors.dir/build
-.PHONY : 4-functors/fast
+05-functors-with-STL/fast:
+	$(MAKE) -f CMakeFiles/05-functors-with-STL.dir/build.make CMakeFiles/05-functors-with-STL.dir/build
+.PHONY : 05-functors-with-STL/fast
 
 #=============================================================================
-# Target rules for targets named 5-functors-with-STL
+# Target rules for targets named 04-functors
 
 # Build rule for target.
-5-functors-with-STL: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 5-functors-with-STL
-.PHONY : 5-functors-with-STL
+04-functors: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 04-functors
+.PHONY : 04-functors
 
 # fast build rule for target.
-5-functors-with-STL/fast:
-	$(MAKE) -f CMakeFiles/5-functors-with-STL.dir/build.make CMakeFiles/5-functors-with-STL.dir/build
-.PHONY : 5-functors-with-STL/fast
+04-functors/fast:
+	$(MAKE) -f CMakeFiles/04-functors.dir/build.make CMakeFiles/04-functors.dir/build
+.PHONY : 04-functors/fast
 
 #=============================================================================
-# Target rules for targets named 3-generic-accumulate-example
+# Target rules for targets named 03-generic-accumulate-example
 
 # Build rule for target.
-3-generic-accumulate-example: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 3-generic-accumulate-example
-.PHONY : 3-generic-accumulate-example
+03-generic-accumulate-example: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 03-generic-accumulate-example
+.PHONY : 03-generic-accumulate-example
 
 # fast build rule for target.
-3-generic-accumulate-example/fast:
-	$(MAKE) -f CMakeFiles/3-generic-accumulate-example.dir/build.make CMakeFiles/3-generic-accumulate-example.dir/build
-.PHONY : 3-generic-accumulate-example/fast
+03-generic-accumulate-example/fast:
+	$(MAKE) -f CMakeFiles/03-generic-accumulate-example.dir/build.make CMakeFiles/03-generic-accumulate-example.dir/build
+.PHONY : 03-generic-accumulate-example/fast
 
 #=============================================================================
-# Target rules for targets named 1-value-template-arguments
+# Target rules for targets named 06-lambda-functions
 
 # Build rule for target.
-1-value-template-arguments: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 1-value-template-arguments
-.PHONY : 1-value-template-arguments
+06-lambda-functions: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 06-lambda-functions
+.PHONY : 06-lambda-functions
 
 # fast build rule for target.
-1-value-template-arguments/fast:
-	$(MAKE) -f CMakeFiles/1-value-template-arguments.dir/build.make CMakeFiles/1-value-template-arguments.dir/build
-.PHONY : 1-value-template-arguments/fast
+06-lambda-functions/fast:
+	$(MAKE) -f CMakeFiles/06-lambda-functions.dir/build.make CMakeFiles/06-lambda-functions.dir/build
+.PHONY : 06-lambda-functions/fast
 
-1-value-template-arguments.o: 1-value-template-arguments.cpp.o
+#=============================================================================
+# Target rules for targets named 08-lambda-functions
 
-.PHONY : 1-value-template-arguments.o
+# Build rule for target.
+08-lambda-functions: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 08-lambda-functions
+.PHONY : 08-lambda-functions
+
+# fast build rule for target.
+08-lambda-functions/fast:
+	$(MAKE) -f CMakeFiles/08-lambda-functions.dir/build.make CMakeFiles/08-lambda-functions.dir/build
+.PHONY : 08-lambda-functions/fast
+
+#=============================================================================
+# Target rules for targets named 01-value-template-arguments
+
+# Build rule for target.
+01-value-template-arguments: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 01-value-template-arguments
+.PHONY : 01-value-template-arguments
+
+# fast build rule for target.
+01-value-template-arguments/fast:
+	$(MAKE) -f CMakeFiles/01-value-template-arguments.dir/build.make CMakeFiles/01-value-template-arguments.dir/build
+.PHONY : 01-value-template-arguments/fast
+
+01-value-template-arguments.o: 01-value-template-arguments.cpp.o
+
+.PHONY : 01-value-template-arguments.o
 
 # target to build an object file
-1-value-template-arguments.cpp.o:
-	$(MAKE) -f CMakeFiles/1-value-template-arguments.dir/build.make CMakeFiles/1-value-template-arguments.dir/1-value-template-arguments.cpp.o
-.PHONY : 1-value-template-arguments.cpp.o
+01-value-template-arguments.cpp.o:
+	$(MAKE) -f CMakeFiles/01-value-template-arguments.dir/build.make CMakeFiles/01-value-template-arguments.dir/01-value-template-arguments.cpp.o
+.PHONY : 01-value-template-arguments.cpp.o
 
-1-value-template-arguments.i: 1-value-template-arguments.cpp.i
+01-value-template-arguments.i: 01-value-template-arguments.cpp.i
 
-.PHONY : 1-value-template-arguments.i
+.PHONY : 01-value-template-arguments.i
 
 # target to preprocess a source file
-1-value-template-arguments.cpp.i:
-	$(MAKE) -f CMakeFiles/1-value-template-arguments.dir/build.make CMakeFiles/1-value-template-arguments.dir/1-value-template-arguments.cpp.i
-.PHONY : 1-value-template-arguments.cpp.i
+01-value-template-arguments.cpp.i:
+	$(MAKE) -f CMakeFiles/01-value-template-arguments.dir/build.make CMakeFiles/01-value-template-arguments.dir/01-value-template-arguments.cpp.i
+.PHONY : 01-value-template-arguments.cpp.i
 
-1-value-template-arguments.s: 1-value-template-arguments.cpp.s
+01-value-template-arguments.s: 01-value-template-arguments.cpp.s
 
-.PHONY : 1-value-template-arguments.s
+.PHONY : 01-value-template-arguments.s
 
 # target to generate assembly for a file
-1-value-template-arguments.cpp.s:
-	$(MAKE) -f CMakeFiles/1-value-template-arguments.dir/build.make CMakeFiles/1-value-template-arguments.dir/1-value-template-arguments.cpp.s
-.PHONY : 1-value-template-arguments.cpp.s
+01-value-template-arguments.cpp.s:
+	$(MAKE) -f CMakeFiles/01-value-template-arguments.dir/build.make CMakeFiles/01-value-template-arguments.dir/01-value-template-arguments.cpp.s
+.PHONY : 01-value-template-arguments.cpp.s
+
+02-function-templates.o: 02-function-templates.cpp.o
+
+.PHONY : 02-function-templates.o
+
+# target to build an object file
+02-function-templates.cpp.o:
+	$(MAKE) -f CMakeFiles/02-function-templates.dir/build.make CMakeFiles/02-function-templates.dir/02-function-templates.cpp.o
+.PHONY : 02-function-templates.cpp.o
+
+02-function-templates.i: 02-function-templates.cpp.i
+
+.PHONY : 02-function-templates.i
+
+# target to preprocess a source file
+02-function-templates.cpp.i:
+	$(MAKE) -f CMakeFiles/02-function-templates.dir/build.make CMakeFiles/02-function-templates.dir/02-function-templates.cpp.i
+.PHONY : 02-function-templates.cpp.i
+
+02-function-templates.s: 02-function-templates.cpp.s
+
+.PHONY : 02-function-templates.s
+
+# target to generate assembly for a file
+02-function-templates.cpp.s:
+	$(MAKE) -f CMakeFiles/02-function-templates.dir/build.make CMakeFiles/02-function-templates.dir/02-function-templates.cpp.s
+.PHONY : 02-function-templates.cpp.s
+
+03-generic-accumulate-example.o: 03-generic-accumulate-example.cpp.o
+
+.PHONY : 03-generic-accumulate-example.o
+
+# target to build an object file
+03-generic-accumulate-example.cpp.o:
+	$(MAKE) -f CMakeFiles/03-generic-accumulate-example.dir/build.make CMakeFiles/03-generic-accumulate-example.dir/03-generic-accumulate-example.cpp.o
+.PHONY : 03-generic-accumulate-example.cpp.o
+
+03-generic-accumulate-example.i: 03-generic-accumulate-example.cpp.i
+
+.PHONY : 03-generic-accumulate-example.i
+
+# target to preprocess a source file
+03-generic-accumulate-example.cpp.i:
+	$(MAKE) -f CMakeFiles/03-generic-accumulate-example.dir/build.make CMakeFiles/03-generic-accumulate-example.dir/03-generic-accumulate-example.cpp.i
+.PHONY : 03-generic-accumulate-example.cpp.i
+
+03-generic-accumulate-example.s: 03-generic-accumulate-example.cpp.s
+
+.PHONY : 03-generic-accumulate-example.s
+
+# target to generate assembly for a file
+03-generic-accumulate-example.cpp.s:
+	$(MAKE) -f CMakeFiles/03-generic-accumulate-example.dir/build.make CMakeFiles/03-generic-accumulate-example.dir/03-generic-accumulate-example.cpp.s
+.PHONY : 03-generic-accumulate-example.cpp.s
+
+04-functors.o: 04-functors.cpp.o
+
+.PHONY : 04-functors.o
+
+# target to build an object file
+04-functors.cpp.o:
+	$(MAKE) -f CMakeFiles/04-functors.dir/build.make CMakeFiles/04-functors.dir/04-functors.cpp.o
+.PHONY : 04-functors.cpp.o
+
+04-functors.i: 04-functors.cpp.i
+
+.PHONY : 04-functors.i
+
+# target to preprocess a source file
+04-functors.cpp.i:
+	$(MAKE) -f CMakeFiles/04-functors.dir/build.make CMakeFiles/04-functors.dir/04-functors.cpp.i
+.PHONY : 04-functors.cpp.i
+
+04-functors.s: 04-functors.cpp.s
+
+.PHONY : 04-functors.s
+
+# target to generate assembly for a file
+04-functors.cpp.s:
+	$(MAKE) -f CMakeFiles/04-functors.dir/build.make CMakeFiles/04-functors.dir/04-functors.cpp.s
+.PHONY : 04-functors.cpp.s
+
+05-functors-with-STL.o: 05-functors-with-STL.cpp.o
+
+.PHONY : 05-functors-with-STL.o
+
+# target to build an object file
+05-functors-with-STL.cpp.o:
+	$(MAKE) -f CMakeFiles/05-functors-with-STL.dir/build.make CMakeFiles/05-functors-with-STL.dir/05-functors-with-STL.cpp.o
+.PHONY : 05-functors-with-STL.cpp.o
+
+05-functors-with-STL.i: 05-functors-with-STL.cpp.i
+
+.PHONY : 05-functors-with-STL.i
+
+# target to preprocess a source file
+05-functors-with-STL.cpp.i:
+	$(MAKE) -f CMakeFiles/05-functors-with-STL.dir/build.make CMakeFiles/05-functors-with-STL.dir/05-functors-with-STL.cpp.i
+.PHONY : 05-functors-with-STL.cpp.i
+
+05-functors-with-STL.s: 05-functors-with-STL.cpp.s
+
+.PHONY : 05-functors-with-STL.s
+
+# target to generate assembly for a file
+05-functors-with-STL.cpp.s:
+	$(MAKE) -f CMakeFiles/05-functors-with-STL.dir/build.make CMakeFiles/05-functors-with-STL.dir/05-functors-with-STL.cpp.s
+.PHONY : 05-functors-with-STL.cpp.s
+
+06-lambda-functions.o: 06-lambda-functions.cpp.o
+
+.PHONY : 06-lambda-functions.o
+
+# target to build an object file
+06-lambda-functions.cpp.o:
+	$(MAKE) -f CMakeFiles/06-lambda-functions.dir/build.make CMakeFiles/06-lambda-functions.dir/06-lambda-functions.cpp.o
+.PHONY : 06-lambda-functions.cpp.o
+
+06-lambda-functions.i: 06-lambda-functions.cpp.i
+
+.PHONY : 06-lambda-functions.i
+
+# target to preprocess a source file
+06-lambda-functions.cpp.i:
+	$(MAKE) -f CMakeFiles/06-lambda-functions.dir/build.make CMakeFiles/06-lambda-functions.dir/06-lambda-functions.cpp.i
+.PHONY : 06-lambda-functions.cpp.i
+
+06-lambda-functions.s: 06-lambda-functions.cpp.s
+
+.PHONY : 06-lambda-functions.s
+
+# target to generate assembly for a file
+06-lambda-functions.cpp.s:
+	$(MAKE) -f CMakeFiles/06-lambda-functions.dir/build.make CMakeFiles/06-lambda-functions.dir/06-lambda-functions.cpp.s
+.PHONY : 06-lambda-functions.cpp.s
+
+07-lambda-functions.o: 07-lambda-functions.cpp.o
+
+.PHONY : 07-lambda-functions.o
+
+# target to build an object file
+07-lambda-functions.cpp.o:
+	$(MAKE) -f CMakeFiles/07-lambda-functions.dir/build.make CMakeFiles/07-lambda-functions.dir/07-lambda-functions.cpp.o
+.PHONY : 07-lambda-functions.cpp.o
+
+07-lambda-functions.i: 07-lambda-functions.cpp.i
+
+.PHONY : 07-lambda-functions.i
+
+# target to preprocess a source file
+07-lambda-functions.cpp.i:
+	$(MAKE) -f CMakeFiles/07-lambda-functions.dir/build.make CMakeFiles/07-lambda-functions.dir/07-lambda-functions.cpp.i
+.PHONY : 07-lambda-functions.cpp.i
+
+07-lambda-functions.s: 07-lambda-functions.cpp.s
+
+.PHONY : 07-lambda-functions.s
+
+# target to generate assembly for a file
+07-lambda-functions.cpp.s:
+	$(MAKE) -f CMakeFiles/07-lambda-functions.dir/build.make CMakeFiles/07-lambda-functions.dir/07-lambda-functions.cpp.s
+.PHONY : 07-lambda-functions.cpp.s
+
+08-lambda-functions.o: 08-lambda-functions.cpp.o
+
+.PHONY : 08-lambda-functions.o
+
+# target to build an object file
+08-lambda-functions.cpp.o:
+	$(MAKE) -f CMakeFiles/08-lambda-functions.dir/build.make CMakeFiles/08-lambda-functions.dir/08-lambda-functions.cpp.o
+.PHONY : 08-lambda-functions.cpp.o
+
+08-lambda-functions.i: 08-lambda-functions.cpp.i
+
+.PHONY : 08-lambda-functions.i
+
+# target to preprocess a source file
+08-lambda-functions.cpp.i:
+	$(MAKE) -f CMakeFiles/08-lambda-functions.dir/build.make CMakeFiles/08-lambda-functions.dir/08-lambda-functions.cpp.i
+.PHONY : 08-lambda-functions.cpp.i
+
+08-lambda-functions.s: 08-lambda-functions.cpp.s
+
+.PHONY : 08-lambda-functions.s
+
+# target to generate assembly for a file
+08-lambda-functions.cpp.s:
+	$(MAKE) -f CMakeFiles/08-lambda-functions.dir/build.make CMakeFiles/08-lambda-functions.dir/08-lambda-functions.cpp.s
+.PHONY : 08-lambda-functions.cpp.s
+
+09-lambda-functions.o: 09-lambda-functions.cpp.o
+
+.PHONY : 09-lambda-functions.o
+
+# target to build an object file
+09-lambda-functions.cpp.o:
+	$(MAKE) -f CMakeFiles/09-lambda-functions.dir/build.make CMakeFiles/09-lambda-functions.dir/09-lambda-functions.cpp.o
+.PHONY : 09-lambda-functions.cpp.o
+
+09-lambda-functions.i: 09-lambda-functions.cpp.i
+
+.PHONY : 09-lambda-functions.i
+
+# target to preprocess a source file
+09-lambda-functions.cpp.i:
+	$(MAKE) -f CMakeFiles/09-lambda-functions.dir/build.make CMakeFiles/09-lambda-functions.dir/09-lambda-functions.cpp.i
+.PHONY : 09-lambda-functions.cpp.i
+
+09-lambda-functions.s: 09-lambda-functions.cpp.s
+
+.PHONY : 09-lambda-functions.s
+
+# target to generate assembly for a file
+09-lambda-functions.cpp.s:
+	$(MAKE) -f CMakeFiles/09-lambda-functions.dir/build.make CMakeFiles/09-lambda-functions.dir/09-lambda-functions.cpp.s
+.PHONY : 09-lambda-functions.cpp.s
 
 10-lambda-functions.o: 10-lambda-functions.cpp.o
 
@@ -374,245 +590,53 @@ depend:
 	$(MAKE) -f CMakeFiles/12-lambda-functions.dir/build.make CMakeFiles/12-lambda-functions.dir/12-lambda-functions.cpp.s
 .PHONY : 12-lambda-functions.cpp.s
 
-2-function-templates.o: 2-function-templates.cpp.o
-
-.PHONY : 2-function-templates.o
-
-# target to build an object file
-2-function-templates.cpp.o:
-	$(MAKE) -f CMakeFiles/2-function-templates.dir/build.make CMakeFiles/2-function-templates.dir/2-function-templates.cpp.o
-.PHONY : 2-function-templates.cpp.o
-
-2-function-templates.i: 2-function-templates.cpp.i
-
-.PHONY : 2-function-templates.i
-
-# target to preprocess a source file
-2-function-templates.cpp.i:
-	$(MAKE) -f CMakeFiles/2-function-templates.dir/build.make CMakeFiles/2-function-templates.dir/2-function-templates.cpp.i
-.PHONY : 2-function-templates.cpp.i
-
-2-function-templates.s: 2-function-templates.cpp.s
-
-.PHONY : 2-function-templates.s
-
-# target to generate assembly for a file
-2-function-templates.cpp.s:
-	$(MAKE) -f CMakeFiles/2-function-templates.dir/build.make CMakeFiles/2-function-templates.dir/2-function-templates.cpp.s
-.PHONY : 2-function-templates.cpp.s
-
-3-generic-accumulate-example.o: 3-generic-accumulate-example.cpp.o
-
-.PHONY : 3-generic-accumulate-example.o
-
-# target to build an object file
-3-generic-accumulate-example.cpp.o:
-	$(MAKE) -f CMakeFiles/3-generic-accumulate-example.dir/build.make CMakeFiles/3-generic-accumulate-example.dir/3-generic-accumulate-example.cpp.o
-.PHONY : 3-generic-accumulate-example.cpp.o
-
-3-generic-accumulate-example.i: 3-generic-accumulate-example.cpp.i
-
-.PHONY : 3-generic-accumulate-example.i
-
-# target to preprocess a source file
-3-generic-accumulate-example.cpp.i:
-	$(MAKE) -f CMakeFiles/3-generic-accumulate-example.dir/build.make CMakeFiles/3-generic-accumulate-example.dir/3-generic-accumulate-example.cpp.i
-.PHONY : 3-generic-accumulate-example.cpp.i
-
-3-generic-accumulate-example.s: 3-generic-accumulate-example.cpp.s
-
-.PHONY : 3-generic-accumulate-example.s
-
-# target to generate assembly for a file
-3-generic-accumulate-example.cpp.s:
-	$(MAKE) -f CMakeFiles/3-generic-accumulate-example.dir/build.make CMakeFiles/3-generic-accumulate-example.dir/3-generic-accumulate-example.cpp.s
-.PHONY : 3-generic-accumulate-example.cpp.s
-
-4-functors.o: 4-functors.cpp.o
-
-.PHONY : 4-functors.o
-
-# target to build an object file
-4-functors.cpp.o:
-	$(MAKE) -f CMakeFiles/4-functors.dir/build.make CMakeFiles/4-functors.dir/4-functors.cpp.o
-.PHONY : 4-functors.cpp.o
-
-4-functors.i: 4-functors.cpp.i
-
-.PHONY : 4-functors.i
-
-# target to preprocess a source file
-4-functors.cpp.i:
-	$(MAKE) -f CMakeFiles/4-functors.dir/build.make CMakeFiles/4-functors.dir/4-functors.cpp.i
-.PHONY : 4-functors.cpp.i
-
-4-functors.s: 4-functors.cpp.s
-
-.PHONY : 4-functors.s
-
-# target to generate assembly for a file
-4-functors.cpp.s:
-	$(MAKE) -f CMakeFiles/4-functors.dir/build.make CMakeFiles/4-functors.dir/4-functors.cpp.s
-.PHONY : 4-functors.cpp.s
-
-5-functors-with-STL.o: 5-functors-with-STL.cpp.o
-
-.PHONY : 5-functors-with-STL.o
-
-# target to build an object file
-5-functors-with-STL.cpp.o:
-	$(MAKE) -f CMakeFiles/5-functors-with-STL.dir/build.make CMakeFiles/5-functors-with-STL.dir/5-functors-with-STL.cpp.o
-.PHONY : 5-functors-with-STL.cpp.o
-
-5-functors-with-STL.i: 5-functors-with-STL.cpp.i
-
-.PHONY : 5-functors-with-STL.i
-
-# target to preprocess a source file
-5-functors-with-STL.cpp.i:
-	$(MAKE) -f CMakeFiles/5-functors-with-STL.dir/build.make CMakeFiles/5-functors-with-STL.dir/5-functors-with-STL.cpp.i
-.PHONY : 5-functors-with-STL.cpp.i
-
-5-functors-with-STL.s: 5-functors-with-STL.cpp.s
-
-.PHONY : 5-functors-with-STL.s
-
-# target to generate assembly for a file
-5-functors-with-STL.cpp.s:
-	$(MAKE) -f CMakeFiles/5-functors-with-STL.dir/build.make CMakeFiles/5-functors-with-STL.dir/5-functors-with-STL.cpp.s
-.PHONY : 5-functors-with-STL.cpp.s
-
-6-lambda-functions.o: 6-lambda-functions.cpp.o
-
-.PHONY : 6-lambda-functions.o
-
-# target to build an object file
-6-lambda-functions.cpp.o:
-	$(MAKE) -f CMakeFiles/6-lambda-functions.dir/build.make CMakeFiles/6-lambda-functions.dir/6-lambda-functions.cpp.o
-.PHONY : 6-lambda-functions.cpp.o
-
-6-lambda-functions.i: 6-lambda-functions.cpp.i
-
-.PHONY : 6-lambda-functions.i
-
-# target to preprocess a source file
-6-lambda-functions.cpp.i:
-	$(MAKE) -f CMakeFiles/6-lambda-functions.dir/build.make CMakeFiles/6-lambda-functions.dir/6-lambda-functions.cpp.i
-.PHONY : 6-lambda-functions.cpp.i
-
-6-lambda-functions.s: 6-lambda-functions.cpp.s
-
-.PHONY : 6-lambda-functions.s
-
-# target to generate assembly for a file
-6-lambda-functions.cpp.s:
-	$(MAKE) -f CMakeFiles/6-lambda-functions.dir/build.make CMakeFiles/6-lambda-functions.dir/6-lambda-functions.cpp.s
-.PHONY : 6-lambda-functions.cpp.s
-
-7-lambda-functions.o: 7-lambda-functions.cpp.o
-
-.PHONY : 7-lambda-functions.o
-
-# target to build an object file
-7-lambda-functions.cpp.o:
-	$(MAKE) -f CMakeFiles/7-lambda-functions.dir/build.make CMakeFiles/7-lambda-functions.dir/7-lambda-functions.cpp.o
-.PHONY : 7-lambda-functions.cpp.o
-
-7-lambda-functions.i: 7-lambda-functions.cpp.i
-
-.PHONY : 7-lambda-functions.i
-
-# target to preprocess a source file
-7-lambda-functions.cpp.i:
-	$(MAKE) -f CMakeFiles/7-lambda-functions.dir/build.make CMakeFiles/7-lambda-functions.dir/7-lambda-functions.cpp.i
-.PHONY : 7-lambda-functions.cpp.i
-
-7-lambda-functions.s: 7-lambda-functions.cpp.s
-
-.PHONY : 7-lambda-functions.s
-
-# target to generate assembly for a file
-7-lambda-functions.cpp.s:
-	$(MAKE) -f CMakeFiles/7-lambda-functions.dir/build.make CMakeFiles/7-lambda-functions.dir/7-lambda-functions.cpp.s
-.PHONY : 7-lambda-functions.cpp.s
-
-8-lambda-functions.o: 8-lambda-functions.cpp.o
-
-.PHONY : 8-lambda-functions.o
-
-# target to build an object file
-8-lambda-functions.cpp.o:
-	$(MAKE) -f CMakeFiles/8-lambda-functions.dir/build.make CMakeFiles/8-lambda-functions.dir/8-lambda-functions.cpp.o
-.PHONY : 8-lambda-functions.cpp.o
-
-8-lambda-functions.i: 8-lambda-functions.cpp.i
-
-.PHONY : 8-lambda-functions.i
-
-# target to preprocess a source file
-8-lambda-functions.cpp.i:
-	$(MAKE) -f CMakeFiles/8-lambda-functions.dir/build.make CMakeFiles/8-lambda-functions.dir/8-lambda-functions.cpp.i
-.PHONY : 8-lambda-functions.cpp.i
-
-8-lambda-functions.s: 8-lambda-functions.cpp.s
-
-.PHONY : 8-lambda-functions.s
-
-# target to generate assembly for a file
-8-lambda-functions.cpp.s:
-	$(MAKE) -f CMakeFiles/8-lambda-functions.dir/build.make CMakeFiles/8-lambda-functions.dir/8-lambda-functions.cpp.s
-.PHONY : 8-lambda-functions.cpp.s
-
-9-lambda-functions.o: 9-lambda-functions.cpp.o
-
-.PHONY : 9-lambda-functions.o
-
-# target to build an object file
-9-lambda-functions.cpp.o:
-	$(MAKE) -f CMakeFiles/9-lambda-functions.dir/build.make CMakeFiles/9-lambda-functions.dir/9-lambda-functions.cpp.o
-.PHONY : 9-lambda-functions.cpp.o
-
-9-lambda-functions.i: 9-lambda-functions.cpp.i
-
-.PHONY : 9-lambda-functions.i
-
-# target to preprocess a source file
-9-lambda-functions.cpp.i:
-	$(MAKE) -f CMakeFiles/9-lambda-functions.dir/build.make CMakeFiles/9-lambda-functions.dir/9-lambda-functions.cpp.i
-.PHONY : 9-lambda-functions.cpp.i
-
-9-lambda-functions.s: 9-lambda-functions.cpp.s
-
-.PHONY : 9-lambda-functions.s
-
-# target to generate assembly for a file
-9-lambda-functions.cpp.s:
-	$(MAKE) -f CMakeFiles/9-lambda-functions.dir/build.make CMakeFiles/9-lambda-functions.dir/9-lambda-functions.cpp.s
-.PHONY : 9-lambda-functions.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
-	@echo "... 12-lambda-functions"
-	@echo "... 2-function-templates"
-	@echo "... 10-lambda-functions"
-	@echo "... 9-lambda-functions"
-	@echo "... 7-lambda-functions"
-	@echo "... 6-lambda-functions"
-	@echo "... 11-lambda-functions"
-	@echo "... 8-lambda-functions"
-	@echo "... 4-functors"
-	@echo "... 5-functors-with-STL"
-	@echo "... 3-generic-accumulate-example"
 	@echo "... edit_cache"
-	@echo "... 1-value-template-arguments"
-	@echo "... 1-value-template-arguments.o"
-	@echo "... 1-value-template-arguments.i"
-	@echo "... 1-value-template-arguments.s"
+	@echo "... 12-lambda-functions"
+	@echo "... 10-lambda-functions"
+	@echo "... 09-lambda-functions"
+	@echo "... rebuild_cache"
+	@echo "... 07-lambda-functions"
+	@echo "... 11-lambda-functions"
+	@echo "... 02-function-templates"
+	@echo "... 05-functors-with-STL"
+	@echo "... 04-functors"
+	@echo "... 03-generic-accumulate-example"
+	@echo "... 06-lambda-functions"
+	@echo "... 08-lambda-functions"
+	@echo "... 01-value-template-arguments"
+	@echo "... 01-value-template-arguments.o"
+	@echo "... 01-value-template-arguments.i"
+	@echo "... 01-value-template-arguments.s"
+	@echo "... 02-function-templates.o"
+	@echo "... 02-function-templates.i"
+	@echo "... 02-function-templates.s"
+	@echo "... 03-generic-accumulate-example.o"
+	@echo "... 03-generic-accumulate-example.i"
+	@echo "... 03-generic-accumulate-example.s"
+	@echo "... 04-functors.o"
+	@echo "... 04-functors.i"
+	@echo "... 04-functors.s"
+	@echo "... 05-functors-with-STL.o"
+	@echo "... 05-functors-with-STL.i"
+	@echo "... 05-functors-with-STL.s"
+	@echo "... 06-lambda-functions.o"
+	@echo "... 06-lambda-functions.i"
+	@echo "... 06-lambda-functions.s"
+	@echo "... 07-lambda-functions.o"
+	@echo "... 07-lambda-functions.i"
+	@echo "... 07-lambda-functions.s"
+	@echo "... 08-lambda-functions.o"
+	@echo "... 08-lambda-functions.i"
+	@echo "... 08-lambda-functions.s"
+	@echo "... 09-lambda-functions.o"
+	@echo "... 09-lambda-functions.i"
+	@echo "... 09-lambda-functions.s"
 	@echo "... 10-lambda-functions.o"
 	@echo "... 10-lambda-functions.i"
 	@echo "... 10-lambda-functions.s"
@@ -622,30 +646,6 @@ help:
 	@echo "... 12-lambda-functions.o"
 	@echo "... 12-lambda-functions.i"
 	@echo "... 12-lambda-functions.s"
-	@echo "... 2-function-templates.o"
-	@echo "... 2-function-templates.i"
-	@echo "... 2-function-templates.s"
-	@echo "... 3-generic-accumulate-example.o"
-	@echo "... 3-generic-accumulate-example.i"
-	@echo "... 3-generic-accumulate-example.s"
-	@echo "... 4-functors.o"
-	@echo "... 4-functors.i"
-	@echo "... 4-functors.s"
-	@echo "... 5-functors-with-STL.o"
-	@echo "... 5-functors-with-STL.i"
-	@echo "... 5-functors-with-STL.s"
-	@echo "... 6-lambda-functions.o"
-	@echo "... 6-lambda-functions.i"
-	@echo "... 6-lambda-functions.s"
-	@echo "... 7-lambda-functions.o"
-	@echo "... 7-lambda-functions.i"
-	@echo "... 7-lambda-functions.s"
-	@echo "... 8-lambda-functions.o"
-	@echo "... 8-lambda-functions.i"
-	@echo "... 8-lambda-functions.s"
-	@echo "... 9-lambda-functions.o"
-	@echo "... 9-lambda-functions.i"
-	@echo "... 9-lambda-functions.s"
 .PHONY : help
 
 
