@@ -19,20 +19,18 @@ using std::cout;
 class SomeClass {
 public:
     void print(double x) { std::cout << "double x = " << x << "\n"; }
-    void print(int x) { std::cout << "int x = " << x << "\n"; }
     
-    // Disable this function (conversions)
-    void print(std::string x) = delete;
+    // Disable the implicit conversion from integer to double of the function print()
+    // Without this, we could call print(double x) passing an integer.
+    void print(int x) = delete;
 };
 
 
 
 int main() {
     SomeClass c;
-    c.print(10);
     c.print(10.5);
-    
-    c.print("aaa"); // error: call to deleted member function 'print'
+    c.print(10); // compilation error: call to deleted member function 'print'
     
     return 0;
 }
