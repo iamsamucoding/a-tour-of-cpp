@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/a-more-robust-vector/test1.cpp
+iostream
+-
+vector.h
+/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/a-more-robust-vector/vector.h
+
+/Users/hisamuka/workspace/a-tour-of-cpp/6-templates/a-more-robust-vector/vector.h
+iostream
+-
+stdexcept
+-
+algorithm
+-
+
