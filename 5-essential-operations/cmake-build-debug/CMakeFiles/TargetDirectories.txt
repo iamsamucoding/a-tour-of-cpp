@@ -1,6 +1,9 @@
-/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/CMakeFiles/7-defaulted-and-deleted-methods.dir
+/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/CMakeFiles/6-defaulted-and-deleted-methods.dir
 /Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/CMakeFiles/5-move-constructor-move-assignment.dir
+/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/CMakeFiles/8-defaulted-and-deleted-methods.dir
 /Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/CMakeFiles/4-overcopying-containers.dir
 /Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/CMakeFiles/3-copy-constructor-copy-assignment.dir
 /Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/CMakeFiles/2-explicit-conversions.dir

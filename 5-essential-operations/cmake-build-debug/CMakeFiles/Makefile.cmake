@@ -52,7 +52,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/7-defaulted-and-deleted-methods.dir/DependInfo.cmake"
+  "CMakeFiles/6-defaulted-and-deleted-methods.dir/DependInfo.cmake"
   "CMakeFiles/5-move-constructor-move-assignment.dir/DependInfo.cmake"
+  "CMakeFiles/8-defaulted-and-deleted-methods.dir/DependInfo.cmake"
   "CMakeFiles/4-overcopying-containers.dir/DependInfo.cmake"
   "CMakeFiles/3-copy-constructor-copy-assignment.dir/DependInfo.cmake"
   "CMakeFiles/2-explicit-conversions.dir/DependInfo.cmake"

@@ -2,11 +2,14 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="5_essential_operations" targetName="4-overcopying-containers" />
-      <config projectName="5_essential_operations" targetName="1-implicit-copy-assigment" />
-      <config projectName="5_essential_operations" targetName="3-copy-constructor-copy-assignment" />
+      <config projectName="5_essential_operations" targetName="7-defaulted-and-deleted-methods" />
       <config projectName="5_essential_operations" targetName="2-explicit-conversions" />
+      <config projectName="5_essential_operations" targetName="1-implicit-copy-assigment" />
+      <config projectName="5_essential_operations" targetName="6-defaulted-and-deleted-methods" />
+      <config projectName="5_essential_operations" targetName="8-defaulted-and-deleted-methods" />
       <config projectName="5_essential_operations" targetName="5-move-constructor-move-assignment" />
+      <config projectName="5_essential_operations" targetName="4-overcopying-containers" />
+      <config projectName="5_essential_operations" targetName="3-copy-constructor-copy-assignment" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -16,14 +19,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b947a67-f144-4cf2-a999-d2723b93beb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../4-classes/class-design-code-hints/.idea/class-design-code-hints.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../6-templates/a-more-robust-vector/vector.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-defaulted-and-deleted-methods.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-implicit-copy-assigment.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/1-implicit-copy-assigment.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/1-implicit-copy-assigment.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/1-implicit-copy-assigment.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../6-templates/4-compiling-templates-sol4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../6-templates/4-compiling-templates-sol4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../6-templates/5-a-more-robust-vector/vector.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../6-templates/5-a-more-robust-vector/vector.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/5_essential_operations.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/5_essential_operations.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,7 +41,35 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/7-defaulted-and-deleted-methods.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/8-defaulted-and-deleted-methods.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="34" column="69" selection-start-line="34" selection-start-column="69" selection-end-line="34" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -54,21 +86,24 @@
         <option value="$PROJECT_DIR$/2-explicit-conversions.cpp" />
         <option value="$PROJECT_DIR$/3-copy-constructor-copy-assignment.cpp" />
         <option value="$PROJECT_DIR$/4-move-constructor-move-assignment.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/4-overcopying-containers.cpp" />
         <option value="$PROJECT_DIR$/5-move-constructor-move-assignment.cpp" />
         <option value="$PROJECT_DIR$/1-implicit-copy-assigment.cpp" />
+        <option value="$PROJECT_DIR$/6-defaulted-and-deleted-methods.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/7-defaulted-and-deleted-methods.cpp" />
+        <option value="$PROJECT_DIR$/8-defaulted-and-deleted-methods.cpp" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Source Files'; set:Project Source Files; class com.jetbrains.cidr.lang.search.scopes.ProjectSourcesScopeProvider$SourceFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -130,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.1-implicit-copy-assigment">
+  <component name="RunManager" selected="CMake Application.8-defaulted-and-deleted-methods">
     <configuration name="1-implicit-copy-assigment" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="5_essential_operations" TARGET_NAME="1-implicit-copy-assigment" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="5_essential_operations" RUN_TARGET_NAME="1-implicit-copy-assigment">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -156,12 +191,30 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="6-defaulted-and-deleted-methods" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="5_essential_operations" TARGET_NAME="6-defaulted-and-deleted-methods" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="5_essential_operations" RUN_TARGET_NAME="6-defaulted-and-deleted-methods">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="7-defaulted-and-deleted-methods" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="5_essential_operations" TARGET_NAME="7-defaulted-and-deleted-methods" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="5_essential_operations" RUN_TARGET_NAME="7-defaulted-and-deleted-methods">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="8-defaulted-and-deleted-methods" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="5_essential_operations" TARGET_NAME="8-defaulted-and-deleted-methods" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="5_essential_operations" RUN_TARGET_NAME="8-defaulted-and-deleted-methods">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.1-implicit-copy-assigment" />
       <item itemvalue="CMake Application.2-explicit-conversions" />
       <item itemvalue="CMake Application.3-copy-constructor-copy-assignment" />
       <item itemvalue="CMake Application.4-overcopying-containers" />
       <item itemvalue="CMake Application.5-move-constructor-move-assignment" />
+      <item itemvalue="CMake Application.6-defaulted-and-deleted-methods" />
+      <item itemvalue="CMake Application.7-defaulted-and-deleted-methods" />
+      <item itemvalue="CMake Application.8-defaulted-and-deleted-methods" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -176,16 +229,18 @@
       <updated>1556116411562</updated>
       <workItem from="1556116413004" duration="9940000" />
       <workItem from="1556270734109" duration="3215000" />
+      <workItem from="1556377218105" duration="1563000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13155000" />
+    <option name="totallyTimeSpent" value="14718000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -196,7 +251,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.3299363" />
+      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3299363" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -245,13 +300,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/4-overcopying-containers.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -266,6 +314,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="12" selection-end-line="74" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6-defaulted-and-deleted-methods.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7-defaulted-and-deleted-methods.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8-defaulted-and-deleted-methods.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="34" column="69" selection-start-line="34" selection-start-column="69" selection-end-line="34" selection-end-column="69" />
         </state>
       </provider>
     </entry>

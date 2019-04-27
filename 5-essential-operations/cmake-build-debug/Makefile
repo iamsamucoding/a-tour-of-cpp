@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operation
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 7-defaulted-and-deleted-methods
+
+# Build rule for target.
+7-defaulted-and-deleted-methods: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 7-defaulted-and-deleted-methods
+.PHONY : 7-defaulted-and-deleted-methods
+
+# fast build rule for target.
+7-defaulted-and-deleted-methods/fast:
+	$(MAKE) -f CMakeFiles/7-defaulted-and-deleted-methods.dir/build.make CMakeFiles/7-defaulted-and-deleted-methods.dir/build
+.PHONY : 7-defaulted-and-deleted-methods/fast
+
+#=============================================================================
+# Target rules for targets named 6-defaulted-and-deleted-methods
+
+# Build rule for target.
+6-defaulted-and-deleted-methods: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 6-defaulted-and-deleted-methods
+.PHONY : 6-defaulted-and-deleted-methods
+
+# fast build rule for target.
+6-defaulted-and-deleted-methods/fast:
+	$(MAKE) -f CMakeFiles/6-defaulted-and-deleted-methods.dir/build.make CMakeFiles/6-defaulted-and-deleted-methods.dir/build
+.PHONY : 6-defaulted-and-deleted-methods/fast
+
+#=============================================================================
 # Target rules for targets named 5-move-constructor-move-assignment
 
 # Build rule for target.
@@ -122,6 +148,19 @@ depend:
 5-move-constructor-move-assignment/fast:
 	$(MAKE) -f CMakeFiles/5-move-constructor-move-assignment.dir/build.make CMakeFiles/5-move-constructor-move-assignment.dir/build
 .PHONY : 5-move-constructor-move-assignment/fast
+
+#=============================================================================
+# Target rules for targets named 8-defaulted-and-deleted-methods
+
+# Build rule for target.
+8-defaulted-and-deleted-methods: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 8-defaulted-and-deleted-methods
+.PHONY : 8-defaulted-and-deleted-methods
+
+# fast build rule for target.
+8-defaulted-and-deleted-methods/fast:
+	$(MAKE) -f CMakeFiles/8-defaulted-and-deleted-methods.dir/build.make CMakeFiles/8-defaulted-and-deleted-methods.dir/build
+.PHONY : 8-defaulted-and-deleted-methods/fast
 
 #=============================================================================
 # Target rules for targets named 4-overcopying-containers
@@ -310,15 +349,99 @@ depend:
 	$(MAKE) -f CMakeFiles/5-move-constructor-move-assignment.dir/build.make CMakeFiles/5-move-constructor-move-assignment.dir/5-move-constructor-move-assignment.cpp.s
 .PHONY : 5-move-constructor-move-assignment.cpp.s
 
+6-defaulted-and-deleted-methods.o: 6-defaulted-and-deleted-methods.cpp.o
+
+.PHONY : 6-defaulted-and-deleted-methods.o
+
+# target to build an object file
+6-defaulted-and-deleted-methods.cpp.o:
+	$(MAKE) -f CMakeFiles/6-defaulted-and-deleted-methods.dir/build.make CMakeFiles/6-defaulted-and-deleted-methods.dir/6-defaulted-and-deleted-methods.cpp.o
+.PHONY : 6-defaulted-and-deleted-methods.cpp.o
+
+6-defaulted-and-deleted-methods.i: 6-defaulted-and-deleted-methods.cpp.i
+
+.PHONY : 6-defaulted-and-deleted-methods.i
+
+# target to preprocess a source file
+6-defaulted-and-deleted-methods.cpp.i:
+	$(MAKE) -f CMakeFiles/6-defaulted-and-deleted-methods.dir/build.make CMakeFiles/6-defaulted-and-deleted-methods.dir/6-defaulted-and-deleted-methods.cpp.i
+.PHONY : 6-defaulted-and-deleted-methods.cpp.i
+
+6-defaulted-and-deleted-methods.s: 6-defaulted-and-deleted-methods.cpp.s
+
+.PHONY : 6-defaulted-and-deleted-methods.s
+
+# target to generate assembly for a file
+6-defaulted-and-deleted-methods.cpp.s:
+	$(MAKE) -f CMakeFiles/6-defaulted-and-deleted-methods.dir/build.make CMakeFiles/6-defaulted-and-deleted-methods.dir/6-defaulted-and-deleted-methods.cpp.s
+.PHONY : 6-defaulted-and-deleted-methods.cpp.s
+
+7-defaulted-and-deleted-methods.o: 7-defaulted-and-deleted-methods.cpp.o
+
+.PHONY : 7-defaulted-and-deleted-methods.o
+
+# target to build an object file
+7-defaulted-and-deleted-methods.cpp.o:
+	$(MAKE) -f CMakeFiles/7-defaulted-and-deleted-methods.dir/build.make CMakeFiles/7-defaulted-and-deleted-methods.dir/7-defaulted-and-deleted-methods.cpp.o
+.PHONY : 7-defaulted-and-deleted-methods.cpp.o
+
+7-defaulted-and-deleted-methods.i: 7-defaulted-and-deleted-methods.cpp.i
+
+.PHONY : 7-defaulted-and-deleted-methods.i
+
+# target to preprocess a source file
+7-defaulted-and-deleted-methods.cpp.i:
+	$(MAKE) -f CMakeFiles/7-defaulted-and-deleted-methods.dir/build.make CMakeFiles/7-defaulted-and-deleted-methods.dir/7-defaulted-and-deleted-methods.cpp.i
+.PHONY : 7-defaulted-and-deleted-methods.cpp.i
+
+7-defaulted-and-deleted-methods.s: 7-defaulted-and-deleted-methods.cpp.s
+
+.PHONY : 7-defaulted-and-deleted-methods.s
+
+# target to generate assembly for a file
+7-defaulted-and-deleted-methods.cpp.s:
+	$(MAKE) -f CMakeFiles/7-defaulted-and-deleted-methods.dir/build.make CMakeFiles/7-defaulted-and-deleted-methods.dir/7-defaulted-and-deleted-methods.cpp.s
+.PHONY : 7-defaulted-and-deleted-methods.cpp.s
+
+8-defaulted-and-deleted-methods.o: 8-defaulted-and-deleted-methods.cpp.o
+
+.PHONY : 8-defaulted-and-deleted-methods.o
+
+# target to build an object file
+8-defaulted-and-deleted-methods.cpp.o:
+	$(MAKE) -f CMakeFiles/8-defaulted-and-deleted-methods.dir/build.make CMakeFiles/8-defaulted-and-deleted-methods.dir/8-defaulted-and-deleted-methods.cpp.o
+.PHONY : 8-defaulted-and-deleted-methods.cpp.o
+
+8-defaulted-and-deleted-methods.i: 8-defaulted-and-deleted-methods.cpp.i
+
+.PHONY : 8-defaulted-and-deleted-methods.i
+
+# target to preprocess a source file
+8-defaulted-and-deleted-methods.cpp.i:
+	$(MAKE) -f CMakeFiles/8-defaulted-and-deleted-methods.dir/build.make CMakeFiles/8-defaulted-and-deleted-methods.dir/8-defaulted-and-deleted-methods.cpp.i
+.PHONY : 8-defaulted-and-deleted-methods.cpp.i
+
+8-defaulted-and-deleted-methods.s: 8-defaulted-and-deleted-methods.cpp.s
+
+.PHONY : 8-defaulted-and-deleted-methods.s
+
+# target to generate assembly for a file
+8-defaulted-and-deleted-methods.cpp.s:
+	$(MAKE) -f CMakeFiles/8-defaulted-and-deleted-methods.dir/build.make CMakeFiles/8-defaulted-and-deleted-methods.dir/8-defaulted-and-deleted-methods.cpp.s
+.PHONY : 8-defaulted-and-deleted-methods.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... 7-defaulted-and-deleted-methods"
+	@echo "... rebuild_cache"
+	@echo "... 6-defaulted-and-deleted-methods"
 	@echo "... 5-move-constructor-move-assignment"
+	@echo "... 8-defaulted-and-deleted-methods"
 	@echo "... 4-overcopying-containers"
 	@echo "... 3-copy-constructor-copy-assignment"
 	@echo "... 2-explicit-conversions"
@@ -338,6 +461,15 @@ help:
 	@echo "... 5-move-constructor-move-assignment.o"
 	@echo "... 5-move-constructor-move-assignment.i"
 	@echo "... 5-move-constructor-move-assignment.s"
+	@echo "... 6-defaulted-and-deleted-methods.o"
+	@echo "... 6-defaulted-and-deleted-methods.i"
+	@echo "... 6-defaulted-and-deleted-methods.s"
+	@echo "... 7-defaulted-and-deleted-methods.o"
+	@echo "... 7-defaulted-and-deleted-methods.i"
+	@echo "... 7-defaulted-and-deleted-methods.s"
+	@echo "... 8-defaulted-and-deleted-methods.o"
+	@echo "... 8-defaulted-and-deleted-methods.i"
+	@echo "... 8-defaulted-and-deleted-methods.s"
 .PHONY : help
 
 

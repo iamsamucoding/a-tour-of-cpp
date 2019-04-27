@@ -65,6 +65,80 @@ CMAKE_SOURCE_DIR = /Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operation
 CMAKE_BINARY_DIR = /Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/7-defaulted-and-deleted-methods.dir
+
+# All Build rule for target.
+CMakeFiles/7-defaulted-and-deleted-methods.dir/all:
+	$(MAKE) -f CMakeFiles/7-defaulted-and-deleted-methods.dir/build.make CMakeFiles/7-defaulted-and-deleted-methods.dir/depend
+	$(MAKE) -f CMakeFiles/7-defaulted-and-deleted-methods.dir/build.make CMakeFiles/7-defaulted-and-deleted-methods.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target 7-defaulted-and-deleted-methods"
+.PHONY : CMakeFiles/7-defaulted-and-deleted-methods.dir/all
+
+# Include target in all.
+all: CMakeFiles/7-defaulted-and-deleted-methods.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/7-defaulted-and-deleted-methods.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/7-defaulted-and-deleted-methods.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/7-defaulted-and-deleted-methods.dir/rule
+
+# Convenience name for target.
+7-defaulted-and-deleted-methods: CMakeFiles/7-defaulted-and-deleted-methods.dir/rule
+
+.PHONY : 7-defaulted-and-deleted-methods
+
+# clean rule for target.
+CMakeFiles/7-defaulted-and-deleted-methods.dir/clean:
+	$(MAKE) -f CMakeFiles/7-defaulted-and-deleted-methods.dir/build.make CMakeFiles/7-defaulted-and-deleted-methods.dir/clean
+.PHONY : CMakeFiles/7-defaulted-and-deleted-methods.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/7-defaulted-and-deleted-methods.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/6-defaulted-and-deleted-methods.dir
+
+# All Build rule for target.
+CMakeFiles/6-defaulted-and-deleted-methods.dir/all:
+	$(MAKE) -f CMakeFiles/6-defaulted-and-deleted-methods.dir/build.make CMakeFiles/6-defaulted-and-deleted-methods.dir/depend
+	$(MAKE) -f CMakeFiles/6-defaulted-and-deleted-methods.dir/build.make CMakeFiles/6-defaulted-and-deleted-methods.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target 6-defaulted-and-deleted-methods"
+.PHONY : CMakeFiles/6-defaulted-and-deleted-methods.dir/all
+
+# Include target in all.
+all: CMakeFiles/6-defaulted-and-deleted-methods.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/6-defaulted-and-deleted-methods.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/6-defaulted-and-deleted-methods.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/6-defaulted-and-deleted-methods.dir/rule
+
+# Convenience name for target.
+6-defaulted-and-deleted-methods: CMakeFiles/6-defaulted-and-deleted-methods.dir/rule
+
+.PHONY : 6-defaulted-and-deleted-methods
+
+# clean rule for target.
+CMakeFiles/6-defaulted-and-deleted-methods.dir/clean:
+	$(MAKE) -f CMakeFiles/6-defaulted-and-deleted-methods.dir/build.make CMakeFiles/6-defaulted-and-deleted-methods.dir/clean
+.PHONY : CMakeFiles/6-defaulted-and-deleted-methods.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/6-defaulted-and-deleted-methods.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/5-move-constructor-move-assignment.dir
 
 # All Build rule for target.
@@ -98,6 +172,43 @@ CMakeFiles/5-move-constructor-move-assignment.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/5-move-constructor-move-assignment.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/8-defaulted-and-deleted-methods.dir
+
+# All Build rule for target.
+CMakeFiles/8-defaulted-and-deleted-methods.dir/all:
+	$(MAKE) -f CMakeFiles/8-defaulted-and-deleted-methods.dir/build.make CMakeFiles/8-defaulted-and-deleted-methods.dir/depend
+	$(MAKE) -f CMakeFiles/8-defaulted-and-deleted-methods.dir/build.make CMakeFiles/8-defaulted-and-deleted-methods.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target 8-defaulted-and-deleted-methods"
+.PHONY : CMakeFiles/8-defaulted-and-deleted-methods.dir/all
+
+# Include target in all.
+all: CMakeFiles/8-defaulted-and-deleted-methods.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/8-defaulted-and-deleted-methods.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/8-defaulted-and-deleted-methods.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hisamuka/workspace/a-tour-of-cpp/5-essential-operations/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/8-defaulted-and-deleted-methods.dir/rule
+
+# Convenience name for target.
+8-defaulted-and-deleted-methods: CMakeFiles/8-defaulted-and-deleted-methods.dir/rule
+
+.PHONY : 8-defaulted-and-deleted-methods
+
+# clean rule for target.
+CMakeFiles/8-defaulted-and-deleted-methods.dir/clean:
+	$(MAKE) -f CMakeFiles/8-defaulted-and-deleted-methods.dir/build.make CMakeFiles/8-defaulted-and-deleted-methods.dir/clean
+.PHONY : CMakeFiles/8-defaulted-and-deleted-methods.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/8-defaulted-and-deleted-methods.dir/clean
 
 .PHONY : clean
 

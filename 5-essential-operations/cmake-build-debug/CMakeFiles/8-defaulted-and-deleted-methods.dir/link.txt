@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/8-defaulted-and-deleted-methods.dir/8-defaulted-and-deleted-methods.cpp.o  -o 8-defaulted-and-deleted-methods 
