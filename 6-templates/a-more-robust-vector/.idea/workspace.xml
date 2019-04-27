@@ -13,11 +13,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4fb7cda-d77b-4d59-8889-45778026a972" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../5-template-examples/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../5-template-examples/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../5-template-examples/3-generic-accumulate-example.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../5-template-examples/3-generic-accumulate-example.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
-    </list>
+    <list default="true" id="f4fb7cda-d77b-4d59-8889-45778026a972" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -172,16 +168,15 @@
       <workItem from="1556208554487" duration="495000" />
       <workItem from="1556213074859" duration="5239000" />
       <workItem from="1556261816894" duration="26000" />
-      <workItem from="1556264244292" duration="8448000" />
+      <workItem from="1556264244292" duration="8537000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14208000" />
+    <option name="totallyTimeSpent" value="14297000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
