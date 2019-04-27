@@ -21,6 +21,8 @@ using std::endl;
 //
 // Note that we use the parameter v (initial value) as our accumulator. This is not a problem,
 // because v is passed by value (a copy is done), no references/pointers are passed to it.
+//
+// The typenames Container and Value were chosen by us. They could have any other names.
 template<typename Container, typename Value>
 Value sum(const Container& cont, Value v) {
     for (const auto x : cont)

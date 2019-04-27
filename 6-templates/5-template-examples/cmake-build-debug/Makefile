@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 13-type-alias-template-alias
+
+# Build rule for target.
+13-type-alias-template-alias: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 13-type-alias-template-alias
+.PHONY : 13-type-alias-template-alias
+
+# fast build rule for target.
+13-type-alias-template-alias/fast:
+	$(MAKE) -f CMakeFiles/13-type-alias-template-alias.dir/build.make CMakeFiles/13-type-alias-template-alias.dir/build
+.PHONY : 13-type-alias-template-alias/fast
+
+#=============================================================================
 # Target rules for targets named 12-lambda-functions
 
 # Build rule for target.
@@ -590,6 +603,33 @@ depend:
 	$(MAKE) -f CMakeFiles/12-lambda-functions.dir/build.make CMakeFiles/12-lambda-functions.dir/12-lambda-functions.cpp.s
 .PHONY : 12-lambda-functions.cpp.s
 
+13-type-alias-template-alias.o: 13-type-alias-template-alias.cpp.o
+
+.PHONY : 13-type-alias-template-alias.o
+
+# target to build an object file
+13-type-alias-template-alias.cpp.o:
+	$(MAKE) -f CMakeFiles/13-type-alias-template-alias.dir/build.make CMakeFiles/13-type-alias-template-alias.dir/13-type-alias-template-alias.cpp.o
+.PHONY : 13-type-alias-template-alias.cpp.o
+
+13-type-alias-template-alias.i: 13-type-alias-template-alias.cpp.i
+
+.PHONY : 13-type-alias-template-alias.i
+
+# target to preprocess a source file
+13-type-alias-template-alias.cpp.i:
+	$(MAKE) -f CMakeFiles/13-type-alias-template-alias.dir/build.make CMakeFiles/13-type-alias-template-alias.dir/13-type-alias-template-alias.cpp.i
+.PHONY : 13-type-alias-template-alias.cpp.i
+
+13-type-alias-template-alias.s: 13-type-alias-template-alias.cpp.s
+
+.PHONY : 13-type-alias-template-alias.s
+
+# target to generate assembly for a file
+13-type-alias-template-alias.cpp.s:
+	$(MAKE) -f CMakeFiles/13-type-alias-template-alias.dir/build.make CMakeFiles/13-type-alias-template-alias.dir/13-type-alias-template-alias.cpp.s
+.PHONY : 13-type-alias-template-alias.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -597,6 +637,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... 13-type-alias-template-alias"
 	@echo "... 12-lambda-functions"
 	@echo "... 10-lambda-functions"
 	@echo "... 09-lambda-functions"
@@ -646,6 +687,9 @@ help:
 	@echo "... 12-lambda-functions.o"
 	@echo "... 12-lambda-functions.i"
 	@echo "... 12-lambda-functions.s"
+	@echo "... 13-type-alias-template-alias.o"
+	@echo "... 13-type-alias-template-alias.i"
+	@echo "... 13-type-alias-template-alias.s"
 .PHONY : help
 
 
