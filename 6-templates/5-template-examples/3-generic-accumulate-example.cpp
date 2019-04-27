@@ -1,3 +1,6 @@
+// Example of Function Template
+
+
 #include <iostream>
 #include <list>   // STL list
 #include <vector> // STL vector
@@ -9,6 +12,8 @@ using std::cout;
 using std::endl;
 
 
+// FUNCTION TEMPLATE
+//
 // This sum() is a simplified version of the standard-library accumulate()
 // For a given container cont, this functions sums all of its values
 // based on an initial value v of the datatype Value.

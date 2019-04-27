@@ -14,190 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49c62efe-a4a3-45a4-861e-c91a34106808" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/5-template-examples.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-value-template-arguments.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2-function-templates.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/1-value-template-arguments" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/2-function-templates" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/5_template_examples.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/1-value-template-arguments.dir/1-value-template-arguments.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/1-value-template-arguments.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/1-value-template-arguments.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/1-value-template-arguments.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/1-value-template-arguments.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/1-value-template-arguments.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/1-value-template-arguments.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/1-value-template-arguments.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/1-value-template-arguments.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/1-value-template-arguments.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-function-templates.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-function-templates.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-function-templates.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-function-templates.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-function-templates.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-function-templates.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-function-templates.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-function-templates.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-function-templates.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-template-argument-deduction.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-template-argument-deduction.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-template-argument-deduction.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-template-argument-deduction.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-template-argument-deduction.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-template-argument-deduction.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-template-argument-deduction.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.2/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5_template_examples.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5_template_examples.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5_template_examples.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5_template_examples.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5_template_examples.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5_template_examples.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5_template_examples.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/function-templates.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/function-templates.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/function-templates.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/function-templates.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/function-templates.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/function-templates.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/function-templates.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/template-argument-deduction.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/template-argument-deduction.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/template-argument-deduction.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/template-argument-deduction.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/template-argument-deduction.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/template-argument-deduction.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/template-argument-deduction.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/.idea/5-a-more-robust-vector.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/5_a_more_robust_vector" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/5_a_more_robust_vector.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/3.14.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/3.14.2/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/5_a_more_robust_vector.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/5_a_more_robust_vector.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/5_a_more_robust_vector.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/5_a_more_robust_vector.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/5_a_more_robust_vector.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/5_a_more_robust_vector.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/5_a_more_robust_vector.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/a_more_robust_vector.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/a_more_robust_vector.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/a_more_robust_vector.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/a_more_robust_vector.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/a_more_robust_vector.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/a_more_robust_vector.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/a_more_robust_vector.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/a_more_robust_vector.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/a_more_robust_vector.dir/main.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/a_more_robust_vector.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/generic-accumulate-example.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/generic-accumulate-example.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/generic-accumulate-example.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/generic-accumulate-example.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/generic-accumulate-example.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/generic-accumulate-example.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/generic-accumulate-example.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/generic-accumulate-example.dir/generic-accumulate-example.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/generic-accumulate-example.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/generic-accumulate-example.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/test1.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/test1.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/test1.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/test1.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/test1.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/test1.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/test1.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/test1.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/test1.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/test1.dir/test1.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/test2.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/test2.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/test2.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/test2.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/test2.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/test2.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/test2.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/test2.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/test2.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/test2.dir/test2.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/test3.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/test3.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/test3.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/test3.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/test3.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/test3.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/test3.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/test3.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/test3.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/CMakeFiles/test3.dir/test3.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/a_more_robust_vector" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/generic-accumulate-example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/test1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/test2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/cmake-build-debug/test3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/test1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/test2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/test3.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../a-more-robust-vector/vector.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-generic-accumulate-example.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/3-generic-accumulate-example.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a-more-robust-vector/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../a-more-robust-vector/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -236,8 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/3-generic-accumulate-example.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+            <state relative-caret-position="285">
+              <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
                 <element signature="e#580#616#0" expanded="true" />
@@ -346,18 +165,18 @@
       <updated>1556261873523</updated>
       <workItem from="1556261874915" duration="2250000" />
       <workItem from="1556264349847" duration="716000" />
-      <workItem from="1556355733022" duration="190000" />
+      <workItem from="1556355733022" duration="533000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3156000" />
+    <option name="totallyTimeSpent" value="3499000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -368,7 +187,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3299363" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -422,8 +241,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/3-generic-accumulate-example.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+        <state relative-caret-position="285">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
             <element signature="e#580#616#0" expanded="true" />
