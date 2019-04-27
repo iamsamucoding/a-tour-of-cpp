@@ -52,7 +52,16 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/3-generic-accumulate-example.dir/DependInfo.cmake"
+  "CMakeFiles/12-lambda-functions.dir/DependInfo.cmake"
   "CMakeFiles/2-function-templates.dir/DependInfo.cmake"
+  "CMakeFiles/10-lambda-functions.dir/DependInfo.cmake"
+  "CMakeFiles/9-lambda-functions.dir/DependInfo.cmake"
+  "CMakeFiles/7-lambda-functions.dir/DependInfo.cmake"
+  "CMakeFiles/6-lambda-functions.dir/DependInfo.cmake"
+  "CMakeFiles/11-lambda-functions.dir/DependInfo.cmake"
+  "CMakeFiles/8-lambda-functions.dir/DependInfo.cmake"
+  "CMakeFiles/4-functors.dir/DependInfo.cmake"
+  "CMakeFiles/5-functors-with-STL.dir/DependInfo.cmake"
+  "CMakeFiles/3-generic-accumulate-example.dir/DependInfo.cmake"
   "CMakeFiles/1-value-template-arguments.dir/DependInfo.cmake"
   )

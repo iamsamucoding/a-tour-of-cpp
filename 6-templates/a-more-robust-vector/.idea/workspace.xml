@@ -3,8 +3,8 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="5_a_more_robust_vector" targetName="test3" />
-      <config projectName="5_a_more_robust_vector" targetName="test1" />
       <config projectName="5_a_more_robust_vector" targetName="test2" />
+      <config projectName="5_a_more_robust_vector" targetName="test1" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -13,7 +13,20 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4fb7cda-d77b-4d59-8889-45778026a972" name="Default Changelist" comment="" />
+    <list default="true" id="f4fb7cda-d77b-4d59-8889-45778026a972" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../5-template-examples/9-lambda-functions.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5-template-examples/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../5-template-examples/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5-template-examples/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../5-template-examples/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/5_template_examples.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/5_template_examples.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/CMakeFiles/2-function-templates.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/CMakeFiles/2-function-templates.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/CMakeFiles/3-generic-accumulate-example.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/CMakeFiles/3-generic-accumulate-example.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +64,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test2.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
+            <state relative-caret-position="304">
               <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
               <folding>
                 <element signature="e#87#99#0" expanded="true" />
@@ -95,6 +108,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,7 +120,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -169,16 +182,18 @@
       <workItem from="1556213074859" duration="5239000" />
       <workItem from="1556261816894" duration="26000" />
       <workItem from="1556264244292" duration="8537000" />
+      <workItem from="1556357261476" duration="239000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14297000" />
+    <option name="totallyTimeSpent" value="14536000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -225,24 +240,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test2.cpp">
+    <entry file="file://$PROJECT_DIR$/generic-accumulate-example.cpp" />
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
-          <folding>
-            <element signature="e#87#99#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generic-accumulate-example.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="15" lean-forward="true" selection-end-line="44" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#148#184#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="133">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -256,10 +258,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/test2.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        <state relative-caret-position="304">
+          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+          <folding>
+            <element signature="e#87#99#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
