@@ -194,4 +194,17 @@ public:
 };
 
 
+// Defining our own Output <ostream>
+// This function is called when: cout << v;
+template <typename T>
+std::ostream& operator<<(std::ostream& os, const Vector<T> v) {
+    os << "size = " << v.size() << endl;
+    
+    for (int i = 0; i < v.size(); i++)
+        os << "[" << i << "] = " << v[i] << "\n";
+    
+    return os;
+}
+
+
 #endif //INC_5_A_MORE_ROBUST_VECTOR_VECTOR_H

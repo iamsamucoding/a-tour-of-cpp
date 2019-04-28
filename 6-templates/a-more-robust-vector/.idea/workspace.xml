@@ -14,30 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4fb7cda-d77b-4d59-8889-45778026a972" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../5-template-examples/13-type-alias-template-alias.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/13-type-alias-template-alias" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/CMakeFiles/13-type-alias-template-alias.dir/13-type-alias-template-alias.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/CMakeFiles/13-type-alias-template-alias.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/CMakeFiles/13-type-alias-template-alias.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/CMakeFiles/13-type-alias-template-alias.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/CMakeFiles/13-type-alias-template-alias.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/CMakeFiles/13-type-alias-template-alias.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/CMakeFiles/13-type-alias-template-alias.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/CMakeFiles/13-type-alias-template-alias.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/CMakeFiles/13-type-alias-template-alias.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/CMakeFiles/13-type-alias-template-alias.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../5-template-examples/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../5-template-examples/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../5-template-examples/03-generic-accumulate-example.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../5-template-examples/03-generic-accumulate-example.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../5-template-examples/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../5-template-examples/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/5_template_examples.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/5_template_examples.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/CMakeFiles/Progress/7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../5-template-examples/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test1.dir/test1.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/vector.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,11 +31,23 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
               <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vector.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="198" selection-start-line="198" selection-end-line="198" />
+              <folding>
+                <element signature="e#5434#5446#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,9 +65,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test1.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test2.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
+            <state relative-caret-position="266">
               <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
               <folding>
                 <element signature="e#87#99#0" expanded="true" />
@@ -100,12 +103,12 @@
       <list>
         <option value="$PROJECT_DIR$/vector.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/test1.cpp" />
         <option value="$PROJECT_DIR$/test3.cpp" />
-        <option value="$PROJECT_DIR$/vector.h" />
         <option value="$PROJECT_DIR$/test2.cpp" />
         <option value="$PROJECT_DIR$/generic-accumulate-example.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/test1.cpp" />
+        <option value="$PROJECT_DIR$/vector.h" />
       </list>
     </option>
   </component>
@@ -120,7 +123,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,6 +134,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,17 +198,18 @@
       <workItem from="1556261816894" duration="26000" />
       <workItem from="1556264244292" duration="8537000" />
       <workItem from="1556357261476" duration="242000" />
+      <workItem from="1556456167313" duration="843000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14539000" />
+    <option name="totallyTimeSpent" value="15382000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -219,7 +223,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="CMake" order="11" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.3299363" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3299363" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -232,31 +236,21 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/vector.cpp" />
-    <entry file="file://$PROJECT_DIR$/vector.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="182" column="48" selection-start-line="182" selection-start-column="48" selection-end-line="182" selection-end-column="48" />
-          <folding>
-            <element signature="e#140#159#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test1.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/generic-accumulate-example.cpp" />
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+          <folding>
+            <element signature="e#87#99#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -270,12 +264,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test2.cpp">
+    <entry file="file://$PROJECT_DIR$/test1.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+        <state relative-caret-position="146">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
           <folding>
-            <element signature="e#87#99#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="198" selection-start-line="198" selection-end-line="198" />
+          <folding>
+            <element signature="e#5434#5446#0" expanded="true" />
           </folding>
         </state>
       </provider>

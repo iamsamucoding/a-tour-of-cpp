@@ -1,0 +1,2 @@
+/Users/hisamuka/workspace/a-tour-of-cpp/8-inputs-outputs/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/hisamuka/workspace/a-tour-of-cpp/8-inputs-outputs/cmake-build-debug/CMakeFiles/edit_cache.dir

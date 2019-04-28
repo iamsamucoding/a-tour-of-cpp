@@ -23,6 +23,7 @@ int main() {
     cout << "### vi initialization\n";
     Vector<int> vi{1, 2, 3};
     vi.print();
+    cout << vi;
     cout << "--------------\n\n";
     
     cout << "##### NON-CONST OBJECTS #####\n";
