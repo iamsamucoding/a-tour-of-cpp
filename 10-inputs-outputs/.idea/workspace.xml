@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated>
-      <config projectName="8_inputs_outputs" targetName="01-inputs-outpts" />
-    </generated>
+    <generated />
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
@@ -11,13 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a4b4ac9-18df-4f8c-89a3-ee7fa8b0c4d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../6-templates/a-more-robust-vector/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../6-templates/a-more-robust-vector/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../6-templates/a-more-robust-vector/cmake-build-debug/CMakeFiles/test1.dir/test1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../6-templates/a-more-robust-vector/cmake-build-debug/CMakeFiles/test1.dir/test1.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../6-templates/a-more-robust-vector/cmake-build-debug/test1" beforeDir="false" afterPath="$PROJECT_DIR$/../6-templates/a-more-robust-vector/cmake-build-debug/test1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../6-templates/a-more-robust-vector/test1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../6-templates/a-more-robust-vector/test1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../6-templates/a-more-robust-vector/vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/../6-templates/a-more-robust-vector/vector.h" afterDir="false" />
-    </list>
+    <list default="true" id="6a4b4ac9-18df-4f8c-89a3-ee7fa8b0c4d1" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,19 +20,8 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -90,6 +71,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -116,16 +98,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556457127212</updated>
-      <workItem from="1556457128495" duration="1356000" />
+      <workItem from="1556457128495" duration="1877000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1356000" />
+    <option name="totallyTimeSpent" value="1877000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
