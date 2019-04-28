@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
 project(5_template_examples)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 
 add_executable(01-value-template-arguments 01-value-template-arguments.cpp)
 add_executable(02-function-templates 02-function-templates.cpp)
@@ -16,3 +16,4 @@ add_executable(10-lambda-functions 10-lambda-functions.cpp)
 add_executable(11-lambda-functions 11-lambda-functions.cpp)
 add_executable(12-lambda-functions 12-lambda-functions.cpp)
 add_executable(13-type-alias-template-alias 13-type-alias-template-alias.cpp)
+add_executable(14-variadic-templates 14-variadic-templates.cpp)

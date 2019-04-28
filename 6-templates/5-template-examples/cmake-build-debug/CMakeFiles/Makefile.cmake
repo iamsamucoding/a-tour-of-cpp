@@ -60,6 +60,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/11-lambda-functions.dir/DependInfo.cmake"
   "CMakeFiles/02-function-templates.dir/DependInfo.cmake"
   "CMakeFiles/05-functors-with-STL.dir/DependInfo.cmake"
+  "CMakeFiles/14-variadic-templates.dir/DependInfo.cmake"
   "CMakeFiles/04-functors.dir/DependInfo.cmake"
   "CMakeFiles/03-generic-accumulate-example.dir/DependInfo.cmake"
   "CMakeFiles/06-lambda-functions.dir/DependInfo.cmake"

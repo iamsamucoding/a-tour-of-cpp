@@ -215,6 +215,19 @@ depend:
 .PHONY : 05-functors-with-STL/fast
 
 #=============================================================================
+# Target rules for targets named 14-variadic-templates
+
+# Build rule for target.
+14-variadic-templates: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 14-variadic-templates
+.PHONY : 14-variadic-templates
+
+# fast build rule for target.
+14-variadic-templates/fast:
+	$(MAKE) -f CMakeFiles/14-variadic-templates.dir/build.make CMakeFiles/14-variadic-templates.dir/build
+.PHONY : 14-variadic-templates/fast
+
+#=============================================================================
 # Target rules for targets named 04-functors
 
 # Build rule for target.
@@ -630,6 +643,33 @@ depend:
 	$(MAKE) -f CMakeFiles/13-type-alias-template-alias.dir/build.make CMakeFiles/13-type-alias-template-alias.dir/13-type-alias-template-alias.cpp.s
 .PHONY : 13-type-alias-template-alias.cpp.s
 
+14-variadic-templates.o: 14-variadic-templates.cpp.o
+
+.PHONY : 14-variadic-templates.o
+
+# target to build an object file
+14-variadic-templates.cpp.o:
+	$(MAKE) -f CMakeFiles/14-variadic-templates.dir/build.make CMakeFiles/14-variadic-templates.dir/14-variadic-templates.cpp.o
+.PHONY : 14-variadic-templates.cpp.o
+
+14-variadic-templates.i: 14-variadic-templates.cpp.i
+
+.PHONY : 14-variadic-templates.i
+
+# target to preprocess a source file
+14-variadic-templates.cpp.i:
+	$(MAKE) -f CMakeFiles/14-variadic-templates.dir/build.make CMakeFiles/14-variadic-templates.dir/14-variadic-templates.cpp.i
+.PHONY : 14-variadic-templates.cpp.i
+
+14-variadic-templates.s: 14-variadic-templates.cpp.s
+
+.PHONY : 14-variadic-templates.s
+
+# target to generate assembly for a file
+14-variadic-templates.cpp.s:
+	$(MAKE) -f CMakeFiles/14-variadic-templates.dir/build.make CMakeFiles/14-variadic-templates.dir/14-variadic-templates.cpp.s
+.PHONY : 14-variadic-templates.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -646,6 +686,7 @@ help:
 	@echo "... 11-lambda-functions"
 	@echo "... 02-function-templates"
 	@echo "... 05-functors-with-STL"
+	@echo "... 14-variadic-templates"
 	@echo "... 04-functors"
 	@echo "... 03-generic-accumulate-example"
 	@echo "... 06-lambda-functions"
@@ -690,6 +731,9 @@ help:
 	@echo "... 13-type-alias-template-alias.o"
 	@echo "... 13-type-alias-template-alias.i"
 	@echo "... 13-type-alias-template-alias.s"
+	@echo "... 14-variadic-templates.o"
+	@echo "... 14-variadic-templates.i"
+	@echo "... 14-variadic-templates.s"
 .PHONY : help
 
 

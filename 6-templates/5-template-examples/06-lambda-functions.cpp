@@ -63,6 +63,12 @@ int main() {
     // Thus, we even can use this no-longer-anonymous lambda as an ordinary function:
     bool result = lambda_mod7(10); // result is true if 10 % 7 == 0
     
+    
+    // We still can use auto for the parameter datatypes, so that the lambda function becomes more generic
+    // PS: it does not make sense for this problem, but it is just an example of how to use auto
+    auto lambda_mod8 = [](auto x){ return x % 8 == 0; };
+    
+    
     // Unlike an ordinary function, however, a named lambda can be defined inside a function.
     // The actual type for lambda_mod7 will be some implementation-dependent type that the compiler uses
     // to keep track of lambdas.

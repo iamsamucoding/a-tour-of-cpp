@@ -10,6 +10,7 @@
       <config projectName="5_template_examples" targetName="04-functors" />
       <config projectName="5_template_examples" targetName="08-lambda-functions" />
       <config projectName="5_template_examples" targetName="01-value-template-arguments" />
+      <config projectName="5_template_examples" targetName="14-variadic-templates" />
       <config projectName="5_template_examples" targetName="03-generic-accumulate-example" />
       <config projectName="5_template_examples" targetName="11-lambda-functions" />
       <config projectName="5_template_examples" targetName="05-functors-with-STL" />
@@ -24,30 +25,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49c62efe-a4a3-45a4-861e-c91a34106808" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/13-type-alias-template-alias.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/13-type-alias-template-alias" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/13-type-alias-template-alias.dir/13-type-alias-template-alias.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/13-type-alias-template-alias.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/13-type-alias-template-alias.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/13-type-alias-template-alias.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/13-type-alias-template-alias.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/13-type-alias-template-alias.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/13-type-alias-template-alias.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/13-type-alias-template-alias.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/13-type-alias-template-alias.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/13-type-alias-template-alias.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5-essential-operations/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../5-essential-operations/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-generic-accumulate-example.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/03-generic-accumulate-example.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-lambda-functions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/06-lambda-functions.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/5_template_examples.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/5_template_examples.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/01-value-template-arguments.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/01-value-template-arguments.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../a-more-robust-vector/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../a-more-robust-vector/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,21 +53,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+            <state relative-caret-position="57">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/13-type-alias-template-alias.cpp">
+        <entry file="file://$PROJECT_DIR$/14-variadic-templates.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            <state relative-caret-position="384">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
               <folding>
-                <element signature="e#176#188#0" expanded="true" />
-                <element signature="e#177#207#0" expanded="true" />
-                <element signature="e#274#290#0" expanded="true" />
+                <element signature="e#49#80#0" expanded="true" />
+                <element signature="e#1496#1527#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,8 +96,12 @@
         <option value="$PROJECT_DIR$/12-lambda-functions.cpp" />
         <option value="$PROJECT_DIR$/03-generic-accumulate-example.cpp" />
         <option value="$PROJECT_DIR$/14-type-alias-template-alias.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/13-type-alias-template-alias.cpp" />
+        <option value="$PROJECT_DIR$/13-lambda-functions.cpp" />
+        <option value="$PROJECT_DIR$/07-lambda-functions.cpp" />
+        <option value="$PROJECT_DIR$/06-lambda-functions.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/14-variadic-templates.cpp" />
       </list>
     </option>
   </component>
@@ -125,23 +116,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="5_template_examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="5-template-examples" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
               <item name="5_template_examples" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="~/workspace/a-tour-of-cpp/6-templates/5-template-examples" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="5_template_examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5-template-examples" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -155,6 +146,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -173,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.13-type-alias-template-alias">
+  <component name="RunManager" selected="CMake Application.14-variadic-templates">
     <configuration name="01-value-template-arguments" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="5_template_examples" TARGET_NAME="01-value-template-arguments" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="5_template_examples" RUN_TARGET_NAME="01-value-template-arguments">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -239,6 +231,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="14-variadic-templates" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="5_template_examples" TARGET_NAME="14-variadic-templates" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="5_template_examples" RUN_TARGET_NAME="14-variadic-templates">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.01-value-template-arguments" />
       <item itemvalue="CMake Application.02-function-templates" />
@@ -253,6 +250,7 @@
       <item itemvalue="CMake Application.11-lambda-functions" />
       <item itemvalue="CMake Application.12-lambda-functions" />
       <item itemvalue="CMake Application.13-type-alias-template-alias" />
+      <item itemvalue="CMake Application.14-variadic-templates" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -270,22 +268,23 @@
       <workItem from="1556355733022" duration="1010000" />
       <workItem from="1556357261889" duration="268000" />
       <workItem from="1556358311418" duration="11628000" />
+      <workItem from="1556442946296" duration="1787000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15872000" />
+    <option name="totallyTimeSpent" value="17659000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3299363" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -351,20 +350,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/07-lambda-functions.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08-lambda-functions.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/10-lambda-functions.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -393,31 +378,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/13-type-alias-template-alias.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        <state relative-caret-position="414">
+          <caret line="32" selection-start-line="3" selection-end-line="32" />
+          <folding>
+            <element signature="e#176#188#0" expanded="true" />
+            <element signature="e#386#416#0" expanded="true" />
+            <element signature="e#501#517#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-lambda-functions.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/06-lambda-functions.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="32" selection-start-line="32" selection-end-line="33" />
+        <state relative-caret-position="560">
+          <caret line="67" column="96" selection-start-line="67" selection-start-column="96" selection-end-line="67" selection-end-column="96" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/13-type-alias-template-alias.cpp">
+    <entry file="file://$PROJECT_DIR$/13-lambda-functions.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        <state relative-caret-position="418">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-lambda-functions.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="56" lean-forward="true" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14-variadic-templates.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
           <folding>
-            <element signature="e#176#188#0" expanded="true" />
-            <element signature="e#177#207#0" expanded="true" />
-            <element signature="e#274#290#0" expanded="true" />
+            <element signature="e#49#80#0" expanded="true" />
+            <element signature="e#1496#1527#0" expanded="true" />
           </folding>
         </state>
       </provider>
