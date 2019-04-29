@@ -70,10 +70,13 @@ int main() {
     //
     //
     NamePhone book_jose = {"Jose Antonio", 3333};
-    NamePhone book_pedro = {"Pedro Silva", 6666};
     
+    // copies the content of book_jose into the container
     phone_book2.push_back(book_jose);
-    phone_book3.push_back(book_pedro);
+    
+    // An emplace operation takes arguments for an element’s constructor and builds the object in a
+    // newly allocated space in the container, rather than copying an object into the container.
+    phone_book3.emplace_back("Pedro Silva", 6666);
     
     
     // phone_book1 remains intact after push_back in phone_book2 and phone_book3
