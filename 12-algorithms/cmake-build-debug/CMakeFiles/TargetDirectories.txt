@@ -1,0 +1,8 @@
+/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/CMakeFiles/08-container-algorithms.dir
+/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/CMakeFiles/05-iterators.dir
+/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/CMakeFiles/04-iterators.dir
+/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/CMakeFiles/01-sort.dir
+/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/CMakeFiles/02-sort.dir
+/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/CMakeFiles/03-find.dir

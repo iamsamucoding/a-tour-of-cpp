@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="12_algorithms"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="08-container-algorithms">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/08-container-algorithms" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 08-container-algorithms"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="08-container-algorithms/fast">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/08-container-algorithms" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 08-container-algorithms/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="05-iterators">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/05-iterators" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 05-iterators"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="05-iterators/fast">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/05-iterators" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 05-iterators/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="04-iterators">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/04-iterators" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 04-iterators"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="04-iterators/fast">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/04-iterators" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 04-iterators/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01-sort">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/01-sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 01-sort"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01-sort/fast">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/01-sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 01-sort/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="02-sort">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/02-sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 02-sort"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="02-sort/fast">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/02-sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 02-sort/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03-find">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/03-find" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 03-find"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03-find/fast">
+				<Option output="/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/03-find" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 03-find/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/01-sort.cpp">
+			<Option target="01-sort"/>
+		</Unit>
+		<Unit filename="/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/02-sort.cpp">
+			<Option target="02-sort"/>
+		</Unit>
+		<Unit filename="/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/03-find.cpp">
+			<Option target="03-find"/>
+		</Unit>
+		<Unit filename="/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/04-iterators.cpp">
+			<Option target="04-iterators"/>
+		</Unit>
+		<Unit filename="/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/05-iterators.cpp">
+			<Option target="05-iterators"/>
+		</Unit>
+		<Unit filename="/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/08-container-algorithms.cpp">
+			<Option target="08-container-algorithms"/>
+		</Unit>
+		<Unit filename="/Users/hisamuka/workspace/a-tour-of-cpp/12-algorithms/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
